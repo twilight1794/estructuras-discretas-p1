@@ -1,3 +1,35 @@
 <resources>
     <string name="app_name">Estructuras Discretas</string>
+    <string name="title_activity_ajustes">Ajustes</string>
+    <string name="pref_tema_app">Tema</string>
+    <string name="pref_cargar_datos">Cargar datos</string>
+    <string name="pref_cat_gen">General</string>
+    <string name="title_activity_busqueda">BusquedaActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="acerca">Acerca de...</string>
+    <string name="preferencias">Preferencias</string>
+    <string name="mostrar_todos_l">Mostrar todos los libros</string>
+    <string name="mostrar_todos_t">Mosrar todos los temas</string>
+    <string name="acerca_explicacion">App para el primer proyecto de la asignatura de Estructuras Discretas de la carrera de Ingenieria en Computacion, impartida por la profesora Margarita Carrera Fournier</string>
+    <string name="version">version pre0.1</string>
+    <string name="acercade_equipo">Nuestro equipo</string>
+    <string name="logo_alt">Logo</string>
+    <string name="int_1_n">Acevedo Serrano Graciela Ximena</string>
+    <string name="int_2_n">Alvarez Saldaña Ariana Lizeth</string>
+    <string name="int_3_n">Cruz Vargas Emilio</string>
+    <string name="int_4_n">Garciliano Diaz Giovanni Alfredo</string>
+    <string name="int_1_d">Lorem ipsum dolor sit amet. Consectectur adisplicit elit.</string>
+    <string name="int_1_id">Foto de Xime</string>
+    <string name="int_2_id">Foto de Ariana</string>
+    <string name="int_3_id">Foto de Emilio</string>
+    <string name="int_4_id">Foto de Giovanni</string>
+
+    <!-- Preference Titles -->
+
+    <!-- Messages Preferences -->
+
+    <!-- Sync Preferences -->
 </resources>
