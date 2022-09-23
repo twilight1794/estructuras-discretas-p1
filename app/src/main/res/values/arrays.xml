@@ -1,5 +1,4 @@
 <resources>
-    <!-- Reply Preference -->
     <string-array name="pref_entradas_values_tema_app">
         <item>Claro</item>
         <item>Oscuro</item>

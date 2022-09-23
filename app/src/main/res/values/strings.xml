@@ -1,15 +1,11 @@
 <resources>
     <string name="app_name">Estructuras Discretas</string>
-    <string name="title_activity_ajustes">Ajustes</string>
     <string name="pref_tema_app">Tema</string>
     <string name="pref_cargar_datos">Cargar datos</string>
     <string name="pref_cat_gen">General</string>
-    <string name="title_activity_busqueda">BusquedaActivity</string>
-    <!-- Strings used for fragments for navigation -->
-    <string name="next">Next</string>
-    <string name="previous">Previous</string>
+    <string name="title_activity_busqueda">Buscar</string>
 
-    <string name="acerca">Acerca de...</string>
+    <string name="acerca">Acerca de…</string>
     <string name="preferencias">Preferencias</string>
     <string name="mostrar_todos_l">Mostrar todos los libros</string>
     <string name="mostrar_todos_t">Mosrar todos los temas</string>
@@ -26,6 +22,13 @@
     <string name="int_2_id">Foto de Ariana</string>
     <string name="int_3_id">Foto de Emilio</string>
     <string name="int_4_id">Foto de Giovanni</string>
+    <string name="img_unam">Logo de la UNAM</string>
+    <string name="img_fi">Logo de la Facultad de Ingenieria</string>
+    <string name="buscaren">Buscar en</string>
+    <string name="buscaren_ti">Titulo</string>
+    <string name="buscaren_au">Autor</string>
+    <string name="buscaren_tema">Tema</string>
+    <string name="buscaren_filtro_titulo">Temas a filtrar</string>
 
     <!-- Preference Titles -->
 

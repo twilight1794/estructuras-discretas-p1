@@ -20,8 +20,6 @@
 
     </com.google.android.material.appbar.AppBarLayout>
 
-    <!--<include layout="@layout/content_main" />-->
-
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
@@ -37,7 +35,7 @@
             android:id="@+id/linearLayout">
 
             <Button
-                android:id="@+id/button5"
+                android:id="@+id/mostrar_todos_l"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/mostrar_todos_l"
@@ -47,7 +45,7 @@
                 tools:layout_editor_absoluteY="270dp" />
 
             <Button
-                android:id="@+id/button6"
+                android:id="@+id/mostrar_todos_t"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/mostrar_todos_t"
@@ -57,10 +55,9 @@
                 tools:layout_editor_absoluteY="318dp" />
 
             <Button
-                android:id="@+id/button7"
+                android:id="@+id/preferencias"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:onClick="lanzarAjustes"
                 android:text="@string/preferencias"
                 tools:layout_conversion_absoluteHeight="48dp"
                 tools:layout_conversion_absoluteWidth="157dp"
@@ -68,10 +65,9 @@
                 tools:layout_editor_absoluteY="366dp" />
 
             <Button
-                android:id="@+id/button8"
+                android:id="@+id/acercade"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:onClick="lanzarAcercaDe"
                 android:text="@string/acerca"
                 tools:layout_conversion_absoluteHeight="48dp"
                 tools:layout_conversion_absoluteWidth="133dp"

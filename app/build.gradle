@@ -4,14 +4,14 @@ plugins {
 
 android {
     namespace 'xyz.campanita.estructurasdiscretasp1'
-    compileSdk 32
+    compileSdk 33
 
     defaultConfig {
         applicationId "xyz.campanita.estructurasdiscretasp1"
         minSdk 21
-        targetSdk 32
+        targetSdk 33
         versionCode 1
-        versionName "1.0"
+        versionName "pre0.1"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
