@@ -13,13 +13,6 @@
         android:theme="@style/Theme.EstructurasDiscretas"
         tools:targetApi="31">
         <activity
-            android:name=".AcercaDeActivity"
-            android:exported="false">
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
-        <activity
             android:name=".MainActivity"
             android:exported="true"
             android:theme="@style/Theme.EstructurasDiscretas.NoActionBar">
@@ -34,9 +27,19 @@
                 android:value="" />
         </activity>
         <activity
+            android:name=".AcercaDeActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/Theme.EstructurasDiscretas.NoActionBar">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".BusquedaActivity"
             android:exported="true"
             android:label="@string/title_activity_busqueda"
+            android:parentActivityName=".MainActivity"
             android:theme="@style/Theme.EstructurasDiscretas.NoActionBar">
             <meta-data
                 android:name="android.app.lib_name"
@@ -45,7 +48,8 @@
         <activity
             android:name=".AjustesActivity"
             android:exported="false"
-            android:label="@string/preferencias">
+            android:label="@string/preferencias"
+            android:parentActivityName=".MainActivity">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
