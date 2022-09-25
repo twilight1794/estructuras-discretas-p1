@@ -28,7 +28,7 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_marginStart="24dp"
-            android:layout_marginTop="56dp"
+            android:layout_marginTop="80dp"
             android:layout_marginEnd="24dp"
             android:orientation="vertical"
             app:layout_constraintEnd_toEndOf="parent"
@@ -66,6 +66,7 @@
                     app:closeIconVisible="false" />
             </com.google.android.material.chip.ChipGroup>
         </LinearLayout>
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

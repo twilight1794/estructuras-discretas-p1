@@ -18,8 +18,12 @@
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
     </style>
-
-    <style name="Theme.EstructurasDiscretas.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
-
+    <style name="Theme.EstructurasDiscretas.AppBarOverlay" parent="ThemeOverlay.MaterialComponents.Dark.ActionBar" />
     <style name="Theme.EstructurasDiscretas.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <!-- Para ocultar titulo
+    <style name="NoTitleText">
+        <item name="android:textSize">0sp</item>
+        <item name="android:textColor">#00000000</item>
+    </style>-->
 </resources>

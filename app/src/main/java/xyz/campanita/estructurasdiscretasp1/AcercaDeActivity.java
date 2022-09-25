@@ -20,6 +20,8 @@ public class AcercaDeActivity extends AppCompatActivity {
         setContentView(binding.getRoot());
 
         setSupportActionBar(binding.toolbar);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
 
         ImageView im = (ImageView) findViewById(R.id.img_fi);
         im.setOnClickListener(v -> {
