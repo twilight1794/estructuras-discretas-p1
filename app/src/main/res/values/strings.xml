@@ -1,43 +1,40 @@
 <resources>
     <string name="app_name">Estructuras Discretas</string>
     <string name="pref_tema_app">Tema</string>
-    <string name="pref_cargar_datos">Cargar datos</string>
+    <string name="pref_cargar_datos">Cargar índice</string>
     <string name="pref_cat_gen">General</string>
     <string name="title_activity_busqueda">Buscar</string>
-
     <string name="acerca">Acerca de…</string>
     <string name="preferencias">Preferencias</string>
     <string name="mostrar_todos_l">Mostrar todos los libros</string>
-    <string name="mostrar_todos_t">Mosrar todos los temas</string>
-    <string name="acerca_explicacion">App para el primer proyecto de la asignatura de Estructuras Discretas de la carrera de Ingenieria en Computacion, impartida por la profesora Margarita Carrera Fournier</string>
-    <string name="version">version pre0.1</string>
+    <string name="mostrar_todos_t">Mostrar todos los temas</string>
+    <string name="acerca_explicacion">App para el primer proyecto de la asignatura de Estructuras Discretas de la carrera de Ingeniería en Computación, impartida por la profesora Margarita Carrera Fournier</string>
+    <string name="version">versión pre0.1</string>
     <string name="acercade_equipo">Nuestro equipo</string>
     <string name="logo_alt">Logo</string>
     <string name="int_1_n">Acevedo Serrano Graciela Ximena</string>
-    <string name="int_2_n">Alvarez Saldaña Ariana Lizeth</string>
+    <string name="int_2_n">Álvarez Saldaña Ariana Lizeth</string>
     <string name="int_3_n">Cruz Vargas Emilio</string>
-    <string name="int_4_n">Garciliano Diaz Giovanni Alfredo</string>
+    <string name="int_4_n">Garciliano DÁaz Giovanni Alfredo</string>
     <string name="int_1_d">Lorem ipsum dolor sit amet. Consectectur adisplicit elit.</string>
     <string name="int_1_id">Foto de Xime</string>
     <string name="int_2_id">Foto de Ariana</string>
     <string name="int_3_id">Foto de Emilio</string>
     <string name="int_4_id">Foto de Giovanni</string>
     <string name="img_unam">Logo de la UNAM</string>
-    <string name="img_fi">Logo de la Facultad de Ingenieria</string>
+    <string name="img_fi">Logo de la Facultad de Ingeniería</string>
     <string name="buscaren">Buscar en</string>
-    <string name="buscaren_ti">Titulo</string>
+    <string name="buscaren_ti">Título</string>
     <string name="buscaren_au">Autor</string>
     <string name="buscaren_tema">Tema</string>
     <string name="buscaren_filtro_titulo">Temas a filtrar</string>
     <string name="acc_borrar">Borrar</string>
     <string name="acc_temas">Listar temas</string>
-    <string name="pref_ubicacion_indice">Ubicacion del indice</string>
-    <string name="error_descarga">No se pudo descargar el indice de libros. Compruebe su conexion a Internet.</string>
+    <string name="pref_ubicacion_indice">Ubicación del índice</string>
+    <string name="error_descarga">No se pudo descargar el índice de libros. Compruebe su conexión a Internet.</string>
     <string name="error_descarga_t">Error</string>
-
-    <!-- Preference Titles -->
-
-    <!-- Messages Preferences -->
-
-    <!-- Sync Preferences -->
+    <string name="lista_temas">Lista de temas</string>
+    <string name="lista_recursos">Lista de recursos</string>
+    <string name="pref_tema_t">Tema %s: </string>
+    <string name="pref_tema_e">Tema %s</string>
 </resources>

@@ -3,12 +3,12 @@
 
     <PreferenceCategory app:title="@string/pref_cat_gen">
         <ListPreference
-            android:defaultValue="1"
+            android:defaultValue="system"
             android:entries="@array/pref_entradas_values_tema_app"
             android:entryValues="@array/pref_valores_tema_app"
             android:key="tema_app"
             android:title="@string/pref_tema_app"
-            app:summary="%s" />
+            app:useSimpleSummaryProvider="true" />
         <EditTextPreference
             android:defaultValue="https://raw.githubusercontent.com/twilight1794/estructuras-discretas-p1/main/indices/latest.xml"
             android:key="ubicacion_indice"

@@ -22,7 +22,6 @@ public class AcercaDeActivity extends AppCompatActivity {
         setSupportActionBar(binding.toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
-
         ImageView im = (ImageView) findViewById(R.id.img_fi);
         im.setOnClickListener(v -> {
             Intent in = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.ingenieria.unam.mx/"));
