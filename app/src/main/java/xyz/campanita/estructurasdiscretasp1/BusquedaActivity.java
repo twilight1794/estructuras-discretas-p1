@@ -1,20 +1,27 @@
 package xyz.campanita.estructurasdiscretasp1;
 
 import android.content.Context;
+import android.content.DialogInterface;
 import android.os.Bundle;
+import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageView;
 
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.AppCompatCheckBox;
+import androidx.appcompat.widget.LinearLayoutCompat;
 import androidx.appcompat.widget.SearchView;
+import androidx.fragment.app.DialogFragment;
 
 import com.google.android.material.snackbar.Snackbar;
 
+import xyz.campanita.estructurasdiscretasp1.Bibliotecas.PersistenciaDatos;
 import xyz.campanita.estructurasdiscretasp1.databinding.ActivityBusquedaBinding;
 
-public class BusquedaActivity extends AppCompatActivity {
+public class BusquedaActivity extends AppCompatActivity implements FiltroTemasDialogFragment.FiltroTemasDialogListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -55,11 +62,21 @@ public class BusquedaActivity extends AppCompatActivity {
             case R.id.acc_buscar:
                 return true;
             case R.id.acc_listar:
-                Snackbar.make(findViewById(android.R.id.content), "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
+                FiltroTemasDialogFragment dialogFragment = new FiltroTemasDialogFragment();
+                dialogFragment.show(getSupportFragmentManager(),"filtro_temas");
                 return true;
             default:
                 return super.onOptionsItemSelected(item);
         }
+    }
+
+    @Override
+    public void onDialogPositiveClick(DialogFragment dialog) {
+        // Relanzar la busqueda
+    }
+
+    @Override
+    public void onDialogNegativeClick(DialogFragment dialog) {
+        //Nada
     }
 }

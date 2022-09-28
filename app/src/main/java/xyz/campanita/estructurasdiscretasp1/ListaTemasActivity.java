@@ -1,31 +1,25 @@
 package xyz.campanita.estructurasdiscretasp1;
 
-/*import androidx.appcompat.app.AppCompatActivity;
-
+import android.content.res.Resources;
 import android.os.Bundle;
-
-public class ListaTemasActivity extends AppCompatActivity {
-
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_lista_temas);
-    }
-}*/
-
-import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.ExpandableListAdapter;
 import android.widget.ExpandableListView;
+import android.widget.RelativeLayout;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.LinearLayoutCompat;
+import androidx.constraintlayout.widget.ConstraintLayout;
+import androidx.constraintlayout.widget.ConstraintSet;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 
-import xyz.campanita.estructurasdiscretasp1.databinding.ActivityAcercaDeBinding;
 import xyz.campanita.estructurasdiscretasp1.databinding.ActivityListaTemasBinding;
 
 public class ListaTemasActivity extends AppCompatActivity {
@@ -82,43 +76,48 @@ public class ListaTemasActivity extends AppCompatActivity {
         setSupportActionBar(binding.toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
-        listaExpandible = (ExpandableListView) findViewById(R.id.listaExpandible);
-        expandableDetailList = obtenerTemas();
-        expandableTitleList = new ArrayList<String>(expandableDetailList.keySet());
-        expandableListAdapter = new CustomizedExpandableListAdapter(this, expandableTitleList, expandableDetailList);
-        listaExpandible.setAdapter(expandableListAdapter);
+        LinearLayoutCompat cont = findViewById(R.id.lista_temas_cont);
+        Resources res = getResources();
+        String ptt = res.getString(R.string.pref_tema_t);
+        String pte = res.getString(R.string.pref_tema_e);
+        int ult = 0;
+        int id = R.id.lista_temas_cont;
+        String[] encArray = res.getStringArray(R.array.temas);
+        for (int i = 0; i<encArray.length; i++){
+            // Encabezado
+            ult = id;
+            id = View.generateViewId();
+            TextView enc = new TextView(this, null, 0, R.style.ListaTemasEncabezado);
+            enc.setText(String.format(ptt, i+1) + " " + encArray[i]);
+            enc.setId(id);
+            cont.addView(enc);
+            /*ConstraintSet constraintSet = new ConstraintSet();
+            constraintSet.clone(cont);
+            constraintSet.connect(id, ConstraintSet.START, ConstraintSet.PARENT_ID, ConstraintSet.START, 0);
+            constraintSet.connect(id, ConstraintSet.TOP, i==0?ConstraintSet.PARENT_ID:ult, i==0?ConstraintSet.TOP:ConstraintSet.BOTTOM, 0);
+            constraintSet.applyTo(cont);*/
 
-        // This method is called when the group is expanded
-        listaExpandible.setOnGroupExpandListener(new ExpandableListView.OnGroupExpandListener() {
-            @Override
-            public void onGroupExpand(int groupPosition) {
-                Toast.makeText(getApplicationContext(), expandableTitleList.get(groupPosition) + " List Expanded.", Toast.LENGTH_SHORT).show();
+            // Lista expandible
+            ult = id;
+            id = View.generateViewId();
+            ExpandableListView lexp = new ExpandableListView(this, null, 0, R.style.ListaTemasExpandible);
+            lexp.setId(id);
+            List<String> expTitulos = new ArrayList<String>(Arrays.asList(res.getStringArray(res.getIdentifier("temas_"+(i+1), "array", getPackageName()))));
+            HashMap<String, List<String>> expDetalles = new HashMap<String, List<String>>();
+            for (int ii = 0; ii<expTitulos.size(); ii++){
+                Log.i("UUU", "temas_"+(i+1)+"_"+(ii+1));
+                List<String> expConts = new ArrayList<String>(Arrays.asList(res.getStringArray(res.getIdentifier("temas_"+(i+1)+"_"+(ii+1), "array", getPackageName()))));
+                expDetalles.put(expTitulos.get(ii), expConts);
             }
-        });
-
-        // This method is called when the group is collapsed
-        listaExpandible.setOnGroupCollapseListener(new ExpandableListView.OnGroupCollapseListener() {
-            @Override
-            public void onGroupCollapse(int groupPosition) {
-                Toast.makeText(getApplicationContext(), expandableTitleList.get(groupPosition) + " List Collapsed.", Toast.LENGTH_SHORT).show();
-            }
-        });
-
-        // This method is called when the child in any group is clicked
-        // via a toast method, it is shown to display the selected child item as a sample
-        // we may need to add further steps according to the requirements
-        listaExpandible.setOnChildClickListener(new ExpandableListView.OnChildClickListener() {
-            @Override
-            public boolean onChildClick(ExpandableListView parent, View v,
-                                        int groupPosition, int childPosition, long id) {
-                Toast.makeText(getApplicationContext(), expandableTitleList.get(groupPosition)
-                        + " -> "
-                        + expandableDetailList.get(
-                        expandableTitleList.get(groupPosition)).get(
-                        childPosition), Toast.LENGTH_SHORT
-                ).show();
-                return false;
-            }
-        });
+            ExpandableListAdapter lexpa = new CustomizedExpandableListAdapter(this, expTitulos, expDetalles);
+            lexp.setAdapter(lexpa);
+            cont.addView(lexp);
+            /*constraintSet = new ConstraintSet();
+            constraintSet.clone(cont);
+            constraintSet.connect(id, ConstraintSet.START, ConstraintSet.PARENT_ID, ConstraintSet.START, 0);
+            constraintSet.connect(id, ConstraintSet.END, ConstraintSet.PARENT_ID, ConstraintSet.END, 0);
+            constraintSet.connect(id, ConstraintSet.TOP, ult, ConstraintSet.BOTTOM, 0);
+            constraintSet.applyTo(cont);*/
+        }
     }
 }

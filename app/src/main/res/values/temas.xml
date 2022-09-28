@@ -1,187 +1,189 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="temas">
-        <item>Lógica proposicional y cálculo de predicados</item>
-        <item>Conjuntos, relaciones y pruebas matemáticas</item>
-        <item>Sistemas algebraicos</item>
-        <item>Teoría de gráficas</item>
-        <item>Teoría de la computabilidad</item>
+        <item>@string/tema_1</item>
+        <item>@string/tema_2</item>
+        <item>@string/tema_3</item>
+        <item>@string/tema_4</item>
+        <item>@string/tema_5</item>
     </string-array>
     <string-array name="temas_1">
-        <item>Fórmulas proposicionales y tablas de verdad</item>
-        <item>Formas normales y dispositivos de dos estados</item>
-        <item>Notación polaca y parentizada</item>
-        <item>Elementos de inferencia para el cálculo proposicional</item>
-        <item>Método de derivación paso a paso</item>
-        <item>Cálculo de predicados</item>
+        <item>@string/tema_1_1</item>
+        <item>@string/tema_1_2</item>
+        <item>@string/tema_1_3</item>
+        <item>@string/tema_1_4</item>
+        <item>@string/tema_1_5</item>
+        <item>@string/tema_1_6</item>
     </string-array>
     <string-array name="temas_1_1">
-        <item>Conceptos</item>
-        <item>Tablas de verdad</item>
+        <item>@string/tema_1_1_1</item>
+        <item>@string/tema_1_1_2</item>
     </string-array>
     <string-array name="temas_1_2">
-        <item>Forma normal disyuntiva principal</item>
-        <item>Forma normal conjuntiva principal</item>
+        <item>@string/tema_1_2_1</item>
+        <item>@string/tema_1_2_2</item>
     </string-array>
     <string-array name="temas_1_3">
-        <item>Notación</item>
-        <item>Transformación de notaciones</item>
+        <item>@string/tema_1_3_1</item>
+        <item>@string/tema_1_3_2</item>
     </string-array>
     <string-array name="temas_1_4">
-        <item>Método basado en tablas de verdad</item>
-        <item>Método de derivación paso a paso</item>
+        <item>@string/tema_1_4_1</item>
+        <item>@string/tema_1_4_2</item>
     </string-array>
     <string-array name="temas_1_5">
-        <item>Razonamiento automático</item>
-        <item>Prueba automática de teoremas</item>
+        <item>@string/tema_1_5_1</item>
+        <item>@string/tema_1_5_2</item>
     </string-array>
     <string-array name="temas_1_6">
-        <item>Predicados</item>
-        <item>Fórmulas de predicados</item>
+        <item>@string/tema_1_6_1</item>
+        <item>@string/tema_1_6_2</item>
     </string-array>
     <string-array name="temas_2">
-        <item>Conjuntos</item>
-        <item>Relaciones y funciones</item>
-        <item>Funciones de dispersión</item>
-        <item>Prueba por inducción matemática</item>
-        <item>Técnica del casillero vacío y diagonalización</item>
-        <item>Análisis combinatorio</item>
+        <item>@string/tema_2_1</item>
+        <item>@string/tema_2_2</item>
+        <item>@string/tema_2_3</item>
+        <item>@string/tema_2_4</item>
+        <item>@string/tema_2_5</item>
+        <item>@string/tema_2_6</item>
     </string-array>
     <string-array name="temas_2_1">
-        <item>Elementos de conjuntos</item>
-        <item>Operaciones</item>
+        <item>@string/tema_2_1_1</item>
+        <item>@string/tema_2_1_2</item>
     </string-array>
     <string-array name="temas_2_2">
-        <item>Notaciones</item>
-        <item>Características y aplicaciones</item>
+        <item>@string/tema_2_2_1</item>
+        <item>@string/tema_2_2_2</item>
     </string-array>
     <string-array name="temas_2_3">
-        <item>Notación y operaciones</item>
-        <item>Aplicaciones</item>
+        <item>@string/tema_2_3_1</item>
+        <item>@string/tema_2_3_2</item>
     </string-array>
     <string-array name="temas_2_4">
-        <item>Notaciones</item>
-        <item>Características y aplicaciones</item>
+        <item>@string/tema_2_4_1</item>
+        <item>@string/tema_2_4_2</item>
     </string-array>
     <string-array name="temas_2_5">
-        <item>Características de la técnica</item>
-        <item>Aplicaciones</item>
+        <item>@string/tema_2_5_1</item>
+        <item>@string/tema_2_5_2</item>
     </string-array>
     <string-array name="temas_2_6">
-        <item>Notaciones</item>
-        <item>Inducción y recursión</item>
-        <item>Permutaciones, ordenaciones, combinaciones y sus propiedades</item>
-        <item>Características y aplicaciones</item>
-        <item>Teoría de conteo</item>
-        <item>Principio de Pigeonhole</item>
-        <item>Funciones generadoras y relaciones de recurrencia</item>
+        <item>@string/tema_2_6_1</item>
+        <item>@string/tema_2_6_2</item>
+        <item>@string/tema_2_6_3</item>
+        <item>@string/tema_2_6_4</item>
+        <item>@string/tema_2_6_5</item>
+        <item>@string/tema_2_6_6</item>
+        <item>@string/tema_2_6_7</item>
     </string-array>
     <string-array name="temas_3">
-        <item>Definiciones y conceptos de sistemas algebraicos</item>
-        <item>Semigrupos, monoides y grupos</item>
-        <item>La aritmética de residuos en las computadoras</item>
-        <item>Los códigos de grupo en las comunicaciones</item>
-        <item>Álgebra booleana</item>
-        <item>Representación y minimización de funciones booleanas</item>
-        <item>Introducción a los circuitos de dos estados</item>
+        <item>@string/tema_3_1</item>
+        <item>@string/tema_3_2</item>
+        <item>@string/tema_3_3</item>
+        <item>@string/tema_3_4</item>
+        <item>@string/tema_3_5</item>
+        <item>@string/tema_3_6</item>
+        <item>@string/tema_3_7</item>
     </string-array>
     <string-array name="temas_3_1">
-        <item>Definiciones y conceptos</item>
-        <item>Tipos y características</item>
+        <item>@string/tema_3_1_1</item>
+        <item>@string/tema_3_1_2</item>
     </string-array>
     <string-array name="temas_3_2">
-        <item>Características y aplicaciones de los semigrupos</item>
-        <item>Características y aplicaciones de los monoides</item>
-        <item>Características y aplicaciones de los grupos</item>
+        <item>@string/tema_3_2_1</item>
+        <item>@string/tema_3_2_2</item>
+        <item>@string/tema_3_2_3</item>
     </string-array>
     <string-array name="temas_3_3">
-        <item>Aritmética de residuos</item>
-        <item>Aplicaciones en las computadoras</item>
+        <item>@string/tema_3_3_1</item>
+        <item>@string/tema_3_3_2</item>
     </string-array>
     <string-array name="temas_3_4">
-        <item>Elementos de un sistema de comunicaciones</item>
-        <item>Códigos de grupo</item>
-        <item>Aplicaciones de los códigos de grupo</item>
+        <item>@string/tema_3_4_1</item>
+        <item>@string/tema_3_4_2</item>
+        <item>@string/tema_3_4_3</item>
     </string-array>
     <string-array name="temas_3_5">
-        <item>Características del álgebra booleana</item>
-        <item>Álgebra booleana en las computadoras</item>
+        <item>@string/tema_3_5_1</item>
+        <item>@string/tema_3_5_2</item>
     </string-array>
     <string-array name="temas_3_6">
-        <item>Métodos de representación</item>
-        <item>Métodos de minimización</item>
-        <item>Aplicaciones en el diseño</item>
+        <item>@string/tema_3_6_1</item>
+        <item>@string/tema_3_6_2</item>
+        <item>@string/tema_3_6_3</item>
     </string-array>
     <string-array name="temas_3_7">
-        <item>Circuitos de dos estados</item>
-        <item>Diseño de circuitos de dos estados</item>
+        <item>@string/tema_3_7_1</item>
+        <item>@string/tema_3_7_2</item>
     </string-array>
     <string-array name="temas_4">
-        <item>Conceptos básicos y definiciones</item>
-        <item>Representación matricial</item>
-        <item>Manipulación de gráficas</item>
-        <item>Árboles</item>
-        <item>Detección de puntos muertos</item>
-        <item>Detección de fallas en circuitos combinacionales</item>
-        <item>Temas avanzados de teoría de gráficas</item>
+        <item>@string/tema_4_1</item>
+        <item>@string/tema_4_2</item>
+        <item>@string/tema_4_3</item>
+        <item>@string/tema_4_4</item>
+        <item>@string/tema_4_5</item>
+        <item>@string/tema_4_6</item>
+        <item>@string/tema_4_7</item>
     </string-array>
     <string-array name="temas_4_1">
-        <item>Definiciones y conceptos</item>
-        <item>Representaciones</item>
+        <item>@string/tema_4_1_1</item>
+        <item>@string/tema_4_1_2</item>
     </string-array>
     <string-array name="temas_4_2">
-        <item>Conceptos básicos</item>
-        <item>Características y representaciones matriciales</item>
+        <item>@string/tema_4_2_1</item>
+        <item>@string/tema_4_2_2</item>
     </string-array>
     <string-array name="temas_4_3">
-        <item>Propiedades de las gráficas</item>
-        <item>Operaciones con gráficas</item>
+        <item>@string/tema_4_3_1</item>
+        <item>@string/tema_4_3_2</item>
     </string-array>
     <string-array name="temas_4_4">
-        <item>Definiciones y conceptos de árboles</item>
-        <item>Recorrido de árboles</item>
-        <item>Operaciones con árboles</item>
+        <item>@string/tema_4_4_1</item>
+        <item>@string/tema_4_4_2</item>
+        <item>@string/tema_4_4_3</item>
     </string-array>
     <string-array name="temas_4_5">
-        <item>Conceptos y definiciones</item>
-        <item>Características de los puntos muertos</item>
-        <item>Procesos para la detección de puntos muertos</item>
-        <item>Manejo de puntos muertos</item>
+        <item>@string/tema_4_5_1</item>
+        <item>@string/tema_4_5_2</item>
+        <item>@string/tema_4_5_3</item>
+        <item>@string/tema_4_5_4</item>
     </string-array>
     <string-array name="temas_4_6">
-        <item>Circuitos combinacionales</item>
-        <item>Procesos para la detección de fallas en circuitos combinacionales</item>
+        <item>@string/tema_4_6_1</item>
+        <item>@string/tema_4_6_2</item>
+    </string-array>
+    <string-array name="temas_4_7">
     </string-array>
     <string-array name="temas_5">
-        <item>Elementos de la teoría de la computabilidad</item>
-        <item>Funciones parciales</item>
-        <item>Funciones computables</item>
-        <item>Funciones universales e intérpretes</item>
-        <item>Especificaciones algorítmicas de programas</item>
-        <item>Complejidad</item>
+        <item>@string/tema_5_1</item>
+        <item>@string/tema_5_2</item>
+        <item>@string/tema_5_3</item>
+        <item>@string/tema_5_4</item>
+        <item>@string/tema_5_5</item>
+        <item>@string/tema_5_6</item>
     </string-array>
     <string-array name="temas_5_1">
-        <item>Definiciones y conceptos</item>
-        <item>Computabilidad</item>
+        <item>@string/tema_5_1_1</item>
+        <item>@string/tema_5_1_2</item>
     </string-array>
     <string-array name="temas_5_2">
-        <item>Conceptos básicos</item>
-        <item>Características y representaciones de las funciones parciales</item>
+        <item>@string/tema_5_2_1</item>
+        <item>@string/tema_5_2_2</item>
     </string-array>
     <string-array name="temas_5_3">
-        <item>Definiciones y conceptos</item>
-        <item>Características y representaciones de las funciones computables</item>
+        <item>@string/tema_5_3_1</item>
+        <item>@string/tema_5_3_2</item>
     </string-array>
     <string-array name="temas_5_4">
-        <item>Conceptos básicos</item>
-        <item>Características y representaciones de las funciones universales e intérpretes</item>
-        <item>Aplicaciones</item>
+        <item>@string/tema_5_4_1</item>
+        <item>@string/tema_5_4_2</item>
+        <item>@string/tema_5_4_3</item>
     </string-array>
     <string-array name="temas_5_5">
-        <item>Algoritmia</item>
-        <item>Análisis y diseño algorítmico</item>
+        <item>@string/tema_5_5_1</item>
+        <item>@string/tema_5_5_2</item>
     </string-array>
     <string-array name="temas_5_6">
-        <item>Complejidad y computabilidad</item>
+        <item>@string/tema_5_6_1</item>
     </string-array>
 </resources>
