@@ -55,6 +55,16 @@
                 tools:layout_editor_absoluteY="318dp" />
 
             <Button
+                android:id="@+id/mostrar_favoritos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/favoritos"
+                tools:layout_conversion_absoluteHeight="48dp"
+                tools:layout_conversion_absoluteWidth="256dp"
+                tools:layout_editor_absoluteX="78dp"
+                tools:layout_editor_absoluteY="270dp" />
+
+            <Button
                 android:id="@+id/preferencias"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

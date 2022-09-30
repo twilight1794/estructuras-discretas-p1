@@ -1,24 +1,13 @@
 package xyz.campanita.estructurasdiscretasp1;
 
-import android.content.Context;
-import android.content.DialogInterface;
 import android.os.Bundle;
-import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
-import android.widget.ImageView;
 
-import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.AppCompatCheckBox;
-import androidx.appcompat.widget.LinearLayoutCompat;
 import androidx.appcompat.widget.SearchView;
 import androidx.fragment.app.DialogFragment;
 
-import com.google.android.material.snackbar.Snackbar;
-
-import xyz.campanita.estructurasdiscretasp1.Bibliotecas.PersistenciaDatos;
 import xyz.campanita.estructurasdiscretasp1.databinding.ActivityBusquedaBinding;
 
 public class BusquedaActivity extends AppCompatActivity implements FiltroTemasDialogFragment.FiltroTemasDialogListener {

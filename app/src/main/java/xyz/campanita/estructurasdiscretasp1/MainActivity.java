@@ -4,24 +4,20 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 
-import com.google.android.material.snackbar.Snackbar;
-
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.preference.PreferenceManager;
 
 import android.os.StrictMode;
-import android.util.Log;
 import android.widget.Button;
 
 import org.apache.commons.io.IOUtil;
 
 import java.io.File;
 import java.io.FileOutputStream;
-import java.io.IOException;
 import java.io.OutputStream;
 
-import xyz.campanita.estructurasdiscretasp1.Bibliotecas.Bibliotecas;
+import xyz.campanita.estructurasdiscretasp1.bibliotecas.Bibliotecas;
 import xyz.campanita.estructurasdiscretasp1.databinding.ActivityMainBinding;
 
 public class MainActivity extends AppCompatActivity {
@@ -45,6 +41,9 @@ public class MainActivity extends AppCompatActivity {
         button = findViewById(R.id.mostrar_todos_t);
         button.setOnClickListener(v -> startActivity(new Intent(MainActivity.this, ListaTemasActivity.class)));
 
+        button = findViewById(R.id.mostrar_favoritos);
+        button.setOnClickListener(v -> startActivity(new Intent(MainActivity.this, FavoritosActivity.class)));
+
         button = findViewById(R.id.preferencias);
         button.setOnClickListener(v -> startActivity(new Intent(MainActivity.this, AjustesActivity.class)));
 
@@ -64,7 +63,7 @@ public class MainActivity extends AppCompatActivity {
                 AlertDialog.Builder a = new AlertDialog.Builder(this);
                 a.setTitle(R.string.error_descarga_t);
                 a.setMessage(R.string.error_descarga);
-                a.setPositiveButton(android.R.string.ok, (dialog, which) -> { MainActivity.super.onBackPressed(); });
+                a.setPositiveButton(android.R.string.ok, (dialog, which) -> MainActivity.super.onBackPressed());
                 a.setCancelable(false);
                 a.create();
                 a.show();

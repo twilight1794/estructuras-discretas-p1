@@ -2,9 +2,7 @@ package xyz.campanita.estructurasdiscretasp1;
 
 import android.content.Context;
 import android.util.AttributeSet;
-import android.util.Log;
 import android.view.View;
-import android.widget.CompoundButton;
 
 import androidx.appcompat.widget.AppCompatCheckBox;
 
@@ -37,24 +35,21 @@ public class CheckBoxTriStates extends AppCompatCheckBox {
 
     private void init() {
         state = UNCHECKED;
-        childItems = new HashSet<Integer>();
+        childItems = new HashSet<>();
         parentItem = 0;
         updateBtn();
 
-        setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener(){
-            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked){
-                Log.i("UUU", new Integer(state).toString());
-                switch (state){
-                    case UNKNOWN:
-                    case UNCHECKED:
-                        state = CHECKED;
-                        break;
-                    case CHECKED:
-                        state = UNCHECKED;
-                        break;
-                }
-                updateBtn();
+        setOnCheckedChangeListener((buttonView, isChecked) -> {
+            switch (state){
+                case UNKNOWN:
+                case UNCHECKED:
+                    state = CHECKED;
+                    break;
+                case CHECKED:
+                    state = UNCHECKED;
+                    break;
             }
+            updateBtn();
         });
     }
 

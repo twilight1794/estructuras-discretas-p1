@@ -1,4 +1,4 @@
-package xyz.campanita.estructurasdiscretasp1.Bibliotecas;
+package xyz.campanita.estructurasdiscretasp1.bibliotecas;
 
 import org.jsoup.nodes.Document;
 

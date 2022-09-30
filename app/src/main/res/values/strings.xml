@@ -3,7 +3,7 @@
     <string name="pref_tema_app">Tema</string>
     <string name="pref_cargar_datos">Cargar índice</string>
     <string name="pref_cat_gen">General</string>
-    <string name="title_activity_busqueda">Buscar</string>
+    <string name="busqueda">Buscar</string>
     <string name="acerca">Acerca de…</string>
     <string name="preferencias">Preferencias</string>
     <string name="mostrar_todos_l">Mostrar todos los libros</string>
@@ -35,8 +35,9 @@
     <string name="error_descarga_t">Error</string>
     <string name="lista_temas">Lista de temas</string>
     <string name="lista_recursos">Lista de recursos</string>
-    <string name="pref_tema_t">Tema %s: </string>
-    <string name="pref_tema_e">Tema %s</string>
+    <string name="favoritos">Favoritos</string>
+    <string name="favoritos_a">Añadir a favoritos</string>
+    <string name="favoritos_q">Quitar de favoritos</string>
     <!--Temas-->
     <string name="tema_1">Lógica proposicional y cálculo de predicados</string>
     <string name="tema_2">Conjuntos, relaciones y pruebas matemáticas</string>

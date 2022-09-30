@@ -15,6 +15,24 @@
         android:theme="@style/Theme.EstructurasDiscretas"
         tools:targetApi="31">
         <activity
+            android:name=".SplashActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".FavoritosActivity"
+            android:exported="false"
+            android:label="@string/favoritos"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".ListaTemasActivity"
             android:exported="false"
             android:label="@string/lista_temas"
@@ -68,8 +86,8 @@
         </activity>
         <activity
             android:name=".BusquedaActivity"
-            android:exported="true"
-            android:label="@string/title_activity_busqueda"
+            android:exported="false"
+            android:label="@string/busqueda"
             android:parentActivityName=".MainActivity"
             android:theme="@style/Theme.EstructurasDiscretas.NoActionBar">
             <meta-data

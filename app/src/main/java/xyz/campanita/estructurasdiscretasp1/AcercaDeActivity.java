@@ -8,7 +8,6 @@ import android.os.Bundle;
 import android.widget.ImageView;
 
 import xyz.campanita.estructurasdiscretasp1.databinding.ActivityAcercaDeBinding;
-import xyz.campanita.estructurasdiscretasp1.databinding.ActivityMainBinding;
 
 public class AcercaDeActivity extends AppCompatActivity {
 
@@ -22,12 +21,12 @@ public class AcercaDeActivity extends AppCompatActivity {
         setSupportActionBar(binding.toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
-        ImageView im = (ImageView) findViewById(R.id.img_fi);
+        ImageView im = findViewById(R.id.img_fi);
         im.setOnClickListener(v -> {
             Intent in = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.ingenieria.unam.mx/"));
             startActivity(in);
         });
-        im = (ImageView) findViewById(R.id.img_unam);
+        im = findViewById(R.id.img_unam);
         im.setOnClickListener(v -> {
             Intent in = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.unam.mx/"));
             startActivity(in);
