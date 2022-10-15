@@ -1,0 +1,235 @@
+[
+	{
+		"tipo": "LIBRO",
+		"isbn": [
+			"9688800805"
+		],
+		"titulo": "Estructuras de matematicas discretas para la computacion ",
+		"subtitulo": null,
+		"descripcion": "441 páginas",
+		"datosPublicacion": "México: Prentice Hall, c1986",
+		"urlPortada": "https://images-na.ssl-images-amazon.com/images/P/9688800805.01.MZZZZZZZ.jpg",
+		"colaborador": [
+			{
+				"tipo": "AUTOR",
+				"nombre": "Kolman, Bernard"
+			},
+			{
+				"tipo": "AUTOR",
+				"nombre": "Busby, Robert C"
+			},
+			{
+				"tipo": "TRADUCTOR",
+				"nombre": "Herrera Patiño, Arturo"
+			}
+		],
+		"calificacion": 0,
+		"votos": 0,
+		"existencias": {
+			"VASCONCELOS": {
+				"id": null,
+				"existencias": 1,
+				"disponibilidad": -1,
+				"catalogo": null,
+				"fechasDevolucion": []
+			}
+		},
+		"ultimaAct": null,
+		"uriExistCentral": null,
+		"temas": [
+			"matemáticas computacionales"
+		],
+		"temasAsignatura": [
+			{
+				"subtemas": [
+					{
+						"subtemas": null,
+						"explicado": true,
+						"pagina": "fasle"
+					},
+					{
+						"subtemas": null,
+						"explicado": false,
+						"pagina": null
+					},
+					{
+						"subtemas": null,
+						"explicado": false,
+						"pagina": null
+					},
+					{
+						"subtemas": null,
+						"explicado": false,
+						"pagina": null
+					},
+					{
+						"subtemas": null,
+						"explicado": false,
+						"pagina": null
+					},
+					{
+						"subtemas": null,
+						"explicado": false,
+						"pagina": null
+					}
+				],
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": [
+					{
+						"subtemas": null,
+						"explicado": false,
+						"pagina": null
+					},
+					{
+						"subtemas": null,
+						"explicado": false,
+						"pagina": null
+					},
+					{
+						"subtemas": null,
+						"explicado": false,
+						"pagina": null
+					},
+					{
+						"subtemas": null,
+						"explicado": false,
+						"pagina": null
+					},
+					{
+						"subtemas": null,
+						"explicado": false,
+						"pagina": null
+					},
+					{
+						"subtemas": null,
+						"explicado": false,
+						"pagina": null
+					}
+				],
+				"explicado": false,
+				"pagina": null
+			},
+			{
+				"subtemas": [
+					{
+						"subtemas": null,
+						"explicado": false,
+						"pagina": null
+					},
+					{
+						"subtemas": null,
+						"explicado": false,
+						"pagina": null
+					},
+					{
+						"subtemas": null,
+						"explicado": false,
+						"pagina": null
+					},
+					{
+						"subtemas": null,
+						"explicado": false,
+						"pagina": null
+					},
+					{
+						"subtemas": null,
+						"explicado": false,
+						"pagina": null
+					},
+					{
+						"subtemas": null,
+						"explicado": false,
+						"pagina": null
+					},
+					{
+						"subtemas": null,
+						"explicado": false,
+						"pagina": null
+					}
+				],
+				"explicado": false,
+				"pagina": null
+			},
+			{
+				"subtemas": [
+					{
+						"subtemas": null,
+						"explicado": false,
+						"pagina": null
+					},
+					{
+						"subtemas": null,
+						"explicado": false,
+						"pagina": null
+					},
+					{
+						"subtemas": null,
+						"explicado": false,
+						"pagina": null
+					},
+					{
+						"subtemas": null,
+						"explicado": false,
+						"pagina": null
+					},
+					{
+						"subtemas": null,
+						"explicado": false,
+						"pagina": null
+					},
+					{
+						"subtemas": null,
+						"explicado": false,
+						"pagina": null
+					},
+					{
+						"subtemas": null,
+						"explicado": false,
+						"pagina": null
+					}
+				],
+				"explicado": false,
+				"pagina": null
+			},
+			{
+				"subtemas": [
+					{
+						"subtemas": null,
+						"explicado": false,
+						"pagina": null
+					},
+					{
+						"subtemas": null,
+						"explicado": false,
+						"pagina": null
+					},
+					{
+						"subtemas": null,
+						"explicado": false,
+						"pagina": null
+					},
+					{
+						"subtemas": null,
+						"explicado": false,
+						"pagina": null
+					},
+					{
+						"subtemas": null,
+						"explicado": false,
+						"pagina": null
+					},
+					{
+						"subtemas": null,
+						"explicado": false,
+						"pagina": null
+					}
+				],
+				"explicado": false,
+				"pagina": null
+			}
+		]
+	}
+]
