@@ -3,7 +3,19 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
         android:id="@+id/acc_favorito"
+        android:checkable="true"
+        android:checked="false"
         android:icon="@drawable/ic_baseline_favorite_border_24"
         android:title="@string/favoritos"
-        app:showAsAction="always"/>
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/acc_existencias"
+        android:icon="@drawable/ic_baseline_sync_24"
+        android:title="@string/existencias"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/acc_qr"
+        android:icon="@drawable/ic_baseline_qr_code_24"
+        android:title="@string/compartir_qr"
+        app:showAsAction="ifRoom" />
 </menu>

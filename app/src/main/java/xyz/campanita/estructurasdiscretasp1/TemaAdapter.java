@@ -10,7 +10,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import java.util.ArrayList;
 
 public class TemaAdapter extends RecyclerView.Adapter<TemaAdapter.ViewHolder> {
-    private ArrayList<String[]> mDataSet;
+    private final ArrayList<String[]> mDataSet;
 
     public static class ViewHolder extends RecyclerView.ViewHolder {
         public TextView titulo;

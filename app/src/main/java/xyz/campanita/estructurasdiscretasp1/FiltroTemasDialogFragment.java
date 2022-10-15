@@ -3,20 +3,24 @@ package xyz.campanita.estructurasdiscretasp1;
 import android.app.Dialog;
 import android.content.Context;
 import android.content.res.Resources;
-import android.os.Build;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
+import android.widget.CheckBox;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.widget.LinearLayoutCompat;
 import androidx.fragment.app.DialogFragment;
 
+import xyz.campanita.estructurasdiscretasp1.bibliotecas.Comun;
+
 public class FiltroTemasDialogFragment extends DialogFragment {
     public static String TAG = "filtro_temas";
+    public LinearLayoutCompat llc;
 
     public interface FiltroTemasDialogListener {
-        void onDialogPositiveClick(DialogFragment dialog);
+        void onDialogPositiveClick(FiltroTemasDialogFragment dialog);
         void onDialogNegativeClick(DialogFragment dialog);
     }
 
@@ -41,31 +45,40 @@ public class FiltroTemasDialogFragment extends DialogFragment {
         LayoutInflater inflater = getLayoutInflater();
         View v = inflater.inflate(R.layout.activity_filtro_temas, null);
 
-        LinearLayoutCompat llc = v.findViewById(R.id.ctcont);
+        llc = v.findViewById(R.id.ctcont);
         Resources res = getResources();
         String[] encArray = res.getStringArray(R.array.temas);
+        String temaId = null;
         for (int i = 0; i<encArray.length; i++) {
-            CheckBoxTriStates ch = new CheckBoxTriStates(llc, getContext());
+            CheckBox ch = new CheckBox(getContext());
+            temaId = Integer.toString(i+1);
             int pid = View.generateViewId();
             ch.setId(pid);
-            ch.setText("Tema " + (i+1) + ": " + encArray[i]);
-            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
-                ch.setTextAppearance(androidx.appcompat.R.style.TextAppearance_AppCompat_Medium);
+            if (Comun.temasFiltrados.contains(temaId)) {
+                ch.setChecked(true);
             }
+            ch.setText(String.format("Tema %s: %s", temaId, encArray[i]));
+            ch.setTextAppearance(androidx.appcompat.R.style.TextAppearance_AppCompat_Medium);
             llc.addView(ch);
             String[] encSubArray = res.getStringArray(res.getIdentifier("temas_"+(i+1), "array", getContext().getPackageName()));
             for (int ii = 0; ii<encSubArray.length; ii++) {
-                CheckBoxTriStates ach = new CheckBoxTriStates(llc, getContext());
+                CheckBox ach = new CheckBox(getContext());
+                temaId = String.format("%d.%d", i+1, ii+1);
+                if (Comun.temasFiltrados.contains(temaId)) {
+                    Log.i("UUU", "Contiene "+temaId);
+                    ach.setChecked(true);
+                } else {
+                    ach.setChecked(false);
+                }
                 ach.setId(View.generateViewId());
-                ach.setText("Tema " + (i+1) + "." + (ii+1) + ": " + encSubArray[ii]);
-                ach.setParentItem(pid);
+                ach.setText(String.format("Tema %s: %s", temaId, encSubArray[ii]));
                 llc.addView(ach);
             }
         }
         builder.setView(v);
 
         builder.setPositiveButton(android.R.string.ok, (dialog, id) -> listener.onDialogPositiveClick(FiltroTemasDialogFragment.this))
-                .setNegativeButton(android.R.string.cancel, (dialog, id) -> listener.onDialogPositiveClick(FiltroTemasDialogFragment.this));
+                .setNegativeButton(android.R.string.cancel, (dialog, id) -> listener.onDialogNegativeClick(FiltroTemasDialogFragment.this));
 
         return builder.create();
     }

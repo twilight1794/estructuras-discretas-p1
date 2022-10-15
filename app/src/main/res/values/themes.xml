@@ -37,4 +37,7 @@
         <item name="android:dividerHeight">0.5dp</item>
         <item name="android:indicatorLeft">?android:attr/expandableListPreferredItemIndicatorLeft</item>
     </style>
+    <style name="BotonSinBorde" parent="Widget.AppCompat.Button.Borderless">
+        <item name="android:textColor">@color/purple_500</item>
+    </style>
 </resources>

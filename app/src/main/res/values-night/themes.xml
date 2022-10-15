@@ -13,4 +13,7 @@
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
+    <style name="BotonSinBorde" parent="Widget.AppCompat.Button.Borderless">
+        <item name="android:textColor">@color/purple_200</item>
+    </style>
 </resources>

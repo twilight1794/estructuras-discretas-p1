@@ -4,7 +4,6 @@
         <item>Oscuro</item>
         <item>Sistema</item>
     </string-array>
-
     <string-array name="pref_valores_tema_app">
         <item>light</item>
         <item>dark</item>

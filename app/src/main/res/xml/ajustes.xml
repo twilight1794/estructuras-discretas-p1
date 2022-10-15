@@ -10,7 +10,7 @@
             android:title="@string/pref_tema_app"
             app:useSimpleSummaryProvider="true" />
         <EditTextPreference
-            android:defaultValue="https://raw.githubusercontent.com/twilight1794/estructuras-discretas-p1/main/indices/latest.xml"
+            android:defaultValue="https://raw.githubusercontent.com/twilight1794/estructuras-discretas-p1/main/indices/datos.json"
             android:key="ubicacion_indice"
             android:selectAllOnFocus="true"
             android:singleLine="true"
