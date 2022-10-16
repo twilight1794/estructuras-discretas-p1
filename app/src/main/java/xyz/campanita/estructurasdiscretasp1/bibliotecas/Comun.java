@@ -2,6 +2,7 @@ package xyz.campanita.estructurasdiscretasp1.bibliotecas;
 
 import android.content.Context;
 import android.content.SharedPreferences;
+import android.content.res.Resources;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
@@ -16,6 +17,7 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.net.HttpURLConnection;
 import java.net.URL;
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.LinkedList;
 
@@ -28,11 +30,17 @@ public class Comun {
     public static LinkedList<String> favoritos;
     public static LinkedList<String> resultados = new LinkedList<>();
     // Titulo, autor, tema, editorial, código
-    public static boolean[] opciones = new boolean[5];
+    public static boolean[] opciones = {true, true, true, true, true};
     public static String consulta = "";
 
     public static String userAgent = "EstructurasDiscretas/" + BuildConfig.VERSION_CODE;
     public static Biblioteca[] consultables = { Biblioteca.DOVALI, Biblioteca.RIVERO, Biblioteca.ENZO, Biblioteca.PREPA1, Biblioteca.PREPA5, Biblioteca.CCHOR, Biblioteca.CENTRAL };
+    public static final float[] NEGATIVO = {
+            -1.0f,     0,     0,    0, 255, // red
+            0, -1.0f,     0,    0, 255, // green
+            0,     0, -1.0f,    0, 255, // blue
+            0,     0,     0, 1.0f,   0  // alpha
+    };
 
     public enum Fuente {
         FAVORITOS,
@@ -43,6 +51,15 @@ public class Comun {
     public static void inicializar(Context context) throws IOException {
         if (favoritos == null){
             cargarFavoritos(context);
+            Resources res = context.getResources();
+            String[] t0 = res.getStringArray(R.array.temas);
+            for (int i = 1; i <= t0.length; i++){
+                temasFiltrados.add(Integer.toString(i));
+                String[] t1 = res.getStringArray(res.getIdentifier("temas_"+i, "array", context.getPackageName()));
+                for (int ii = 1; ii <= t1.length; ii++){
+                    temasFiltrados.add(String.format("%d.%d", i, ii));
+                }
+            }
         }
         if (recursos == null){
             cargarJSON(context);
@@ -87,7 +104,7 @@ public class Comun {
         File file = new File(context.getExternalFilesDir(null), "datos.json");
         if (!file.exists() || file.length() == 0) {
             SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(context);
-            URL url = new URL(prefs.getString("ubicacion_indice", "https://raw.githubusercontent.com/twilight1794/estructuras-discretas-p1/main/indices/latest.json"));
+            URL url = new URL(prefs.getString("ubicacion_indice", "https://raw.githubusercontent.com/twilight1794/estructuras-discretas-p1/main/indices/datos.json"));
             HttpURLConnection urlConnection = (HttpURLConnection) url.openConnection();
             urlConnection.setRequestProperty("User-Agent", Comun.userAgent);
             IOUtils.copy(urlConnection.getInputStream(), new FileOutputStream(file));

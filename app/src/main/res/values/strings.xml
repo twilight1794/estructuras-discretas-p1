@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Estructuras Discretas</string>
     <string name="pref_tema_app">Tema</string>
-    <string name="pref_cargar_datos">Cargar índice</string>
+    <string name="pref_cargar_datos">Actualizar índice</string>
     <string name="pref_cat_gen">General</string>
     <string name="busqueda">Buscar</string>
     <string name="acerca">Acerca de…</string>
@@ -9,7 +9,7 @@
     <string name="mostrar_todos_l">Mostrar todos los libros</string>
     <string name="mostrar_todos_t">Mostrar todos los temas</string>
     <string name="acerca_explicacion">App para el primer proyecto de la asignatura de Estructuras Discretas de la carrera de Ingeniería en Computación, impartida por la profesora Margarita Carrera Fournier</string>
-    <string name="version">versión pre0.1</string>
+    <string name="version">versión %s (%d)</string>
     <string name="acercade_equipo">Nuestro equipo</string>
     <string name="logo_alt">Logo</string>
     <string name="logo_equipo_alt">Logo del equipo</string>
@@ -68,6 +68,16 @@
     <string name="recurso_fab">Leer documento</string>
     <string name="portada_alt">Portada</string>
     <string name="busqueda_pista">Escriba algo…</string>
+    <string name="recurso_libro">Libro</string>
+    <string name="recurso_libroe">Libro electrónico</string>
+    <string name="patron_tema1">%d. </string>
+    <string name="patron_tema2">%d.%d. </string>
+    <string name="patron_votos">"%.1f de 5 (%d votos)</string>
+    <string name="patron_id">(ID %s)</string>
+    <string name="patron_clas">Clasificación %s</string>
+    <string name="patron_ex">%d existencias, %d disponibles para préstamo</string>
+    <string name="patron_disp">Próximo disponible el %s</string>
+    <string name="patron_act">Actualizado el %s</string>
     <!--Temas-->
     <string name="tema_1">Lógica proposicional y cálculo de predicados</string>
     <string name="tema_2">Conjuntos, relaciones y pruebas matemáticas</string>
@@ -170,7 +180,7 @@
     <string name="tema_5_1_1">Definiciones y conceptos</string>
     <string name="tema_5_1_2">Computabilidad</string>
     <string name="tema_5_2_1">Conceptos básicos</string>
-    <string name="tema_5_2_2">aracterísticas y representaciones de las funciones parciales</string>
+    <string name="tema_5_2_2">Características y representaciones de las funciones parciales</string>
     <string name="tema_5_3_1">Definiciones y conceptos</string>
     <string name="tema_5_3_2">Características y representaciones de las funciones computables</string>
     <string name="tema_5_4_1">Conceptos básicos</string>

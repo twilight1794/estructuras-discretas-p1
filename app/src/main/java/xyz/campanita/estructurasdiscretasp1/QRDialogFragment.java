@@ -13,13 +13,9 @@ import android.widget.ImageView;
 import androidx.appcompat.app.AlertDialog;
 import androidx.fragment.app.DialogFragment;
 
+import xyz.campanita.estructurasdiscretasp1.bibliotecas.Comun;
+
 public class QRDialogFragment extends DialogFragment {
-    private static final float[] NEGATIVO = {
-            -1.0f,     0,     0,    0, 255, // red
-            0, -1.0f,     0,    0, 255, // green
-            0,     0, -1.0f,    0, 255, // blue
-            0,     0,     0, 1.0f,   0  // alpha
-    };
     public static String TAG = "qr";
     public Bitmap qr;
     public String url;
@@ -40,7 +36,7 @@ public class QRDialogFragment extends DialogFragment {
         ImageView img = v.findViewById(R.id.imagen_qr);
         int modo = getContext().getResources().getConfiguration().uiMode & Configuration.UI_MODE_NIGHT_MASK;
         if (modo == Configuration.UI_MODE_NIGHT_YES){
-            img.setColorFilter(new ColorMatrixColorFilter(NEGATIVO));
+            img.setColorFilter(new ColorMatrixColorFilter(Comun.NEGATIVO));
         }
         img.setImageBitmap(qr);
         builder.setView(v);

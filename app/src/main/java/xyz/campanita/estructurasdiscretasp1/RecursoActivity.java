@@ -76,6 +76,7 @@ public class RecursoActivity extends AppCompatActivity {
 
     ExecutorService mExecutor;
     Handler mHandler;
+    Resources res;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -88,6 +89,7 @@ public class RecursoActivity extends AppCompatActivity {
 
         setSupportActionBar(binding.toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        res = getResources();
 
         try {
             Comun.inicializar(this);
@@ -138,10 +140,10 @@ public class RecursoActivity extends AppCompatActivity {
             // Tipo
             TipoRecurso valTipo = r.getTipo();
             if (valTipo == TipoRecurso.LIBRO) {
-                getSupportActionBar().setSubtitle("Libro");
+                getSupportActionBar().setSubtitle(R.string.recurso_libro);
                 findViewById(R.id.fab_abrir).setVisibility(View.GONE);
             } else {
-                getSupportActionBar().setSubtitle("Libro electrónico");
+                getSupportActionBar().setSubtitle(R.string.recurso_libroe);
             }
             // ISBN (o cualquier otro id externo)
             String valISBN = String.join(", ", r.getIsbn());
@@ -192,7 +194,6 @@ public class RecursoActivity extends AppCompatActivity {
                 gTemas.addView(c);
             }
             // TemaAsignatura
-            Resources res = getResources();
             ArrayList<Nodo> l = r.getTemasAsignatura();
             LinearLayout cont = findViewById(R.id.recurso_temasasig_cont);
             String[] t1 = res.getStringArray(R.array.temas);
@@ -208,7 +209,7 @@ public class RecursoActivity extends AppCompatActivity {
                             temaCont.findViewById(R.id.recurso_temasasig_si).setVisibility(View.VISIBLE);
                         }
                     }
-                    ((TextView) temaCont.findViewById(R.id.recurso_temasasig_num)).setText(i + 1 + ". ");
+                    ((TextView) temaCont.findViewById(R.id.recurso_temasasig_num)).setText(res.getString(R.string.patron_tema1, i + 1));
                     ((TextView) temaCont.findViewById(R.id.recurso_temasasig_titulo)).setText(t1[i]);
                     cont.addView(temaCont);
                     String[] t2 = res.getStringArray(res.getIdentifier("temas_"+(i+1), "array", getPackageName()));
@@ -224,7 +225,7 @@ public class RecursoActivity extends AppCompatActivity {
                                     temaCont2.findViewById(R.id.recurso_temasasig_dato).setVisibility(View.GONE);
                                     temaCont2.findViewById(R.id.recurso_temasasig_si).setVisibility(View.VISIBLE);
                                 }
-                                ((TextView) temaCont2.findViewById(R.id.recurso_temasasig_num)).setText(String.format("%d.%d. ", i+1, j+1));
+                                ((TextView) temaCont2.findViewById(R.id.recurso_temasasig_num)).setText(res.getString(R.string.patron_tema2, i + 1, j + 1));
                                 ((TextView) temaCont2.findViewById(R.id.recurso_temasasig_titulo)).setText(t2[i]);
                                 cont.addView(temaCont2);
                             }
@@ -285,7 +286,7 @@ public class RecursoActivity extends AppCompatActivity {
             int valCalif = r.getCalificacion();
             int valVotos = r.getVotos();
             ((RatingBar) findViewById(R.id.recurso_cal)).setRating(valCalif);
-            ((TextView) findViewById(R.id.recurso_cal_votos)).setText(String.format("%.1f, (%s)", valCalif/10.0, valVotos));
+            ((TextView) findViewById(R.id.recurso_cal_votos)).setText(res.getString(R.string.patron_votos, valCalif/10.0, valVotos));
             // Existencias
             mExecutor = Executors.newSingleThreadExecutor();
             mHandler = new Handler(Looper.getMainLooper());
@@ -431,24 +432,24 @@ public class RecursoActivity extends AppCompatActivity {
                         TextView idText = exCont.findViewById(R.id.recurso_exist_id);
                         String id = ex.getId();
                         if (id != null){
-                            idText.setText(String.format("(%s)", id));
+                            idText.setText(res.getString(R.string.patron_id, id));
                         } else {
                             idText.setVisibility(View.GONE);
                         }
                         TextView catText = exCont.findViewById(R.id.recurso_exist_clas);
                         String cat = ex.getCatalogo();
                         if (cat != null){
-                            catText.setText("Clasificación " + cat);
+                            catText.setText(res.getString(R.string.patron_clas, cat));
                         } else {
                             catText.setVisibility(View.GONE);
                         }
                         TextView exText = exCont.findViewById(R.id.recurso_exist_exist);
                         if (ex.getDisponibilidad() != -1){
-                            exText.setText(String.format("%d existencias, %d disponibles para préstamo", ex.getExistencias(), ex.getDisponibilidad()));
+                            exText.setText(res.getString(R.string.patron_ex, ex.getExistencias(), ex.getDisponibilidad()));
                             if (ex.getDisponibilidad() != ex.getExistencias()){
                                 TextView exDev = exCont.findViewById(R.id.recurso_exist_dev);
                                 Date fechaDev = ex.getDevolucionProxima();
-                                exDev.setText("Próximo disponible el " + df.format(fechaDev));
+                                exDev.setText(res.getString(R.string.patron_disp, df.format(fechaDev)));
                                 exDev.setVisibility(View.VISIBLE);
                             }
                         } else {
@@ -463,7 +464,7 @@ public class RecursoActivity extends AppCompatActivity {
                     Date ultima = Calendar.getInstance().getTime();
                     r.setUltimaAct(ultima);
                     TextView ultimaText = findViewById(R.id.recurso_exist_ultima);
-                    ultimaText.setText("Actualizado el " + edf.format(ultima));
+                    ultimaText.setText(res.getString(R.string.patron_act, edf.format(ultima)));
                     ultimaText.setVisibility(View.VISIBLE);
                     Comun.escribirJSON(context);
                     if (origen){

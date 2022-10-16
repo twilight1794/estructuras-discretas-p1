@@ -33,6 +33,7 @@ public class BusquedaActivity extends AppCompatActivity implements FiltroTemasDi
     LinearLayoutManager lm;
     RecursoAdapter ra;
     SearchView buscadorCampo;
+    boolean busqExterna;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -52,22 +53,22 @@ public class BusquedaActivity extends AppCompatActivity implements FiltroTemasDi
         ra = new RecursoAdapter(Comun.resultados, Comun.Fuente.BUSQUEDA);
         rv.setAdapter(ra);
 
+        findViewById(R.id.opt_titulo).setOnClickListener(v -> { Comun.opciones[0] = ((Chip) v).isChecked(); buscador(Comun.consulta); });
+        findViewById(R.id.opt_autor).setOnClickListener(v -> { Comun.opciones[1] = ((Chip) v).isChecked(); buscador(Comun.consulta); });
+        findViewById(R.id.opt_tema).setOnClickListener(v -> { Comun.opciones[2] = ((Chip) v).isChecked(); buscador(Comun.consulta); });
+        findViewById(R.id.opt_editorial).setOnClickListener(v -> { Comun.opciones[3] = ((Chip) v).isChecked(); buscador(Comun.consulta); });
+        findViewById(R.id.opt_codigo).setOnClickListener(v -> { Comun.opciones[4] = ((Chip) v).isChecked(); buscador(Comun.consulta); });
+
         Intent intent = getIntent();
         if (Intent.ACTION_SEARCH.equals(intent.getAction())) {
-            String query = intent.getStringExtra(SearchManager.QUERY);
-            buscador(query);
-
+            Comun.consulta = intent.getStringExtra(SearchManager.QUERY);
+            buscador(Comun.consulta);
         }
     }
 
     @Override
     protected void onResume() {
         super.onResume();
-        Comun.opciones[0] = ((Chip) findViewById(R.id.opt_titulo)).isChecked();
-        Comun.opciones[1] = ((Chip) findViewById(R.id.opt_autor)).isChecked();
-        Comun.opciones[2] = ((Chip) findViewById(R.id.opt_tema)).isChecked();
-        Comun.opciones[3] = ((Chip) findViewById(R.id.opt_editorial)).isChecked();
-        Comun.opciones[4] = ((Chip) findViewById(R.id.opt_codigo)).isChecked();
         ra.notifyDataSetChanged();
         Log.i("UUU", "Resumed");
     }
@@ -166,8 +167,10 @@ public class BusquedaActivity extends AppCompatActivity implements FiltroTemasDi
                 }
             }
             if (!encontrado){ continue; }
+            Log.i("UUU", "Si está en tema!");
 
-            if (Comun.opciones[0] && r.getTitulo().contains(cadn)){
+            Log.i("UUU", "");
+            if (Comun.opciones[0] && r.getTitulo().toLowerCase(Locale.ROOT).contains(cadn)){
                 Comun.resultados.add(isbnp);
                 Log.i("UUU", "Coincidencia encontrada en Titulo");
                 continue;
@@ -175,7 +178,7 @@ public class BusquedaActivity extends AppCompatActivity implements FiltroTemasDi
             if (Comun.opciones[1]){
                 encontrado = false;
                 for (Colaborador c: r.getColaborador()){
-                    if (c.getNombre().contains(cadn)){
+                    if (c.getNombre().toLowerCase(Locale.ROOT).contains(cadn)){
                         Comun.resultados.add(isbnp);
                         encontrado = true;
                         break;
@@ -186,7 +189,7 @@ public class BusquedaActivity extends AppCompatActivity implements FiltroTemasDi
             if (Comun.opciones[2]){
                 encontrado = false;
                 for (String t: r.getTemas()){
-                    if (t.contains(cadn)){
+                    if (t.toLowerCase(Locale.ROOT).contains(cadn)){
                         Comun.resultados.add(isbnp);
                         encontrado = true;
                         break;
@@ -194,7 +197,7 @@ public class BusquedaActivity extends AppCompatActivity implements FiltroTemasDi
                 }
                 if (encontrado) { Log.i("UUU", "Coincidencia encontrada en Temas");continue; }
             }
-            if (Comun.opciones[3] && r.getDatosPublicacion().contains(cadn)){
+            if (Comun.opciones[3] && r.getDatosPublicacion().toLowerCase(Locale.ROOT).contains(cadn)){
                 Comun.resultados.add(isbnp);
                 Log.i("UUU", "Coincidencia encontrada en Editorial");
                 continue;

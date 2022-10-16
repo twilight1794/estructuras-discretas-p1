@@ -42,14 +42,15 @@ public class SplashActivity extends AppCompatActivity {
                 AlertDialog.Builder a = new AlertDialog.Builder(this);
                 a.setTitle(R.string.error_descarga_t);
                 a.setMessage(R.string.error_descarga);
-                a.setPositiveButton(android.R.string.ok, (dialog, which) -> SplashActivity.super.onBackPressed());
+                a.setPositiveButton(android.R.string.ok, (dialog, which) -> context.finish()/*SplashActivity.super.onBackPressed()*/);
                 a.setCancelable(false);
                 a.create();
                 a.show();
+            } else {
+                context.startActivity(new Intent(this, MainActivity.class));
+                finish();
             }
             mExecutor.shutdown();
-            context.startActivity(new Intent(this, MainActivity.class));
-            context.finish();
         });
 
         Runnable backgroundRunnable = () -> {
@@ -57,10 +58,8 @@ public class SplashActivity extends AppCompatActivity {
                 Comun.inicializar(context);
                 listener.onProcessed(0);
             } catch (IOException e) {
-                listener.onProcessed(1);
-            } catch (Exception e) {
                 e.printStackTrace();
-                listener.onProcessed(2);
+                listener.onProcessed(1);
             }
         };
         mExecutor.execute(backgroundRunnable);
