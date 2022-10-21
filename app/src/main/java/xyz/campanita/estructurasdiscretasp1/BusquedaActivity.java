@@ -63,6 +63,8 @@ public class BusquedaActivity extends AppCompatActivity implements FiltroTemasDi
         if (Intent.ACTION_SEARCH.equals(intent.getAction())) {
             Comun.consulta = intent.getStringExtra(SearchManager.QUERY);
             buscador(Comun.consulta);
+        } else if (!Comun.consulta.isEmpty()) {
+            buscador(Comun.consulta);
         }
     }
 
@@ -95,7 +97,6 @@ public class BusquedaActivity extends AppCompatActivity implements FiltroTemasDi
             }
         });
         buscadorCampo.setQuery(Comun.consulta, false);
-        buscadorCampo.requestFocus();
         return true;
     }
 

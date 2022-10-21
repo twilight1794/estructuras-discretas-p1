@@ -50,6 +50,7 @@ import java.util.Calendar;
 import java.util.Date;
 import java.util.Locale;
 import java.util.Objects;
+import java.util.Random;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.regex.Matcher;
@@ -398,13 +399,16 @@ public class RecursoActivity extends AppCompatActivity {
                 cargando.setVisibility(View.GONE);
                 cont.setVisibility(View.GONE);
             } else {
+                Log.i("UUU", "actualizarExistencias");
                 cargando.setVisibility(View.VISIBLE);
                 cont.setVisibility(View.VISIBLE);
                 cont.removeAllViews();
                 for (Biblioteca b: Biblioteca.values()){
                     Existencia ex = r.getExistencia(b);
                     if (ex != null){
-                        ConstraintLayout exCont = (ConstraintLayout) getLayoutInflater().inflate(R.layout.recurso_exist, null);
+                        Log.i("UUU", "Escribiendo "+b.name());
+                        Log.i("UUU", Integer.toString(ex.getExistencias()));
+                        ConstraintLayout exCont = (ConstraintLayout) getLayoutInflater().inflate(R.layout.recurso_exist, cont, false);
                         int nombreb = -1;
                         switch (b) {
                             case CENTRAL:
@@ -433,18 +437,21 @@ public class RecursoActivity extends AppCompatActivity {
                         String id = ex.getId();
                         if (id != null){
                             idText.setText(res.getString(R.string.patron_id, id));
+                            Log.i("UUU","Id bueno");
                         } else {
                             idText.setVisibility(View.GONE);
                         }
                         TextView catText = exCont.findViewById(R.id.recurso_exist_clas);
                         String cat = ex.getCatalogo();
                         if (cat != null){
+                            Log.i("UUU","cat bueno");
                             catText.setText(res.getString(R.string.patron_clas, cat));
                         } else {
                             catText.setVisibility(View.GONE);
                         }
                         TextView exText = exCont.findViewById(R.id.recurso_exist_exist);
                         if (ex.getDisponibilidad() != -1){
+                            Log.i("UUU","disp buena");
                             exText.setText(res.getString(R.string.patron_ex, ex.getExistencias(), ex.getDisponibilidad()));
                             if (ex.getDisponibilidad() != ex.getExistencias()){
                                 TextView exDev = exCont.findViewById(R.id.recurso_exist_dev);
@@ -456,8 +463,9 @@ public class RecursoActivity extends AppCompatActivity {
                             int exist = ex.getExistencias();
                             exText.setText(String.format("%d existencia"+(exist!=1?"s":""), exist));
                         }
+                        Log.i("UUU", "COunt:"+Integer.toString(cont.getChildCount()));
                         cont.addView(exCont);
-                    }
+                     }
                 }
                 try {
                     cargando.setVisibility(View.GONE);

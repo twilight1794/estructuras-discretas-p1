@@ -30,62 +30,77 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
-            <ImageView
-                android:id="@+id/imgLogo"
-                android:layout_width="192dp"
-                android:layout_height="192dp"
-                android:layout_marginStart="48dp"
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/descripcion_cont"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
                 android:layout_marginTop="80dp"
-                android:layout_marginEnd="48dp"
-                android:contentDescription="@string/logo_alt"
-                android:scaleType="fitCenter"
+                android:layout_marginEnd="16dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:srcCompat="@drawable/logo" />
+                app:layout_constraintTop_toTopOf="parent">
 
-            <TextView
-                android:id="@+id/textView"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
-                android:text="@string/app_name"
-                android:textAppearance="@style/TextAppearance.AppCompat.Large"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/imgLogo" />
+                <ImageView
+                    android:id="@+id/imgLogo"
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginEnd="8dp"
+                    android:contentDescription="@string/logo_alt"
+                    android:scaleType="fitCenter"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toStartOf="@id/descripcion"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/logo" />
 
-            <TextView
-                android:id="@+id/versionTexto"
-                android:layout_width="wrap_content"
-                android:layout_height="0dp"
-                android:layout_marginStart="24dp"
-                android:layout_marginEnd="24dp"
-                android:text="@string/version"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textView" />
+                <LinearLayout
+                    android:id="@+id/descripcion"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:orientation="vertical"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@id/imgLogo"
+                    app:layout_constraintTop_toTopOf="parent">
 
-            <TextView
-                android:id="@+id/textView2"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="24dp"
-                android:layout_marginTop="24dp"
-                android:layout_marginEnd="24dp"
-                android:text="@string/acerca_explicacion"
-                android:textAlignment="center"
-                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/versionTexto" />
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/app_name"
+                        android:textAlignment="center"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+                    <TextView
+                        android:id="@+id/versionTexto"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/version"
+                        android:textAlignment="center" />
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:text="@string/acerca_explicacion"
+                        android:textAlignment="center"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+                </LinearLayout>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
 
             <TextView
                 android:id="@+id/textView4"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="24dp"
-                android:layout_marginTop="24dp"
+                android:layout_marginTop="16dp"
                 android:layout_marginEnd="24dp"
                 android:text="@string/acercade_equipo"
                 android:textAlignment="center"
@@ -94,14 +109,14 @@
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textView2" />
+                app:layout_constraintTop_toBottomOf="@+id/descripcion_cont" />
 
             <ImageView
                 android:id="@+id/imgLogoEquipo"
                 android:layout_width="192dp"
                 android:layout_height="192dp"
                 android:layout_marginStart="24dp"
-                android:layout_marginTop="24dp"
+                android:layout_marginTop="16dp"
                 android:layout_marginEnd="24dp"
                 android:contentDescription="@string/logo_equipo_alt"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -111,12 +126,12 @@
 
             <androidx.cardview.widget.CardView
                 android:id="@+id/int_1"
-                android:layout_width="match_parent"
-                android:layout_height="0dp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
                 android:layout_marginStart="24dp"
                 android:layout_marginTop="24dp"
                 android:layout_marginEnd="24dp"
-                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintEnd_toStartOf="@id/int_2"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/imgLogoEquipo">
 
@@ -128,7 +143,7 @@
                     <!-- Media -->
                     <ImageView
                         android:layout_width="match_parent"
-                        android:layout_height="250dp"
+                        android:layout_height="280dp"
                         android:contentDescription="@string/int_1_id"
                         android:scaleType="centerCrop"
                         app:srcCompat="@drawable/int_1_i" />
@@ -159,14 +174,14 @@
 
             <androidx.cardview.widget.CardView
                 android:id="@+id/int_2"
-                android:layout_width="match_parent"
-                android:layout_height="0dp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
                 android:layout_marginStart="24dp"
                 android:layout_marginTop="24dp"
                 android:layout_marginEnd="24dp"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/int_1">
+                app:layout_constraintStart_toEndOf="@id/int_1"
+                app:layout_constraintTop_toBottomOf="@id/imgLogoEquipo">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -176,7 +191,7 @@
                     <!-- Media -->
                     <ImageView
                         android:layout_width="match_parent"
-                        android:layout_height="250dp"
+                        android:layout_height="280dp"
                         android:contentDescription="@string/int_2_id"
                         android:scaleType="centerCrop"
                         app:srcCompat="@drawable/int_2_i" />
@@ -207,14 +222,14 @@
 
             <androidx.cardview.widget.CardView
                 android:id="@+id/int_3"
-                android:layout_width="match_parent"
-                android:layout_height="0dp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
                 android:layout_marginStart="24dp"
                 android:layout_marginTop="24dp"
                 android:layout_marginEnd="24dp"
-                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintEnd_toStartOf="@id/int_4"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/int_2">
+                app:layout_constraintTop_toBottomOf="@id/int_1">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -224,7 +239,7 @@
                     <!-- Media -->
                     <ImageView
                         android:layout_width="match_parent"
-                        android:layout_height="250dp"
+                        android:layout_height="280dp"
                         android:contentDescription="@string/int_3_id"
                         android:scaleType="centerCrop"
                         app:srcCompat="@drawable/int_3_i" />
@@ -255,14 +270,14 @@
 
             <androidx.cardview.widget.CardView
                 android:id="@+id/int_4"
-                android:layout_width="match_parent"
-                android:layout_height="0dp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
                 android:layout_marginStart="24dp"
                 android:layout_marginTop="24dp"
                 android:layout_marginEnd="24dp"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/int_3">
+                app:layout_constraintStart_toEndOf="@id/int_3"
+                app:layout_constraintTop_toBottomOf="@id/int_2">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -272,7 +287,7 @@
                     <!-- Media -->
                     <ImageView
                         android:layout_width="match_parent"
-                        android:layout_height="250dp"
+                        android:layout_height="280dp"
                         android:contentDescription="@string/int_4_id"
                         android:scaleType="centerCrop"
                         app:srcCompat="@drawable/int_4_i" />
@@ -314,26 +329,38 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/int_4">
 
-                <ImageView
-                    android:id="@+id/img_fi"
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/linearLayout2"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:contentDescription="@string/img_fi"
-                    app:srcCompat="@drawable/logo_fi" />
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
 
-                <ImageView
-                    android:id="@+id/img_unam"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:contentDescription="@string/img_unam"
-                    app:srcCompat="@drawable/logo_unam" />
+                    <ImageView
+                        android:id="@+id/img_fi"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:contentDescription="@string/img_fi"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintEnd_toStartOf="@id/img_unam"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/logo_fi" />
+
+                    <ImageView
+                        android:id="@+id/img_unam"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:contentDescription="@string/img_unam"
+                        app:layout_constraintStart_toEndOf="@id/img_fi"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/logo_unam" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
 
                 <ImageView
                     android:id="@+id/img_github"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:contentDescription="@string/img_github"
-                    android:adjustViewBounds="true"
                     app:srcCompat="@drawable/github" />
             </LinearLayout>
 
