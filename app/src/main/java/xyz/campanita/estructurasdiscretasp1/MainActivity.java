@@ -6,6 +6,7 @@ import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import xyz.campanita.estructurasdiscretasp1.bibliotecas.Comun;
 import xyz.campanita.estructurasdiscretasp1.databinding.ActivityMainBinding;
 
 public class MainActivity extends AppCompatActivity {
@@ -13,6 +14,10 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        try {
+            Comun.inicializar(this);
+        } catch (Exception ignored){}
 
         ActivityMainBinding binding = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());

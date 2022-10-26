@@ -463,8 +463,10 @@ public class RecursoActivity extends AppCompatActivity {
                             if (ex.getDisponibilidad() != ex.getExistencias()){
                                 TextView exDev = exCont.findViewById(R.id.recurso_exist_dev);
                                 Date fechaDev = ex.getDevolucionProxima();
-                                exDev.setText(res.getString(R.string.patron_disp, df.format(fechaDev)));
-                                exDev.setVisibility(View.VISIBLE);
+                                if (fechaDev != null) {
+                                    exDev.setText(res.getString(R.string.patron_disp, df.format(fechaDev)));
+                                    exDev.setVisibility(View.VISIBLE);
+                                }
                             }
                         } else {
                             int exist = ex.getExistencias();
