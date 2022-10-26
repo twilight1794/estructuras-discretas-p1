@@ -161,13 +161,6 @@
                             android:text="@string/int_1_n"
                             android:textAppearance="?attr/textAppearanceHeadline6" />
 
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="8dp"
-                            android:text="@string/int_1_d"
-                            android:textAppearance="?attr/textAppearanceBody2"
-                            android:textColor="?android:attr/textColorSecondary" />
                     </LinearLayout>
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
@@ -209,13 +202,6 @@
                             android:text="@string/int_2_n"
                             android:textAppearance="?attr/textAppearanceHeadline6" />
 
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="8dp"
-                            android:text="@string/int_1_d"
-                            android:textAppearance="?attr/textAppearanceBody2"
-                            android:textColor="?android:attr/textColorSecondary" />
                     </LinearLayout>
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
@@ -257,13 +243,6 @@
                             android:text="@string/int_3_n"
                             android:textAppearance="?attr/textAppearanceHeadline6" />
 
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="8dp"
-                            android:text="@string/int_1_d"
-                            android:textAppearance="?attr/textAppearanceBody2"
-                            android:textColor="?android:attr/textColorSecondary" />
                     </LinearLayout>
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
@@ -305,13 +284,6 @@
                             android:text="@string/int_4_n"
                             android:textAppearance="?attr/textAppearanceHeadline6" />
 
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="8dp"
-                            android:text="@string/int_1_d"
-                            android:textAppearance="?attr/textAppearanceBody2"
-                            android:textColor="?android:attr/textColorSecondary" />
                     </LinearLayout>
                 </LinearLayout>
 
@@ -354,6 +326,7 @@
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
                         app:srcCompat="@drawable/logo_unam" />
+
                 </androidx.constraintlayout.widget.ConstraintLayout>
 
                 <ImageView

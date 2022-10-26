@@ -17,7 +17,6 @@
     <string name="int_2_n">Álvarez Saldaña Ariana Lizeth</string>
     <string name="int_3_n">Cruz Vargas Emilio</string>
     <string name="int_4_n">Garciliano Díaz Giovanni Alfredo</string>
-    <string name="int_1_d">Lorem ipsum dolor sit amet. Consectectur adisplicit elit.</string>
     <string name="int_1_id">Foto de Xime</string>
     <string name="int_2_id">Foto de Ariana</string>
     <string name="int_3_id">Foto de Emilio</string>
@@ -30,7 +29,7 @@
     <string name="buscaren_c_autor">Autor</string>
     <string name="buscaren_c_editor">Editor</string>
     <string name="buscaren_c_traductor">Traductor</string>
-    <string name="buscaren_c_colab">Colaboradoror</string>
+    <string name="buscaren_c_colab">Colaborador</string>
     <string name="buscaren_tema">Tema</string>
     <string name="buscaren_editorial">Editorial</string>
     <string name="buscaren_codigo">Código</string>
@@ -76,18 +75,19 @@
     <string name="patron_id">(ID %s)</string>
     <string name="patron_clas">Clasificación %s</string>
     <string name="patron_ex">%d existencias, %d disponibles para préstamo</string>
-    <string name="patron_disp">Próximo disponible el %s</string>
+    <string name="patron_disp">Próximo ejemplar disponible el %s</string>
     <string name="patron_act">Actualizado el %s</string>
     <string name="ayuda">Ayuda</string>
     <string name="ayuda_msg"><![CDATA[¿Hay algún problema o falla en la aplicación, o un error en algún dato? ¿O simplemente quieres hacer un comentario o sugerencia?<br />
-        Hay varios métodos para eso:<br><br>
+        Tienes varias vías a tu disposición:<br><br>
         &#160;&#160;1. Comenta en <a href="https://play.google.com/store/apps/details?id=xyz.campanita.estructurasdiscretasp1">Google Play</a><br>
         &#160;&#160;2. Crea una incidencia en <a href="https://github.com/twilight1794/estructuras-discretas-p1/issues">GitHub</a><br>
-        &#160;&#160;3. Envía un correo electr4ónico a <a href="mailto:campanita@disroot.org">campanita@disroot.org</a><br>
-        &#160;&#160;4. Si conoces a los creadores (ver sección "Acerca de"), puedes informarles en persona]]></string>
+        &#160;&#160;3. Envía un correo electrónico a <a href="mailto:campanita@disroot.org">campanita@disroot.org</a><br>
+        &#160;&#160;4. Si conoces a los creadores (ver sección «Acerca de»), puedes informarles en persona]]></string>
     <string name="recurso_ver">Ver en línea</string>
     <string name="x_elementos">%d elementos</string>
     <string name="x_resultados">%d resultados</string>
+    <string name="desconocido">Desconocido</string>
     <!--Temas-->
     <string name="tema_1">Lógica proposicional y cálculo de predicados</string>
     <string name="tema_2">Conjuntos, relaciones y pruebas matemáticas</string>

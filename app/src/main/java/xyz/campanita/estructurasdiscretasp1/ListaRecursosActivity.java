@@ -16,6 +16,10 @@ import xyz.campanita.estructurasdiscretasp1.databinding.ActivityListaRecursosBin
 
 public class ListaRecursosActivity extends AppCompatActivity {
 
+    RecyclerView rv;
+    LinearLayoutManager lm;
+    RecursoAdapter ra;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -26,13 +30,13 @@ public class ListaRecursosActivity extends AppCompatActivity {
         setSupportActionBar(binding.toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
-        RecyclerView mRecyclerView = findViewById(R.id.lista_recursos_cont);
-        mRecyclerView.setHasFixedSize(true);
-        LinearLayoutManager layoutManager = new LinearLayoutManager(this);
-        mRecyclerView.setLayoutManager(layoutManager);
-        RecursoAdapter mAdapter = new RecursoAdapter(Comun.recursos, Comun.Fuente.LISTA_RECURSOS);
-        mRecyclerView.setAdapter(mAdapter);
-        ((TextView) findViewById(R.id.contador)).setText(getString(R.string.x_elementos, Comun.favoritos.size()));
+        rv = findViewById(R.id.lista_recursos_cont);
+        rv.setHasFixedSize(true);
+        lm = new LinearLayoutManager(this);
+        rv.setLayoutManager(lm);
+        ra = new RecursoAdapter(Comun.recursos, Comun.Fuente.LISTA_RECURSOS);
+        rv.setAdapter(ra);
+        ((TextView) findViewById(R.id.contador)).setText(getString(R.string.x_elementos, Comun.recursos.size()));
     }
 
     @Override

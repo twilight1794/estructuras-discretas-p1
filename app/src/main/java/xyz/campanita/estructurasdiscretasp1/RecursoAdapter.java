@@ -10,6 +10,7 @@ import android.widget.TextView;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.recyclerview.widget.RecyclerView;
 
+import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Objects;
 
@@ -80,11 +81,16 @@ public class RecursoAdapter extends RecyclerView.Adapter<RecursoAdapter.ViewHold
         }
         holder.titulo.setText(elem.getTitulo());
         StringBuilder cols = new StringBuilder();
-        for (Colaborador c: elem.getColaborador()){
-            cols.append(c.getNombre());
-            cols.append(" • ");
+        ArrayList<Colaborador> colab = elem.getColaborador();
+        if (colab.isEmpty()) {
+            holder.autor.setText(R.string.desconocido);
+        } else {
+            for (Colaborador c: colab) {
+                cols.append(c.getNombre());
+                cols.append(" • ");
+            }
+            holder.autor.setText(cols.substring(0, cols.length() - 3));
         }
-        holder.autor.setText(cols.substring(0, cols.length() - 3));
     }
 
     @Override

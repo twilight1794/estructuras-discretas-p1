@@ -45,7 +45,7 @@
                 <ImageView
                     android:id="@+id/recurso_portada"
                     android:layout_width="150dp"
-                    android:layout_height="250dp"
+                    android:layout_height="200dp"
                     android:layout_marginEnd="8dp"
                     android:contentDescription="@string/portada_alt"
                     android:scaleType="fitStart"

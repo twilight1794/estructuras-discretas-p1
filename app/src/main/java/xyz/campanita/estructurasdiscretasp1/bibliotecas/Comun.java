@@ -89,9 +89,9 @@ public class Comun {
             case ENZO:
                 uri = "https://fienzolevi.bibliotecas.unam.mx:81/cgi-bin/koha/opac-search.pl?idx=nb&q=%s&branch_group_limit=branch%3AL8950"; break;
             case PREPA1:
-                uri = "https://biblioenp5.bibliotecas.unam.mx:81/cgi-bin/koha/opac-search.pl?idx=nb&q=%s&branch_group_limit="; break;
-            case PREPA5:
                 uri = "https://biblioenp1.bibliotecas.unam.mx:81/cgi-bin/koha/opac-search.pl?idx=&q=%s&branch_group_limit="; break;
+            case PREPA5:
+                uri = "https://biblioenp5.bibliotecas.unam.mx:81/cgi-bin/koha/opac-search.pl?idx=nb&q=%s&branch_group_limit="; break;
             case CCHOR:
                 uri = "https://cch-oriente.bibliotecas.unam.mx:81/cgi-bin/koha/opac-search.pl?idx=nb&q=%s&branch_group_limit="; break;
             default:
