@@ -412,6 +412,7 @@ public class RecursoActivity extends AppCompatActivity {
                         Log.i("UUU", "Escribiendo "+b.name());
                         Log.i("UUU", Integer.toString(ex.getExistencias()));
                         ConstraintLayout exCont = (ConstraintLayout) getLayoutInflater().inflate(R.layout.recurso_exist, cont, false);
+                        Button verOnline = exCont.findViewById(R.id.recurso_exist_ver);
                         int nombreb = -1;
                         switch (b) {
                             case CENTRAL:
@@ -431,9 +432,12 @@ public class RecursoActivity extends AppCompatActivity {
                             case CCHOR:
                                 nombreb = R.string.bib_cch_or; break;
                             case VASCONCELOS:
-                                nombreb = R.string.bib_vasconcelos; break;
+                                nombreb = R.string.bib_vasconcelos;
+                                verOnline.setVisibility(View.GONE);
+                                break;
                             case BNM:
                                 nombreb = R.string.bib_bnm;
+                                verOnline.setVisibility(View.GONE);
                         }
                         ((TextView) exCont.findViewById(R.id.recurso_exist_bib)).setText(nombreb);
                         TextView idText = exCont.findViewById(R.id.recurso_exist_id);
@@ -466,7 +470,7 @@ public class RecursoActivity extends AppCompatActivity {
                             int exist = ex.getExistencias();
                             exText.setText(String.format("%d existencia"+(exist!=1?"s":""), exist));
                         }
-                        exCont.findViewById(R.id.recurso_exist_ver).setOnClickListener(v -> {
+                        verOnline.setOnClickListener(v -> {
                             Intent in = new Intent(Intent.ACTION_VIEW, Uri.parse(Comun.getURIBusqueda(r.getIsbn().get(0), b)));
                             startActivity(in);
                         });
