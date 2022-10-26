@@ -1,0 +1,8 @@
+* Estructuras discretas
+[[https://img.shields.io/github/v/release/twilight1794/estructuras-discretas-p1.svg]]
+[[https://img.shields.io/github/license/twilight1794/estructuras-discretas-p1.svg]]
+
+Proyecto de la asignatura de Estructuras discretas de la carrera de Ingeniería en Computación.
+
+** Descargas
+- [[https://github.com/twilight1794/estructuras-discretas-p1/releases][Descarga de APK]]
