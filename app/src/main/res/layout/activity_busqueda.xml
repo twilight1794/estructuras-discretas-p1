@@ -98,6 +98,13 @@
 
             </com.google.android.material.chip.ChipGroup>
 
+            <TextView
+                android:id="@+id/contador"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:layout_marginTop="4dp" />
+
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/resultados_cont"
                 android:layout_width="match_parent"

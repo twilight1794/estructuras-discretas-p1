@@ -12,6 +12,10 @@
         android:id="@+id/acc_listar"
         android:icon="@drawable/ic_baseline_format_list_numbered_24"
         android:title="@string/acc_temas"
-        app:showAsAction="always"/>
-
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/acc_ayuda"
+        android:icon="@drawable/ic_baseline_help_24"
+        android:title="@string/ayuda"
+        app:showAsAction="ifRoom" />
 </menu>

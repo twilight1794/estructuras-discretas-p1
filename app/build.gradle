@@ -10,8 +10,8 @@ android {
         applicationId "xyz.campanita.estructurasdiscretasp1"
         minSdk 26
         targetSdk 33
-        versionCode 4
-        versionName "pre0.4"
+        versionCode 6
+        versionName "pre0.6"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }

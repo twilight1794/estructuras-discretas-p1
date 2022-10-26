@@ -7,6 +7,7 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.CheckBox;
+import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.SearchView;
@@ -52,6 +53,7 @@ public class BusquedaActivity extends AppCompatActivity implements FiltroTemasDi
         rv.setLayoutManager(lm);
         ra = new RecursoAdapter(Comun.resultados, Comun.Fuente.BUSQUEDA);
         rv.setAdapter(ra);
+        actualizarContador(findViewById(R.id.contador));
 
         findViewById(R.id.opt_titulo).setOnClickListener(v -> { Comun.opciones[0] = ((Chip) v).isChecked(); buscador(Comun.consulta); });
         findViewById(R.id.opt_autor).setOnClickListener(v -> { Comun.opciones[1] = ((Chip) v).isChecked(); buscador(Comun.consulta); });
@@ -72,6 +74,7 @@ public class BusquedaActivity extends AppCompatActivity implements FiltroTemasDi
     protected void onResume() {
         super.onResume();
         ra.notifyDataSetChanged();
+        actualizarContador(findViewById(R.id.contador));
         Log.i("UUU", "Resumed");
     }
 
@@ -103,12 +106,12 @@ public class BusquedaActivity extends AppCompatActivity implements FiltroTemasDi
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         if (item.getItemId() == R.id.acc_listar) {
-            Log.i("UUU", "Selected listar");
-            FiltroTemasDialogFragment dialogFragment = new FiltroTemasDialogFragment();
-            dialogFragment.show(getSupportFragmentManager(), "filtro_temas");
+            (new FiltroTemasDialogFragment()).show(getSupportFragmentManager(), "filtro_temas");
+            return true;
+        } else if (item.getItemId() == R.id.acc_ayuda) {
+            (new AyudaDialogFragment()).show(getSupportFragmentManager(), "ayuda");
             return true;
         }
-        Log.i("UUU", "Selected default");
         return super.onOptionsItemSelected(item);
     }
 
@@ -130,11 +133,16 @@ public class BusquedaActivity extends AppCompatActivity implements FiltroTemasDi
     @Override
     public void onDialogNegativeClick(DialogFragment dialog) {}
 
+    public void actualizarContador(TextView t){
+        t.setText(getString(R.string.x_resultados, Comun.resultados.size()));
+    }
+
     public void buscador(String cad){
         Log.i("UUU", "Búsqueda iniciada:"+cad+"!");
         Comun.resultados.clear();
         if (cad.isEmpty()) {
             ra.notifyDataSetChanged();
+            actualizarContador(findViewById(R.id.contador));
             return;
         }
         for (Recurso r: Comun.recursos){
@@ -216,5 +224,6 @@ public class BusquedaActivity extends AppCompatActivity implements FiltroTemasDi
 
         Log.i("UUU", "Búsqueda finalizada!");
         ra.notifyDataSetChanged();
+        actualizarContador(findViewById(R.id.contador));
     }
 }

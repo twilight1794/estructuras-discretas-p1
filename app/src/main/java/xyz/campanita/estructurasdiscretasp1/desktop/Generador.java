@@ -21,6 +21,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.LinkedList;
+import java.util.concurrent.TimeUnit;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -57,7 +58,7 @@ public class Generador {
         Iterator<Row> filaIterator = hoja.rowIterator();
         int indiceFila = 0;
         while (filaIterator.hasNext()){
-            if (indiceFila == 0){
+            if (indiceFila < 2){
                 filaIterator.next();
                 indiceFila++;
                 continue;
@@ -76,17 +77,22 @@ public class Generador {
                 switch (indiceColumna){
                     /* ISBN */
                     case 0:
+                        if (val.isEmpty()) {
+                            filaValida = false;
+                            break;
+                        }
                         r.setIsbn(val.split(","));
+                        System.out.println("" + indiceColumna + ": "+ r.getIsbn().get(0));
                         break;
                     /* Temas de primer orden */
-                    case 1: case 8: case 15: case 23: case 31:
+                    case 10: case 11: case 12: case 13: case 14: // 1, 8, 15, 23, 31
                         temaIn++;
                         subtemaIn = 1;
                         switch (val){
-                            case "true":
+                            case "true": case "1":
                                 r.setTemaAsignatura(temaIn, 0, true, null);
                                 break;
-                            case "false":
+                            case "false": case "0":
                                 r.setTemaAsignatura(temaIn, 0, false, null);
                                 break;
                             default:
@@ -94,17 +100,17 @@ public class Generador {
                         }
                         break;
                     /* Existencias en Vasconcelos */
-                    case 38:
+                    case 8: // 38
                         int valIntA = Integer.parseInt(val);
                         if (valIntA>0){ r.setExistencia(Biblioteca.VASCONCELOS, null, valIntA,-1, null, new ArrayList<>()); }
                         break;
                     /* Existencias en la Biblioteca Nacional */
-                    case 39:
+                    case 9: // 39
                         int valIntB = Integer.parseInt(val);
                         if (valIntB > 0) { r.setExistencia(Biblioteca.BNM, null, valIntB,-1, null, new ArrayList<>()); }
                         break;
                     /* Temas de segundo orden */
-                    default:
+                    case -1: // En esta edición no se usarán subtemas, pero la función ya está implementación default
                         switch (val){
                             case "true":
                                 r.setTemaAsignatura(temaIn, subtemaIn, true, null);
@@ -121,7 +127,7 @@ public class Generador {
             }
             if (filaValida) {
                 Comun.recursos.add(r);
-            }
+            } else { break; }
             indiceFila++;
         }
     }
@@ -131,9 +137,11 @@ public class Generador {
      */
     public static void rellenarRecursos() throws IOException {
         // Bibliotecas con un /endpoint/
-        OkHttpClient okHttp = new OkHttpClient();
+        OkHttpClient okHttp = new OkHttpClient.Builder().connectTimeout(15, TimeUnit.SECONDS).build();
+        ArrayList<Recurso> eliminar = new ArrayList<>();
         for (Recurso r: Comun.recursos){
             System.out.println("Rellenando "+r.getIsbn().get(0));
+            boolean existe = false;
             for (Biblioteca b: Comun.consultables){
                 String uri = Comun.getURIBusqueda(r.getIsbn().get(0), b);
                 Request docreq = new Request.Builder().url(uri).addHeader("User-Agent",Comun.userAgent).get().build();
@@ -142,8 +150,10 @@ public class Generador {
                 if (b == Biblioteca.CENTRAL){
                     Element comp = doc.selectFirst("strong:containsOwn(La búsqueda no encontró ninguna coincidencia en los documentos.)");
                     if (comp == null){
-                        System.out.println("Encontrado en"+b.name()+"!");
+                        System.out.println("Encontrado en "+b.name()+"!");
+                        existe = true;
                         // Obtener url de existencias
+                        System.out.println("Hay "+doc.select("table").size()+" tablas");
                         Element tbl = doc.selectFirst("table");
                         r.setUriExistCentral(tbl.selectFirst("a:containsOwn(Todos los ejemplares)").attr("href"));
                         // Obtener datos generales
@@ -152,38 +162,44 @@ public class Generador {
                         Document datos = Jsoup.parse(okHttp.newCall(datosreq).execute().body().string());
                         Element datosE = datos.selectFirst("table");
                         // Titulo
-                        Element valTitulo = datosE.selectFirst("th:containsOwn(Título)");
+                        Element valTitulo = datosE.selectFirst("td:containsOwn(Título)");
                         if (valTitulo != null) {
                             r.setTitulo(valTitulo.nextElementSibling().text().split("/")[0]);
                             System.out.println("Titulo!"+r.getTitulo());
                         }
                         // Subtitulo
                         // Descripcion
-                        Element valDescripcion = datosE.selectFirst("th:containsOwn(Descripción fisica)");
+                        Element valDescripcion = datosE.selectFirst("td:containsOwn(Descripción fisica)");
                         if (valDescripcion != null){
                             r.setDescripcion(valDescripcion.nextElementSibling().text());
                             System.out.println("Descripcion!"+r.getDescripcion());
                         }
                         // DatosPublicacion
-                        Element valDatosPub = datosE.selectFirst("th:containsOwn(Datos de publicac.)");
+                        Element valDatosPub = datosE.selectFirst("td:containsOwn(Datos de publicac.)");
+                        if (valDatosPub == null){
+                            valDatosPub = datosE.selectFirst("td:containsOwn(Pie de imprenta)");
+                        }
                         if (valDatosPub != null){
                             r.setDatosPublicacion(valDatosPub.nextElementSibling().text());
                             System.out.println("DatosPub!"+r.getDatosPublicacion());
                         }
                         // Tema
-                        Element valTemas = datosE.selectFirst("th:containsOwn(Materia)");
-                        if (valTemas != null){
-                            r.setTema(valTemas.nextElementSibling().text().toLowerCase());
-                            System.out.println("Temas!"+String.join(",", r.getTemas()));
+                        Elements valTemas = datosE.select("td:containsOwn(Materia)");
+                        if (!valTemas.isEmpty()){
+                            for (Element e: valTemas) {
+                                r.setTema(e.nextElementSibling().text().toLowerCase());
+                                System.out.println("Temas!" + String.join(",", r.getTemas()));
+                            }
                         }
                         // URL portada
                         r.setUrlPortada("https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Ghostscript_spots.pdf/page1-543px-Ghostscript_spots.pdf.jpg");
                         // Colaboradores
-                        Element valAutor = datosE.selectFirst("th:containsOwn(Autor)");
+                        Element valAutor = datosE.selectFirst("td:containsOwn(Autor)");
                         if (valAutor != null){
                             r.setColaborador(TipoColaborador.AUTOR, valAutor.nextElementSibling().text().replace(", autor", ""));
+                            System.out.println("Colab!AUTOR," + valAutor.nextElementSibling().text().replace(", autor", ""));
                         }
-                        Elements colaboradores = datosE.select("th:containsOwn(Coautor personal)");
+                        Elements colaboradores = datosE.select("td:containsOwn(Coautor personal)");
                         for (Element c: colaboradores){
                             String cadc = c.nextElementSibling().text();
                             if (cadc.endsWith(", autor")){
@@ -208,13 +224,15 @@ public class Generador {
                 } else {
                     Element comp = doc.selectFirst("strong:containsOwn(No results found!)"); // No se encontraron resultados!
                     if (comp == null){
-                        System.out.println("Encontrado en"+b.name()+"!");
+                        System.out.println("Encontrado en "+b.name()+"!");
+                        existe = true;
                         Pattern p2 = Pattern.compile(".*(\\d)\\.(\\d) \\((\\d+) votes\\)", Pattern.MULTILINE);
                         Element datos = doc.selectFirst("#catalogue_detail_biblio>.record");
                         // Titulo
                         Element valTitulo = datos.selectFirst("[property=name]");
                         if (valTitulo != null) {
-                            r.setTitulo(valTitulo.text().replace(valTitulo.selectFirst(".title_resp_stmt").text(), "").split("/")[0]);
+                            Element elim = valTitulo.selectFirst(".title_resp_stmt");
+                            r.setTitulo(valTitulo.text().replace((elim != null)?elim.text():"", "").split("/")[0]);
                             System.out.println("Titulo!"+r.getTitulo());
                         }
                         // Subtitulo
@@ -250,7 +268,8 @@ public class Generador {
                             Element n = c.selectFirst("[resource=\"#record\"]");
                             Element t = c.selectFirst(".relatorCode");
                             TipoColaborador tc;
-                            switch (t.text()){
+                            String tt = (t != null)?t.text():"";
+                            switch (tt){
                                 case "[autor]":
                                     tc = TipoColaborador.AUTOR; break;
                                 case "[editor]":
@@ -277,7 +296,12 @@ public class Generador {
                     }
                 }
             }
+            if (!existe) {
+                eliminar.add(r);
+                System.out.println("Eliminando "+r.getIsbn().get(0));
+            }
         }
+        for (Recurso r: eliminar) { Comun.recursos.remove(r); }
     }
 
     /*
@@ -285,6 +309,6 @@ public class Generador {
      */
     public static void escribirJSON() throws IOException {
         ObjectMapper mapper = new ObjectMapper();
-        mapper.writeValue(new File("C:\\USers\\Xivan", "datos.json"), Comun.recursos);
+        mapper.writeValue(new File("C:\\Users\\Xivan", "datos.json"), Comun.recursos);
     }
 }

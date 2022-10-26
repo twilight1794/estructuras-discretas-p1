@@ -18,4 +18,9 @@
         android:icon="@drawable/ic_baseline_qr_code_24"
         android:title="@string/compartir_qr"
         app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/acc_ayuda"
+        android:icon="@drawable/ic_baseline_help_24"
+        android:title="@string/ayuda"
+        app:showAsAction="ifRoom" />
 </menu>

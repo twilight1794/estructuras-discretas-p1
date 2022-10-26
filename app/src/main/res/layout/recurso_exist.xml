@@ -8,7 +8,9 @@
         android:id="@+id/recurso_exist_bib"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginEnd="274dp"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        app:layout_constraintEnd_toStartOf="@+id/recurso_exist_id"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -17,21 +19,27 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toStartOf="@+id/recurso_exist_ver"
         app:layout_constraintStart_toEndOf="@id/recurso_exist_bib"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/recurso_exist_clas"
-        android:layout_width="match_parent"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toStartOf="@+id/recurso_exist_ver"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/recurso_exist_bib" />
 
     <TextView
         android:id="@+id/recurso_exist_exist"
-        android:layout_width="match_parent"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        app:layout_constraintEnd_toStartOf="@+id/recurso_exist_ver"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/recurso_exist_clas" />
 
@@ -43,5 +51,14 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/recurso_exist_exist" />
+
+    <Button
+        android:id="@+id/recurso_exist_ver"
+        style="@style/BotonSinBorde"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/recurso_ver"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -78,6 +78,16 @@
     <string name="patron_ex">%d existencias, %d disponibles para préstamo</string>
     <string name="patron_disp">Próximo disponible el %s</string>
     <string name="patron_act">Actualizado el %s</string>
+    <string name="ayuda">Ayuda</string>
+    <string name="ayuda_msg"><![CDATA[¿Hay algún problema o falla en la aplicación, o un error en algún dato? ¿O simplemente quieres hacer un comentario o sugerencia?<br />
+        Hay varios métodos para eso:<br><br>
+        &#160;&#160;1. Comenta en <a href="https://play.google.com/store/apps/details?id=xyz.campanita.estructurasdiscretasp1">Google Play</a><br>
+        &#160;&#160;2. Crea una incidencia en <a href="https://github.com/twilight1794/estructuras-discretas-p1/issues">GitHub</a><br>
+        &#160;&#160;3. Envía un correo electr4ónico a <a href="mailto:campanita@disroot.org">campanita@disroot.org</a><br>
+        &#160;&#160;4. Si conoces a los creadores (ver sección "Acerca de"), puedes informarles en persona]]></string>
+    <string name="recurso_ver">Ver en línea</string>
+    <string name="x_elementos">%d elementos</string>
+    <string name="x_resultados">%d resultados</string>
     <!--Temas-->
     <string name="tema_1">Lógica proposicional y cálculo de predicados</string>
     <string name="tema_2">Conjuntos, relaciones y pruebas matemáticas</string>

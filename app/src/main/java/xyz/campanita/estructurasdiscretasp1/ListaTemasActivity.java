@@ -6,6 +6,8 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.res.Resources;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
 
 import java.util.ArrayList;
 
@@ -55,5 +57,21 @@ public class ListaTemasActivity extends AppCompatActivity {
         mRecyclerView.setLayoutManager(layoutManager);
         TemaAdapter mAdapter = new TemaAdapter(temas);
         mRecyclerView.setAdapter(mAdapter);
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.resto, menu);
+        super.onCreateOptionsMenu(menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        if (item.getItemId() == R.id.acc_ayuda){
+            (new AyudaDialogFragment()).show(getSupportFragmentManager(), "ayuda");
+            return true;
+        }
+        return super.onOptionsItemSelected(item);
     }
 }

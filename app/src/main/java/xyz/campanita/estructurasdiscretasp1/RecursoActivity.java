@@ -20,6 +20,7 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.RatingBar;
@@ -356,11 +357,13 @@ public class RecursoActivity extends AppCompatActivity {
                             bmp.setPixel(x, y, bitMatrix.get(x, y) ? Color.BLACK : Color.WHITE);
                         }
                     }
-                    QRDialogFragment dialogFragment = new QRDialogFragment(bmp, url, r.getTitulo());
-                    dialogFragment.show(getSupportFragmentManager(),"qr");
+                    (new QRDialogFragment(bmp, url, r.getTitulo())).show(getSupportFragmentManager(), "qr");
                 } catch (Exception e) {
                     Snackbar.make(getWindow().getDecorView().getRootView(), R.string.error_generico, Snackbar.LENGTH_LONG).show();
                 }
+                return true;
+            case R.id.acc_ayuda:
+                (new AyudaDialogFragment()).show(getSupportFragmentManager(), "ayuda");
                 return true;
             default:
                 return super.onOptionsItemSelected(item);
@@ -463,9 +466,14 @@ public class RecursoActivity extends AppCompatActivity {
                             int exist = ex.getExistencias();
                             exText.setText(String.format("%d existencia"+(exist!=1?"s":""), exist));
                         }
-                        Log.i("UUU", "COunt:"+Integer.toString(cont.getChildCount()));
+                        exCont.findViewById(R.id.recurso_exist_ver).setOnClickListener(v -> {
+                            Intent in = new Intent(Intent.ACTION_VIEW, Uri.parse(Comun.getURIBusqueda(r.getIsbn().get(0), b)));
+                            startActivity(in);
+                        });
+
+                        Log.i("UUU", "Count:"+cont.getChildCount());
                         cont.addView(exCont);
-                     }
+                    }
                 }
                 try {
                     cargando.setVisibility(View.GONE);
