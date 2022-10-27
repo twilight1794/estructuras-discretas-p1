@@ -1,5 +1,7 @@
 package xyz.campanita.estructurasdiscretasp1;
 
+import static android.view.View.GONE;
+
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.constraintlayout.widget.ConstraintLayout;
 
@@ -52,7 +54,6 @@ import java.util.Calendar;
 import java.util.Date;
 import java.util.Locale;
 import java.util.Objects;
-import java.util.Random;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.regex.Matcher;
@@ -78,8 +79,10 @@ public class RecursoActivity extends AppCompatActivity {
     protected DateFormat df = new SimpleDateFormat("dd/MM/yyyy", Locale.getDefault());
     protected DateFormat edf = new SimpleDateFormat("dd/MM/yyyy HH:mm", Locale.getDefault());
 
-    ExecutorService mExecutor;
-    Handler mHandler;
+    ExecutorService mExecutorPort;
+    Handler mHandlerPort;
+    ExecutorService mExecutorEx;
+    Handler mHandlerEx;
     Resources res;
 
     @Override
@@ -152,7 +155,7 @@ public class RecursoActivity extends AppCompatActivity {
             if (valTipo == TipoRecurso.LIBRO) {
                 getSupportActionBar().setSubtitle(R.string.recurso_libro);
                 if (r.getUrlElectronico() == null) {
-                    fab.setVisibility(View.GONE);
+                    fab.setVisibility(GONE);
                 }
             } else {
                 getSupportActionBar().setSubtitle(R.string.recurso_libroe);
@@ -172,21 +175,21 @@ public class RecursoActivity extends AppCompatActivity {
             if (valSubtitulo != null) {
                 ((TextView) findViewById(R.id.recurso_subtitulo)).setText(valSubtitulo);
             } else {
-                findViewById(R.id.recurso_subtitulo).setVisibility(View.GONE);
+                findViewById(R.id.recurso_subtitulo).setVisibility(GONE);
             }
             // Descripcion
             String valDescripcion = r.getDescripcion();
             if (valDescripcion != null) {
                 ((TextView) findViewById(R.id.recurso_descripcion)).setText(valDescripcion);
             } else {
-                findViewById(R.id.recurso_descripcion).setVisibility(View.GONE);
+                findViewById(R.id.recurso_descripcion).setVisibility(GONE);
             }
             // DatosPublicacion
             String valDatosPub = r.getDatosPublicacion();
             if (valDatosPub != null) {
                 ((TextView) findViewById(R.id.recurso_datospub)).setText(valDatosPub);
             } else {
-                findViewById(R.id.recurso_datospub).setVisibility(View.GONE);
+                findViewById(R.id.recurso_datospub).setVisibility(GONE);
             }
             // Tema
             ChipGroup gTemas = findViewById(R.id.recurso_temas_cont);
@@ -220,7 +223,7 @@ public class RecursoActivity extends AppCompatActivity {
                     if (n1.getPagina() != null){
                         ((TextView) temaCont.findViewById(R.id.recurso_temasasig_dato)).setText(n1.getPagina());
                     } else {
-                        temaCont.findViewById(R.id.recurso_temasasig_dato).setVisibility(View.GONE);
+                        temaCont.findViewById(R.id.recurso_temasasig_dato).setVisibility(GONE);
                         if (n1.getSubtemas() == null){
                             temaCont.findViewById(R.id.recurso_temasasig_si).setVisibility(View.VISIBLE);
                         }
@@ -238,7 +241,7 @@ public class RecursoActivity extends AppCompatActivity {
                                 if (n2.getPagina() != null){
                                     ((TextView) temaCont2.findViewById(R.id.recurso_temasasig_dato)).setText(n2.getPagina());
                                 } else {
-                                    temaCont2.findViewById(R.id.recurso_temasasig_dato).setVisibility(View.GONE);
+                                    temaCont2.findViewById(R.id.recurso_temasasig_dato).setVisibility(GONE);
                                     temaCont2.findViewById(R.id.recurso_temasasig_si).setVisibility(View.VISIBLE);
                                 }
                                 ((TextView) temaCont2.findViewById(R.id.recurso_temasasig_num)).setText(res.getString(R.string.patron_tema2, i + 1, j + 1));
@@ -250,16 +253,9 @@ public class RecursoActivity extends AppCompatActivity {
                 }
             }
             // UrlPortada
-            ImageView p = findViewById(R.id.recurso_portada);
-            try {
-                Bitmap valPortada = obtenerPortada(r.getUrlPortada());
-                p.setImageBitmap(valPortada);
-            } catch (IllegalStateException e){
-                p.setImageResource(R.drawable.portada_plantilla);
-            } catch (Exception e){
-                Snackbar.make(this.getCurrentFocus(), R.string.error_descarga_s, Snackbar.LENGTH_LONG).show();
-                p.setImageResource(R.drawable.portada_plantilla);
-            }
+            mExecutorPort = Executors.newSingleThreadExecutor();
+            mHandlerPort = new Handler(Looper.getMainLooper());
+            obtenerPortada(this);
             // Colaborador
             LinearLayout gColaboradores = findViewById(R.id.recurso_colab_cont);
             for (Colaborador c: r.getColaborador()){
@@ -304,8 +300,8 @@ public class RecursoActivity extends AppCompatActivity {
             ((RatingBar) findViewById(R.id.recurso_cal)).setRating(valCalif);
             ((TextView) findViewById(R.id.recurso_cal_votos)).setText(res.getString(R.string.patron_votos, valCalif/10.0, valVotos));
             // Existencias
-            mExecutor = Executors.newSingleThreadExecutor();
-            mHandler = new Handler(Looper.getMainLooper());
+            mExecutorEx = Executors.newSingleThreadExecutor();
+            mHandlerEx = new Handler(Looper.getMainLooper());
             actualizarExistencias(this, true, false);
         }
     }
@@ -353,8 +349,8 @@ public class RecursoActivity extends AppCompatActivity {
                 }
                 return true;
             case R.id.acc_existencias:
-                mExecutor = Executors.newSingleThreadExecutor();
-                mHandler = new Handler(Looper.getMainLooper());
+                mExecutorEx = Executors.newSingleThreadExecutor();
+                mHandlerEx = new Handler(Looper.getMainLooper());
                 actualizarExistencias(this, true, true);
                 return true;
             case R.id.acc_qr:
@@ -384,37 +380,50 @@ public class RecursoActivity extends AppCompatActivity {
         }
     }
 
-    public Bitmap obtenerPortada(String url) throws IOException {
-        URL myFileUrl = new URL(url);
-        HttpURLConnection conn = (HttpURLConnection) myFileUrl.openConnection();
-        conn.connect();
-        Bitmap b = BitmapFactory.decodeStream(conn.getInputStream());
-        if (b.getWidth()>10) {
-            return b;
-        } else {
-            throw new IllegalStateException(); // FIX: Crear nueva excepcion
-        }
-    }
-
     public interface OnProcessedListener {
         void onProcessed(int estado);
     }
+    public interface OnProcessedListenerPort {
+        void onProcessed(ImageView v, Bitmap b);
+    }
+
+    private void obtenerPortada(final Context context){
+        final OnProcessedListenerPort listener = (v, b) -> mHandlerEx.post(() -> {
+            v.setImageBitmap(b);
+            v.setVisibility(View.VISIBLE);
+            mExecutorPort.shutdown();
+        });
+
+        Runnable backgroundRunnable = () -> {
+            ImageView p = findViewById(R.id.recurso_portada);
+            try {
+                URL myFileUrl = new URL(r.getUrlPortada());
+                HttpURLConnection conn = (HttpURLConnection) myFileUrl.openConnection();
+                conn.connect();
+                Bitmap b = BitmapFactory.decodeStream(conn.getInputStream());
+                if (b.getWidth()>10) { listener.onProcessed(p, b); }
+            } catch (Exception ignored) { System.out.println("Falló portada:"); ignored.printStackTrace(); }
+            mExecutorPort.shutdown();
+        };
+        mExecutorPort.execute(backgroundRunnable);
+    }
 
     private void actualizarExistencias(final Context context, final boolean finished, final boolean origen){
-        final OnProcessedListener listener = estado -> mHandler.post(() -> {
-            TextView enc = findViewById(R.id.recurso_exist_enc);
-            TextView cargando = findViewById(R.id.recurso_exist_cargando);
-            LinearLayout cont = findViewById(R.id.recurso_exist_cont);
+        TextView enc = findViewById(R.id.recurso_exist_enc);
+        TextView cargando = findViewById(R.id.recurso_exist_cargando);
+        LinearLayout cont = findViewById(R.id.recurso_exist_cont);
+
+        final OnProcessedListener listener = estado -> mHandlerEx.post(() -> {
             if (estado == 1) {
                 Snackbar.make(getWindow().getDecorView().getRootView(), R.string.error_descarga_s, Snackbar.LENGTH_LONG).show();
-                enc.setVisibility(View.GONE);
-                cargando.setVisibility(View.GONE);
-                cont.setVisibility(View.GONE);
+                enc.setVisibility(GONE);
+                cargando.setVisibility(GONE);
+                cont.setVisibility(GONE);
             } else if (estado == 2){
                 Snackbar.make(getWindow().getDecorView().getRootView(), R.string.error_generico, Snackbar.LENGTH_LONG).show();
-                enc.setVisibility(View.GONE);
-                cargando.setVisibility(View.GONE);
-                cont.setVisibility(View.GONE);
+                enc.setVisibility(GONE);
+                cargando.setVisibility(GONE);
+                cont.setVisibility(GONE);
             } else {
                 Log.i("UUU", "actualizarExistencias");
                 cargando.setVisibility(View.VISIBLE);
@@ -431,7 +440,7 @@ public class RecursoActivity extends AppCompatActivity {
                         switch (b) {
                             case CENTRAL:
                                 nombreb = R.string.bib_central;
-                                exCont.findViewById(R.id.recurso_exist_clas).setVisibility(View.GONE);
+                                exCont.findViewById(R.id.recurso_exist_clas).setVisibility(GONE);
                                 break;
                             case DOVALI:
                                 nombreb = R.string.bib_dovali; break;
@@ -447,11 +456,11 @@ public class RecursoActivity extends AppCompatActivity {
                                 nombreb = R.string.bib_cch_or; break;
                             case VASCONCELOS:
                                 nombreb = R.string.bib_vasconcelos;
-                                verOnline.setVisibility(View.GONE);
+                                verOnline.setVisibility(GONE);
                                 break;
                             case BNM:
                                 nombreb = R.string.bib_bnm;
-                                verOnline.setVisibility(View.GONE);
+                                verOnline.setVisibility(GONE);
                         }
                         ((TextView) exCont.findViewById(R.id.recurso_exist_bib)).setText(nombreb);
                         TextView idText = exCont.findViewById(R.id.recurso_exist_id);
@@ -460,7 +469,7 @@ public class RecursoActivity extends AppCompatActivity {
                             idText.setText(res.getString(R.string.patron_id, id));
                             Log.i("UUU","Id bueno");
                         } else {
-                            idText.setVisibility(View.GONE);
+                            idText.setVisibility(GONE);
                         }
                         TextView catText = exCont.findViewById(R.id.recurso_exist_clas);
                         String cat = ex.getCatalogo();
@@ -468,7 +477,7 @@ public class RecursoActivity extends AppCompatActivity {
                             Log.i("UUU","cat bueno");
                             catText.setText(res.getString(R.string.patron_clas, cat));
                         } else {
-                            catText.setVisibility(View.GONE);
+                            catText.setVisibility(GONE);
                         }
                         TextView exText = exCont.findViewById(R.id.recurso_exist_exist);
                         if (ex.getDisponibilidad() != -1){
@@ -497,7 +506,7 @@ public class RecursoActivity extends AppCompatActivity {
                     }
                 }
                 try {
-                    cargando.setVisibility(View.GONE);
+                    cargando.setVisibility(GONE);
                     Date ultima = Calendar.getInstance().getTime();
                     r.setUltimaAct(ultima);
                     TextView ultimaText = findViewById(R.id.recurso_exist_ultima);
@@ -509,19 +518,21 @@ public class RecursoActivity extends AppCompatActivity {
                     }
                 } catch (Exception e) {
                     e.printStackTrace();
-                    enc.setVisibility(View.GONE);
-                    cargando.setVisibility(View.GONE);
-                    cont.setVisibility(View.GONE);
+                    enc.setVisibility(GONE);
+                    cargando.setVisibility(GONE);
+                    cont.setVisibility(GONE);
                     Snackbar.make(getWindow().getDecorView().getRootView(), R.string.error_generico, Snackbar.LENGTH_LONG).show();
                 }
             }
             if (finished){
-                mExecutor.shutdown();
+                mExecutorEx.shutdown();
             }
         });
 
         Runnable backgroundRunnable = () -> {
             try {
+                enc.setVisibility(View.VISIBLE);
+                cargando.setVisibility(View.VISIBLE);
                 if (r.getUltimaAct() == null){
                     for (Biblioteca b: Comun.consultables){
                         Log.i("UUU", "Consultando " + b.name());
@@ -580,6 +591,6 @@ public class RecursoActivity extends AppCompatActivity {
                 listener.onProcessed(2);
             }
         };
-        mExecutor.execute(backgroundRunnable);
+        mExecutorEx.execute(backgroundRunnable);
     }
 }

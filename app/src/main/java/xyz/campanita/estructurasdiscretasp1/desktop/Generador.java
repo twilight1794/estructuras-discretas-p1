@@ -210,8 +210,6 @@ public class Generador {
                                 System.out.println("Temas!" + String.join(",", r.getTemas()));
                             }
                         }
-                        // URL portada
-                        r.setUrlPortada("https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Ghostscript_spots.pdf/page1-543px-Ghostscript_spots.pdf.jpg");
                         // Colaboradores
                         Element valAutor = datosE.selectFirst("td:containsOwn(Autor)");
                         if (valAutor != null){
@@ -278,8 +276,6 @@ public class Generador {
                         if (valURLP != null) {
                             r.setUrlPortada(valURLP.attr("src"));
                             System.out.println("Portada!"+r.getUrlPortada());
-                        } else {
-                            r.setUrlPortada("https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Ghostscript_spots.pdf/page1-543px-Ghostscript_spots.pdf.jpg");
                         }
                         // Colaboradores
                         Elements valColaboradores = datos.select("h5.author a");

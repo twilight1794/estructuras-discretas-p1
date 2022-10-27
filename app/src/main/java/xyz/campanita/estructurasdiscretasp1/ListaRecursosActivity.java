@@ -11,6 +11,8 @@ import android.widget.TextView;
 
 import org.w3c.dom.Text;
 
+import java.io.IOException;
+
 import xyz.campanita.estructurasdiscretasp1.bibliotecas.Comun;
 import xyz.campanita.estructurasdiscretasp1.databinding.ActivityListaRecursosBinding;
 
@@ -29,6 +31,10 @@ public class ListaRecursosActivity extends AppCompatActivity {
 
         setSupportActionBar(binding.toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
+        try {
+            Comun.inicializar(this);
+        } catch (IOException ignored) {}
 
         rv = findViewById(R.id.lista_recursos_cont);
         rv.setHasFixedSize(true);

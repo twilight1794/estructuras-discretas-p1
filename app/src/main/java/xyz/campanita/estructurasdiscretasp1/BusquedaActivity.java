@@ -17,6 +17,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.google.android.material.chip.Chip;
 
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Locale;
 import java.util.regex.Matcher;
@@ -45,6 +46,10 @@ public class BusquedaActivity extends AppCompatActivity implements FiltroTemasDi
         setSupportActionBar(binding.toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowTitleEnabled(false);
+
+        try {
+            Comun.inicializar(this);
+        } catch (IOException ignored) {}
 
         rv = findViewById(R.id.resultados_cont);
         rv.setHasFixedSize(true);
@@ -159,7 +164,7 @@ public class BusquedaActivity extends AppCompatActivity implements FiltroTemasDi
                         encontrado = true;
                         break;
                     }
-                    ArrayList<Nodo> temasAsig2 = n.getSubtemas();
+                    /*ArrayList<Nodo> temasAsig2 = n.getSubtemas();
                     for (int ii = 0; ii < temasAsig2.size(); ii++) {
                         encontrado = false;
                         Nodo n2 = temasAsig2.get(ii);
@@ -171,7 +176,7 @@ public class BusquedaActivity extends AppCompatActivity implements FiltroTemasDi
                             }
                         }
                     }
-                    if (encontrado) { break; }
+                    if (encontrado) { break; }*/
                 }
             }
             if (!encontrado){ continue; }

@@ -38,8 +38,11 @@ public class FavoritosActivity extends AppCompatActivity {
         setContentView(binding.getRoot());
 
         setSupportActionBar(binding.toolbar);
-
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
+        try {
+            Comun.inicializar(this);
+        } catch (IOException ignored) {}
 
         rv = findViewById(R.id.favoritos_cont);
         rv.setHasFixedSize(true);

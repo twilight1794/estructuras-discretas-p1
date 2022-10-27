@@ -39,6 +39,7 @@
     <string name="error_descarga">No se pudo descargar el índice de recursos. Compruebe su conexión a Internet.</string>
     <string name="error_descarga_t">Error</string>
     <string name="error_descarga_s">No se pudo descargar el índice de recursos</string>
+    <string name="error_descarga_i_s">No se pudo descargar la imagen de portada</string>
     <string name="exito_descarga_s">Se actualizó el índice de recursos</string>
     <string name="error_descarga_ex">No se pudo actualizar las existencias</string>
     <string name="exito_act_s">Existencias actualizadas</string>
