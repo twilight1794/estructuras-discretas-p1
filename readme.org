@@ -5,4 +5,5 @@
 App para el primer proyecto de la asignatura de Estructuras Discretas de la carrera de Ingeniería en Computación, impartida por la profesora Margarita Carrera Fournier.
 
 ** Descargas
+- [[https://play.google.com/store/apps/details?id=xyz.campanita.estructurasdiscretasp1][Descargar de Google Play]]
 - [[https://github.com/twilight1794/estructuras-discretas-p1/releases][Descarga de APK]]
