@@ -60,7 +60,7 @@ public class FiltroTemasDialogFragment extends DialogFragment {
             ch.setText(String.format("Tema %s: %s", temaId, encArray[i]));
             ch.setTextAppearance(androidx.appcompat.R.style.TextAppearance_AppCompat_Medium);
             llc.addView(ch);
-            String[] encSubArray = res.getStringArray(res.getIdentifier("temas_"+(i+1), "array", getContext().getPackageName()));
+            /*String[] encSubArray = res.getStringArray(res.getIdentifier("temas_"+(i+1), "array", getContext().getPackageName()));
             for (int ii = 0; ii<encSubArray.length; ii++) {
                 CheckBox ach = new CheckBox(getContext());
                 temaId = String.format("%d.%d", i+1, ii+1);
@@ -73,7 +73,7 @@ public class FiltroTemasDialogFragment extends DialogFragment {
                 ach.setId(View.generateViewId());
                 ach.setText(String.format("Tema %s: %s", temaId, encSubArray[ii]));
                 llc.addView(ach);
-            }
+            }*/
         }
         builder.setView(v);
 

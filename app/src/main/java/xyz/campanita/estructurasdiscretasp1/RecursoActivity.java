@@ -29,6 +29,7 @@ import android.widget.TextView;
 
 import com.google.android.material.chip.Chip;
 import com.google.android.material.chip.ChipGroup;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.snackbar.Snackbar;
 import com.google.zxing.BarcodeFormat;
 import com.google.zxing.common.BitMatrix;
@@ -65,6 +66,7 @@ import xyz.campanita.estructurasdiscretasp1.bibliotecas.Comun;
 import xyz.campanita.estructurasdiscretasp1.bibliotecas.Existencia;
 import xyz.campanita.estructurasdiscretasp1.bibliotecas.Nodo;
 import xyz.campanita.estructurasdiscretasp1.bibliotecas.Recurso;
+import xyz.campanita.estructurasdiscretasp1.bibliotecas.TipoId;
 import xyz.campanita.estructurasdiscretasp1.bibliotecas.TipoRecurso;
 import xyz.campanita.estructurasdiscretasp1.databinding.ActivityRecursoBinding;
 
@@ -105,7 +107,7 @@ public class RecursoActivity extends AppCompatActivity {
                 if (Objects.equals(comp[2], "isbn")){
                     boolean encontrado = false;
                     for (Recurso rec: Comun.recursos){
-                        if (rec.getIsbn().contains(comp[3])) {
+                        if (rec.getId().contains(comp[3])) {
                             r = rec;
                             encontrado = true;
                             break;
@@ -139,18 +141,30 @@ public class RecursoActivity extends AppCompatActivity {
 
         Log.i("UUU", "Llega?");
         if (!error) {
+            FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab_abrir);
+            fab.setOnClickListener(v -> {
+                Intent in = new Intent(Intent.ACTION_VIEW, Uri.parse(r.getUrlElectronico()));
+                try { startActivity(in); }
+                catch (Exception ignored) {}
+            });
             // Tipo
             TipoRecurso valTipo = r.getTipo();
             if (valTipo == TipoRecurso.LIBRO) {
                 getSupportActionBar().setSubtitle(R.string.recurso_libro);
-                findViewById(R.id.fab_abrir).setVisibility(View.GONE);
+                if (r.getUrlElectronico() == null) {
+                    fab.setVisibility(View.GONE);
+                }
             } else {
                 getSupportActionBar().setSubtitle(R.string.recurso_libroe);
             }
             // ISBN (o cualquier otro id externo)
-            String valISBN = String.join(", ", r.getIsbn());
+            String valISBN = String.join(", ", r.getId());
             ((TextView) findViewById(R.id.recurso_codigo)).setText(valISBN);
-            // FIX: Poner tipo de id
+            // Tipo de id
+            String valTipoId = null;
+            if (r.getTipoId() == TipoId.ISBN) { valTipoId = "ISBN"; }
+            else if (r.getTipoId() == TipoId.CLASIFICACION) { valTipoId = "Clasificación UNAM"; }
+            ((TextView) findViewById(R.id.recurso_codigo_tipo)).setText(valTipoId);
             // Titulo
             ((TextView) findViewById(R.id.recurso_titulo)).setText(r.getTitulo());
             // Subtitulo
@@ -303,7 +317,7 @@ public class RecursoActivity extends AppCompatActivity {
             super.onCreateOptionsMenu(menu);
             // Estado inicial del favorito
             MenuItem item = menu.getItem(0);
-            int i = Comun.favoritos.indexOf(r.getIsbn().get(0));
+            int i = Comun.favoritos.indexOf(r.getId().get(0));
             if (i != -1) {
                 item.setChecked(true);
                 item.setIcon(R.drawable.ic_baseline_favorite_24);
@@ -322,12 +336,12 @@ public class RecursoActivity extends AppCompatActivity {
                 return true;
             case R.id.acc_favorito:
                 if (item.isChecked()){
-                    Comun.favoritos.remove(r.getIsbn().get(0));
+                    Comun.favoritos.remove(r.getId().get(0));
                     item.setChecked(false);
                     item.setIcon(R.drawable.ic_baseline_favorite_border_24);
                     item.setTitle(R.string.favoritos_a);
                 } else {
-                    Comun.favoritos.add(r.getIsbn().get(0));
+                    Comun.favoritos.add(r.getId().get(0));
                     item.setChecked(true);
                     item.setIcon(R.drawable.ic_baseline_favorite_24);
                     item.setTitle(R.string.favoritos_q);
@@ -346,7 +360,7 @@ public class RecursoActivity extends AppCompatActivity {
             case R.id.acc_qr:
                 QRCodeWriter writer = new QRCodeWriter();
                 // TODO: implementar varios tipos de ids
-                String url = "http://app.campanita.xyz/estructurasdiscretasp1/isbn/" + r.getIsbn().get(0);
+                String url = "http://app.campanita.xyz/estructurasdiscretasp1/isbn/" + r.getId().get(0);
                 try {
                     BitMatrix bitMatrix = writer.encode(url, BarcodeFormat.QR_CODE, 512, 512);
                     int width = bitMatrix.getWidth();
@@ -473,8 +487,9 @@ public class RecursoActivity extends AppCompatActivity {
                             exText.setText(String.format("%d existencia"+(exist!=1?"s":""), exist));
                         }
                         verOnline.setOnClickListener(v -> {
-                            Intent in = new Intent(Intent.ACTION_VIEW, Uri.parse(Comun.getURIBusqueda(r.getIsbn().get(0), b)));
-                            startActivity(in);
+                            Intent in = new Intent(Intent.ACTION_VIEW, Uri.parse(Comun.getURIBusqueda(r.getId().get(0), b)));
+                            try { startActivity(in); }
+                            catch (Exception ignored) {}
                         });
 
                         Log.i("UUU", "Count:"+cont.getChildCount());
@@ -527,8 +542,8 @@ public class RecursoActivity extends AppCompatActivity {
                             r.setExistencia(b, "ID", tblAcervo.size() - 1, exist, clas, new ArrayList<>());
                             Log.i("UUU", String.format("Acervo: %d, Existencias: %d, Clasificacion: %s", tblAcervo.size() - 1, exist, clas));
                         } else if (b != Biblioteca.CENTRAL) {
-                            String uri = Comun.getURIBusqueda(r.getIsbn().get(0), b);
-                            Log.i("UUU", Comun.getURIBusqueda(r.getIsbn().get(0), b));
+                            String uri = Comun.getURIBusqueda(r.getId().get(0), b);
+                            Log.i("UUU", Comun.getURIBusqueda(r.getId().get(0), b));
                             Request docreq = new Request.Builder().url(uri).addHeader("User-Agent",Comun.userAgent).get().build();
                             Document doc = Jsoup.parse(okHttp.newCall(docreq).execute().body().string());
                             Element comp = doc.selectFirst("strong:containsOwn(No results found!)"); // No se encontraron resultados!

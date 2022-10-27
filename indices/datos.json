@@ -1,1 +1,4553 @@
-[{"tipo":"LIBRO","isbn":["9688807990"],"titulo":"Estructuras de matematicas discretas para la computacion ","subtitulo":null,"descripcion":"524 páginas : ilustraciones","datosPublicacion":"México: Prentice-Hall Hispanoamericana, [1997?]","urlPortada":"https://images-na.ssl-images-amazon.com/images/P/9688807990.01.MZZZZZZZ.jpg","colaborador":[{"tipo":"AUTOR","nombre":"Kolman, Bernard"},{"tipo":"AUTOR","nombre":"Busby, Robert C"},{"tipo":"AUTOR","nombre":"Ross, Sharon"},{"tipo":"TRADUCTOR","nombre":"Palmas Velasco, Óscar Alfredo"}],"calificacion":0,"votos":0,"existencias":{"BNM":{"id":null,"existencias":1,"disponibilidad":-1,"catalogo":null,"fechasDevolucion":[]}},"ultimaAct":null,"uriExistCentral":null,"temas":["matemáticas computacionales"],"temasAsignatura":[{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":true,"pagina":null}]},{"tipo":"LIBRO","isbn":["9688800805"],"titulo":"Estructuras de matematicas discretas para la computacion ","subtitulo":null,"descripcion":"441 páginas","datosPublicacion":"México: Prentice Hall, c1986","urlPortada":"https://images-na.ssl-images-amazon.com/images/P/9688800805.01.MZZZZZZZ.jpg","colaborador":[{"tipo":"AUTOR","nombre":"Kolman, Bernard"},{"tipo":"AUTOR","nombre":"Busby, Robert C"},{"tipo":"TRADUCTOR","nombre":"Herrera Patiño, Arturo"}],"calificacion":0,"votos":0,"existencias":{"VASCONCELOS":{"id":null,"existencias":1,"disponibilidad":-1,"catalogo":null,"fechasDevolucion":[]},"BNM":{"id":null,"existencias":1,"disponibilidad":-1,"catalogo":null,"fechasDevolucion":[]}},"ultimaAct":null,"uriExistCentral":null,"temas":["matemáticas computacionales"],"temasAsignatura":[{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":true,"pagina":null}]},{"tipo":"LIBRO","isbn":["9780134696447"],"titulo":"Discrete mathematical structures ","subtitulo":null,"descripcion":"xiv, 522 páginas : ilustraciones (algunas en color)","datosPublicacion":"New York, NY: Pearson, [2018]","urlPortada":"https://images-na.ssl-images-amazon.com/images/P/0134696441.01.MZZZZZZZ.jpg","colaborador":[{"tipo":"AUTOR","nombre":"Kolman, Bernard, 1932-"},{"tipo":"AUTOR","nombre":"Busby, Robert C"},{"tipo":"AUTOR","nombre":"Ross, Sharon Cutler, 1943-"}],"calificacion":0,"votos":0,"existencias":{},"ultimaAct":null,"uriExistCentral":null,"temas":["matemáticas computacionales"],"temasAsignatura":[{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":true,"pagina":null}]},{"tipo":"LIBRO","isbn":["9781118065532"],"titulo":"Discrete mathematics for computer science : or, (a Bit of) the math that computer scientists need to know ","subtitulo":null,"descripcion":"1209 páginas","datosPublicacion":"Hoboken, NJ : Wiley, [2018]","urlPortada":"https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Ghostscript_spots.pdf/page1-543px-Ghostscript_spots.pdf.jpg","colaborador":[{"tipo":"AUTOR","nombre":"Liben-Nowell, David."}],"calificacion":0,"votos":0,"existencias":{},"ultimaAct":null,"uriExistCentral":"https://catalogos.bibliotecacentral.unam.mx:443/F/JKF6UJ49T3CCQJ12XYXJ297QYM2U2HXHBUJHXK36XFR2NF8U2F-53184?func=item-global&doc_library=L1001&doc_number=002018497&year=&volume=&sub_library=","temas":["matemáticas computacionales"],"temasAsignatura":[{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":false,"pagina":null}]},{"tipo":"LIBRO","isbn":["9789977664538"],"titulo":"Introducción a la matemática discreta ","subtitulo":null,"descripcion":"368 páginas : ilustraciones","datosPublicacion":"Cartago, Costa Rica : Editorial Tecnológica de Costa Rica, 2018","urlPortada":"https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Ghostscript_spots.pdf/page1-543px-Ghostscript_spots.pdf.jpg","colaborador":[{"tipo":"AUTOR","nombre":"Murillo Tsijli, Manuel."}],"calificacion":0,"votos":0,"existencias":{},"ultimaAct":null,"uriExistCentral":"https://catalogos.bibliotecacentral.unam.mx:443/F/L8GHVD21K8HQH822VRNKUENPC7D485X3APULBYN6NV717X24DE-06816?func=item-global&doc_library=L1001&doc_number=002064328&year=&volume=&sub_library=","temas":["matemáticas computacionales"],"temasAsignatura":[{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":false,"pagina":null},{"subtemas":null,"explicado":false,"pagina":null},{"subtemas":null,"explicado":false,"pagina":null}]},{"tipo":"LIBRO","isbn":["9788484399162"],"titulo":"Matemática discreta para la computación : nociones teóricas y problemas resueltos ","subtitulo":null,"descripcion":"744 páginas : ilustraciones","datosPublicacion":"Jaén: Universidad de Jaén, Servicio de Publicaciones, [2015]","urlPortada":"https://images-na.ssl-images-amazon.com/images/P/8484399168.01.MZZZZZZZ.jpg","colaborador":[{"tipo":"AUTOR","nombre":"García Muñoz, Miguel Ángel"}],"calificacion":0,"votos":0,"existencias":{},"ultimaAct":null,"uriExistCentral":null,"temas":["matemáticas computacionales"],"temasAsignatura":[{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":false,"pagina":null}]},{"tipo":"LIBRO","isbn":["9788445429051"],"titulo":"Matemática discreta ","subtitulo":null,"descripcion":"415 páginas","datosPublicacion":"[Madrid]: Centro de Estudios Financieros, 2015","urlPortada":"https://images-na.ssl-images-amazon.com/images/P/8445429051.01.MZZZZZZZ.jpg","colaborador":[{"tipo":"AUTOR","nombre":"Moreno García, Juan José"},{"tipo":"AUTOR","nombre":"Pazos Sierra, Juan"}],"calificacion":0,"votos":0,"existencias":{},"ultimaAct":null,"uriExistCentral":null,"temas":["matemáticas computacionales"],"temasAsignatura":[{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":false,"pagina":null},{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":false,"pagina":null}]},{"tipo":"LIBRO","isbn":["9781429215107"],"titulo":"Mathematical structures for computer science ","subtitulo":null,"descripcion":"969 páginas","datosPublicacion":"New York: W. H. Freeman, 2014","urlPortada":"https://images-na.ssl-images-amazon.com/images/P/1429215100.01.MZZZZZZZ.jpg","colaborador":[{"tipo":"AUTOR","nombre":"Gersting, Judith L"}],"calificacion":0,"votos":0,"existencias":{},"ultimaAct":null,"uriExistCentral":null,"temas":["matemáticas","modelos matemáticos","matemáticas computacionales"],"temasAsignatura":[{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":true,"pagina":null}]},{"tipo":"LIBRO","isbn":["9786077077190"],"titulo":"Matemáticas para la computación ","subtitulo":null,"descripcion":"553 páginas : ilustraciones","datosPublicacion":"México : Alfaomega, 2014","urlPortada":"https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Ghostscript_spots.pdf/page1-543px-Ghostscript_spots.pdf.jpg","colaborador":[{"tipo":"AUTOR","nombre":"Jiménez Murillo, José Alfredo."}],"calificacion":0,"votos":0,"existencias":{},"ultimaAct":null,"uriExistCentral":"https://catalogos.bibliotecacentral.unam.mx:443/F/YF2K68PXK42PYLAGAEMUCSXR85Y86T4NG7G92X7JA4GPIIS8AH-53496?func=item-global&doc_library=L1001&doc_number=001660124&year=&volume=&sub_library=","temas":["matemáticas computacionales"],"temasAsignatura":[{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":false,"pagina":null},{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":true,"pagina":null}]},{"tipo":"LIBRO","isbn":["9788445426920"],"titulo":"Matemática discreta ","subtitulo":null,"descripcion":"415 páginas","datosPublicacion":"[Madrid]: Centro de Estudios Financieros, 2014","urlPortada":"https://images-na.ssl-images-amazon.com/images/P/8445426923.01.MZZZZZZZ.jpg","colaborador":[{"tipo":"AUTOR","nombre":"Moreno García, Juan José"},{"tipo":"AUTOR","nombre":"Pazos Sierra, Juan"}],"calificacion":0,"votos":0,"existencias":{},"ultimaAct":null,"uriExistCentral":null,"temas":["matemáticas computacionales"],"temasAsignatura":[{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":false,"pagina":null},{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":false,"pagina":null}]},{"tipo":"LIBRO","isbn":["9786074387384"],"titulo":"Matemáticas discretas : aplicaciones y ejercicios ","subtitulo":null,"descripcion":"x, 358 páginas ilustraciones","datosPublicacion":"México, D.F. : Grupo Editorial Patria 2014","urlPortada":"https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Ghostscript_spots.pdf/page1-543px-Ghostscript_spots.pdf.jpg","colaborador":[{"tipo":"AUTOR","nombre":"Villalpando Becerra, José Francisco."},{"tipo":"AUTOR","nombre":"García Sandoval, Andrés"}],"calificacion":0,"votos":0,"existencias":{},"ultimaAct":null,"uriExistCentral":"https://catalogos.bibliotecacentral.unam.mx:443/F/GC1K1C6U15UEUSLGBIR6M5LE9D9TSAREH8VK77C2GEF3632XBY-53549?func=item-global&doc_library=L1001&doc_number=001692640&year=&volume=&sub_library=","temas":["matemáticas computacionales","álgebra abstracta","lógica simbólica y matemática"],"temasAsignatura":[{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":false,"pagina":null}]},{"tipo":"LIBRO","isbn":["9789588537351"],"titulo":"Lógica y matemática : para ciencias de la computación ","subtitulo":null,"descripcion":"472 páginas : ilustraciones","datosPublicacion":"Bogotá, Colombia: Universidad Piloto de Colombia, 2012","urlPortada":"https://images-na.ssl-images-amazon.com/images/P/9588537355.01.MZZZZZZZ.jpg","colaborador":[{"tipo":"AUTOR","nombre":"Barboza Gutiérrez, Fidel"}],"calificacion":0,"votos":0,"existencias":{},"ultimaAct":null,"uriExistCentral":null,"temas":["lógica computacional","matemáticas computacionales"],"temasAsignatura":[{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":false,"pagina":null},{"subtemas":null,"explicado":false,"pagina":null}]},{"tipo":"LIBRO","isbn":["9786074816211"],"titulo":"Matemáticas discretas con aplicaciones ","subtitulo":null,"descripcion":"820 páginas : ilustraciones","datosPublicacion":"México, D. F.: Cengage Learning Editores, c2012","urlPortada":"https://images-na.ssl-images-amazon.com/images/P/6074816212.01.MZZZZZZZ.jpg","colaborador":[{"tipo":"AUTOR","nombre":"Epp, Susanna S"},{"tipo":"TRADUCTOR","nombre":"García Hernández, Ana Elizabeth"}],"calificacion":0,"votos":0,"existencias":{},"ultimaAct":null,"uriExistCentral":null,"temas":["matemáticas","matemáticas computacionales"],"temasAsignatura":[{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":true,"pagina":null}]},{"tipo":"LIBRO","isbn":["9781449604424","1449604420"],"titulo":"Essentials of discrete mathematics ","subtitulo":null,"descripcion":"xx, 488 páginas : ilustraciones","datosPublicacion":"Sudbury, Massachusetts : Jones & Bartlett Learning, c2012","urlPortada":"https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Ghostscript_spots.pdf/page1-543px-Ghostscript_spots.pdf.jpg","colaborador":[{"tipo":"AUTOR","nombre":"Hunter, David James, nacimiento 1968 autor."}],"calificacion":0,"votos":0,"existencias":{},"ultimaAct":null,"uriExistCentral":"https://catalogos.bibliotecacentral.unam.mx:443/F/UGJY42PIC5GR3QKQTG14LDLY816M61N27A3NLLC5LMSDTSAMXE-53726?func=item-global&doc_library=L1001&doc_number=001274876&year=&volume=&sub_library=","temas":["matemáticas computacionales"],"temasAsignatura":[{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":false,"pagina":null},{"subtemas":null,"explicado":false,"pagina":null},{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":false,"pagina":null}]},{"tipo":"LIBRO","isbn":["9788484396291"],"titulo":"Métodos computacionales en Álgebra : Matemática discreta : grupos y grafos ","subtitulo":null,"descripcion":"xii, 523 páginas : ilustraciones, diagramas + 1 CD-ROM (4 3/4 pulgadas)","datosPublicacion":"Jaén: Universidad de Jaén, Servicio de Publicaciones, cop. 2012","urlPortada":"https://images-na.ssl-images-amazon.com/images/P/8484396290.01.MZZZZZZZ.jpg","colaborador":[{"tipo":"AUTOR","nombre":"Ruiz Ruiz, Juan Francisco"}],"calificacion":0,"votos":0,"existencias":{},"ultimaAct":null,"uriExistCentral":null,"temas":["álgebra -- programas para computadoras","mathematica (programa para computadora)","matemáticas computacionales","teoría de grafos"],"temasAsignatura":[{"subtemas":null,"explicado":false,"pagina":null},{"subtemas":null,"explicado":false,"pagina":null},{"subtemas":null,"explicado":false,"pagina":null},{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":false,"pagina":null}]},{"tipo":"LIBRO","isbn":["9781439817681"],"titulo":"Discrete structures with contemporary applications ","subtitulo":null,"descripcion":"xix, 982 páginas : ilustraciones","datosPublicacion":"Boca Raton : CRC Press, c2011","urlPortada":"https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Ghostscript_spots.pdf/page1-543px-Ghostscript_spots.pdf.jpg","colaborador":[{"tipo":"AUTOR","nombre":"Stanoyevitch, Alexander."}],"calificacion":0,"votos":0,"existencias":{},"ultimaAct":null,"uriExistCentral":"https://catalogos.bibliotecacentral.unam.mx:443/F/ENXRV5B7ULVVIEAY54RD5BHP2D8LMBI8AGVQFR8X2QB78DN1VP-53813?func=item-global&doc_library=L1001&doc_number=001271715&year=&volume=&sub_library=","temas":["matemáticas computacionales","lógica simbólica y matemática","probabilidades"],"temasAsignatura":[{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":true,"pagina":null}]},{"tipo":"LIBRO","isbn":["9780132122719"],"titulo":"Discrete mathematics for computer scientists ","subtitulo":null,"descripcion":"495 páginas : ilustraciones","datosPublicacion":"Boston, Massachusetts: Addison-wesley, [2011]","urlPortada":"https://images-na.ssl-images-amazon.com/images/P/0132122715.01.MZZZZZZZ.jpg","colaborador":[{"tipo":"AUTOR","nombre":"Stein, Clifford, 1965-"},{"tipo":"AUTOR","nombre":"Bogart, Kenneth P"},{"tipo":"AUTOR","nombre":"Drysdale, Robert L, 1951-"}],"calificacion":0,"votos":0,"existencias":{},"ultimaAct":null,"uriExistCentral":null,"temas":["matemáticas computacionales"],"temasAsignatura":[{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":false,"pagina":null}]},{"tipo":"LIBRO","isbn":["9788484395300"],"titulo":"Matemática discreta para la computación : nociones teóricas y problemas resueltos ","subtitulo":null,"descripcion":"722 páginas : ilustraciones","datosPublicacion":"Jaén: Universidad de Jaén, Servicio de Publicaciones, depósito legal 2010","urlPortada":"https://images-na.ssl-images-amazon.com/images/P/8484395308.01.MZZZZZZZ.jpg","colaborador":[{"tipo":"AUTOR","nombre":"García Muñoz, Miguel Angel"}],"calificacion":0,"votos":0,"existencias":{},"ultimaAct":null,"uriExistCentral":null,"temas":["matemáticas computacionales"],"temasAsignatura":[{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":true,"pagina":null}]},{"tipo":"LIBRO","isbn":["9780763772062","0763772062"],"titulo":"Discrete structures, logic, and computability ","subtitulo":null,"descripcion":"1009 páginas : ilustraciones","datosPublicacion":"Sudbury, Massachusetts: Jones and Bartlett, 2010","urlPortada":"https://images-na.ssl-images-amazon.com/images/P/0763772062.01.MZZZZZZZ.jpg","colaborador":[{"tipo":"AUTOR","nombre":"Hein, James L"}],"calificacion":0,"votos":0,"existencias":{},"ultimaAct":null,"uriExistCentral":null,"temas":["matemáticas computacionales"],"temasAsignatura":[{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":true,"pagina":null}]},{"tipo":"LIBRO","isbn":["9789701514016"],"titulo":"Matemáticas para la computación ","subtitulo":null,"descripcion":"496 páginas : ilustraciones","datosPublicacion":"México : Alfaomega, 2009","urlPortada":"https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Ghostscript_spots.pdf/page1-543px-Ghostscript_spots.pdf.jpg","colaborador":[{"tipo":"AUTOR","nombre":"Jiménez Murillo, José Alfredo."}],"calificacion":0,"votos":0,"existencias":{},"ultimaAct":null,"uriExistCentral":"https://catalogos.bibliotecacentral.unam.mx:443/F/QQMDBU8CBQ8Y7GYQQ7PSLFATL6GC1BFCBTEFSPUI5GPLIS25VX-53948?func=item-global&doc_library=L1001&doc_number=001179886&year=&volume=&sub_library=","temas":["matemáticas computacionales"],"temasAsignatura":[{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":true,"pagina":null}]},{"tipo":"LIBRO","isbn":["9788429151800"],"titulo":"Invitación a la matemática discreta ","subtitulo":null,"descripcion":"xvii, 442 páginas : ilustraciones","datosPublicacion":"Barcelona, España ; México: Reverté, 2008","urlPortada":"https://images-na.ssl-images-amazon.com/images/P/842915180X.01.MZZZZZZZ.jpg","colaborador":[{"tipo":"AUTOR","nombre":"Matousek, Jiri"},{"tipo":"AUTOR","nombre":"Nesetril, Jaroslav"},{"tipo":"TRADUCTOR","nombre":"Lladó, Ana"}],"calificacion":0,"votos":0,"existencias":{},"ultimaAct":null,"uriExistCentral":null,"temas":["matemáticas","matemáticas computacionales"],"temasAsignatura":[{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":false,"pagina":null},{"subtemas":null,"explicado":false,"pagina":null},{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":false,"pagina":null}]},{"tipo":"LIBRO","isbn":["9789701065303","9701065301"],"titulo":"Matemáticas discretas con teoría de gráficas y combinatoria ","subtitulo":null,"descripcion":"531 páginas : ilustraciones","datosPublicacion":"México, D.F.: McGraw-Hill Interamericana, c2008","urlPortada":"https://images-na.ssl-images-amazon.com/images/P/9701065301.01.MZZZZZZZ.jpg","colaborador":[{"tipo":"AUTOR","nombre":"Veerarajan, T"},{"tipo":"TRADUCTOR","nombre":"Nagore Cázares, Gabriel"}],"calificacion":0,"votos":0,"existencias":{},"ultimaAct":null,"uriExistCentral":null,"temas":["teoría de conjuntos","análisis combinatorio","matemáticas"],"temasAsignatura":[{"subtemas":null,"explicado":false,"pagina":null},{"subtemas":null,"explicado":false,"pagina":null},{"subtemas":null,"explicado":false,"pagina":null},{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":false,"pagina":null}]},{"tipo":"LIBRO","isbn":["1846282411","9781846282416"],"titulo":"Discrete mathematics using a computer ","subtitulo":null,"descripcion":"xix, 441 páginas : ilustraciones","datosPublicacion":"London : Springer Verlag, c2006","urlPortada":"https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Ghostscript_spots.pdf/page1-543px-Ghostscript_spots.pdf.jpg","colaborador":[{"tipo":"AUTOR","nombre":"O'Donnell, John, 1952-."},{"tipo":"AUTOR","nombre":"Hall, Cordelia, 1955- "},{"tipo":"AUTOR","nombre":"Page, Rex L."}],"calificacion":0,"votos":0,"existencias":{},"ultimaAct":null,"uriExistCentral":"https://catalogos.bibliotecacentral.unam.mx:443/F/D3VDKJVCFLI6IR66J182K9T25AG7X1AMTGJ6GEG548V1UEFD4M-54050?func=item-global&doc_library=L1001&doc_number=001106851&year=&volume=&sub_library=","temas":["matemáticas computacionales","matemáticas -- procesamiento de datos"],"temasAsignatura":[{"subtemas":null,"explicado":false,"pagina":null},{"subtemas":null,"explicado":false,"pagina":null},{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":true,"pagina":null}]},{"tipo":"LIBRO","isbn":["9702606373"],"titulo":"Discrete Mathematics. Español","subtitulo":null,"descripcion":"672 páginas : ilustraciones","datosPublicacion":"México : Pearson Educación 2005","urlPortada":"https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Ghostscript_spots.pdf/page1-543px-Ghostscript_spots.pdf.jpg","colaborador":[{"tipo":"AUTOR","nombre":"Johnsonbaugh, Richard, 1941- autor."},{"tipo":"TRADUCTOR","nombre":"González Osuna, Marcia A."}],"calificacion":0,"votos":0,"existencias":{"VASCONCELOS":{"id":null,"existencias":1,"disponibilidad":-1,"catalogo":null,"fechasDevolucion":[]},"BNM":{"id":null,"existencias":1,"disponibilidad":-1,"catalogo":null,"fechasDevolucion":[]}},"ultimaAct":null,"uriExistCentral":"https://catalogos.bibliotecacentral.unam.mx:443/F/SQ26KDYD8BCQFAG36LC1SL9HI4VQ5LYBRVMHSS7S3A61XCMEY6-54189?func=item-global&doc_library=L1001&doc_number=001054784&year=&volume=&sub_library=","temas":["matemáticas","matemáticas computacionales"],"temasAsignatura":[{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":true,"pagina":null}]},{"tipo":"LIBRO","isbn":["075065855X"],"titulo":"Mathematics for electrical engineering and computing ","subtitulo":null,"descripcion":"x, 550 páginas","datosPublicacion":"Oxford: Newnes, 2003","urlPortada":"https://images-na.ssl-images-amazon.com/images/P/075065855X.01.MZZZZZZZ.jpg","colaborador":[{"tipo":"AUTOR","nombre":"Attenborough, Mary Patricia, 1954-"}],"calificacion":0,"votos":0,"existencias":{},"ultimaAct":null,"uriExistCentral":null,"temas":["ingeniería eléctrica -- matemáticas","matemáticas computacionales"],"temasAsignatura":[{"subtemas":null,"explicado":false,"pagina":null},{"subtemas":null,"explicado":false,"pagina":null},{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":false,"pagina":null}]},{"tipo":"LIBRO","isbn":["0817642692","3764342692"],"titulo":"A beginner's guide to discrete mathematics ","subtitulo":null,"descripcion":"xi, 367 páginas : ilustraciones","datosPublicacion":"Boston : Birkhäuser Verlag, c2003","urlPortada":"https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Ghostscript_spots.pdf/page1-543px-Ghostscript_spots.pdf.jpg","colaborador":[{"tipo":"AUTOR","nombre":"Wallis, W. D. autor."}],"calificacion":0,"votos":0,"existencias":{},"ultimaAct":null,"uriExistCentral":"https://catalogos.bibliotecacentral.unam.mx:443/F/LJDQXNHJQRKJS8VP4CRY3D69V6F8LNI5A9PAKQNX59B8T8N64R-54347?func=item-global&doc_library=L1001&doc_number=000966196&year=&volume=&sub_library=","temas":["matemáticas","matemáticas computacionales"],"temasAsignatura":[{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":false,"pagina":null}]},{"tipo":"LIBRO","isbn":["0817642498","3764342498"],"titulo":"Foundations of logic and mathematics : applications to computer science and cryptography ","subtitulo":null,"descripcion":"xvi, 415 páginas : ilustraciones","datosPublicacion":"Boston : Birkhäuser Verlag, c2002","urlPortada":"https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Ghostscript_spots.pdf/page1-543px-Ghostscript_spots.pdf.jpg","colaborador":[{"tipo":"AUTOR","nombre":"Nievergelt, Yves."}],"calificacion":0,"votos":0,"existencias":{},"ultimaAct":null,"uriExistCentral":"https://catalogos.bibliotecacentral.unam.mx:443/F/I1UGDX6TT19174QGDLKBA6V59P88GLPRPVTV6D7B1DG3J7HD8R-54438?func=item-global&doc_library=L1001&doc_number=000966089&year=&volume=&sub_library=","temas":["lógica simbólica y matemática","teoría de conjuntos","teoría de los números","matemáticas computacionales"],"temasAsignatura":[{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":false,"pagina":null},{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":false,"pagina":null}]},{"tipo":"LIBRO","isbn":["8479086785"],"titulo":"Metodos matematicos en la computacion ","subtitulo":null,"descripcion":"156 páginas : ilustraciones","datosPublicacion":"[Alicante]: Universidad de Alicante, 2002","urlPortada":"https://images-na.ssl-images-amazon.com/images/P/8479086785.01.MZZZZZZZ.jpg","colaborador":[{"tipo":"AUTOR","nombre":"Saez Martinez, Juan Manuel"},{"tipo":"AUTOR","nombre":"Cazorla Quevedo, Miguel Angel"},{"tipo":"AUTOR","nombre":"Rizo Aldeguer, Ramon"}],"calificacion":0,"votos":0,"existencias":{},"ultimaAct":null,"uriExistCentral":null,"temas":["matemáticas computacionales"],"temasAsignatura":[{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":false,"pagina":null},{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":false,"pagina":null}]},{"tipo":"LIBRO","isbn":["1852332360"],"titulo":"A first course in discrete mathematics ","subtitulo":null,"descripcion":"viii, 200 páginas : ilustraciones","datosPublicacion":"London ; New York: Springer Verlag, c2001","urlPortada":"https://images-na.ssl-images-amazon.com/images/P/1852332360.01.MZZZZZZZ.jpg","colaborador":[{"tipo":"AUTOR","nombre":"Anderson, Ian, 1952-"}],"calificacion":0,"votos":0,"existencias":{},"ultimaAct":null,"uriExistCentral":null,"temas":["matemáticas","matemáticas computacionales"],"temasAsignatura":[{"subtemas":null,"explicado":false,"pagina":null},{"subtemas":null,"explicado":false,"pagina":null},{"subtemas":null,"explicado":false,"pagina":null},{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":false,"pagina":null}]},{"tipo":"LIBRO","isbn":["9701702530"],"titulo":"Discrete Mathematics. Español","subtitulo":null,"descripcion":"701 páginas : ilustraciones","datosPublicacion":"México : Prentice Hall Hispanoamericana, c1999","urlPortada":"https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Ghostscript_spots.pdf/page1-543px-Ghostscript_spots.pdf.jpg","colaborador":[{"tipo":"AUTOR","nombre":"Johnsonbaugh, Richard, 1941- autor."},{"tipo":"TRADUCTOR","nombre":"Palmas Velasco, Óscar Alfredo"}],"calificacion":0,"votos":0,"existencias":{"VASCONCELOS":{"id":null,"existencias":1,"disponibilidad":-1,"catalogo":null,"fechasDevolucion":[]}},"ultimaAct":null,"uriExistCentral":"https://catalogos.bibliotecacentral.unam.mx:443/F/YYGD1UMSMRXNA15HE24QM1PMU2CX36LDFRHULJG9KSPLY8HNMI-54645?func=item-global&doc_library=L1001&doc_number=000833544&year=&volume=&sub_library=","temas":["matemáticas","matemáticas computacionales"],"temasAsignatura":[{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":true,"pagina":null}]},{"tipo":"LIBRO","isbn":["9681857437"],"titulo":"Matemáticas discretas Elias Micha","subtitulo":null,"descripcion":"205 páginas","datosPublicacion":"Metepec, Estado de México : CONALEP, c1998","urlPortada":"https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Ghostscript_spots.pdf/page1-543px-Ghostscript_spots.pdf.jpg","colaborador":[{"tipo":"AUTOR","nombre":"Micha, Elias."}],"calificacion":0,"votos":0,"existencias":{"VASCONCELOS":{"id":null,"existencias":1,"disponibilidad":-1,"catalogo":null,"fechasDevolucion":[]},"BNM":{"id":null,"existencias":1,"disponibilidad":-1,"catalogo":null,"fechasDevolucion":[]}},"ultimaAct":null,"uriExistCentral":"https://catalogos.bibliotecacentral.unam.mx:443/F/8QT351KJXGLK19HDR21R5RS112H1PXS6DGK1UBD6H67DG88VTM-54839?func=item-global&doc_library=L1001&doc_number=000834323&year=&volume=&sub_library=","temas":["matemáticas"],"temasAsignatura":[{"subtemas":null,"explicado":false,"pagina":null},{"subtemas":null,"explicado":false,"pagina":null},{"subtemas":null,"explicado":false,"pagina":null},{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":false,"pagina":null}]},{"tipo":"LIBRO","isbn":["9701007433"],"titulo":"Elementos de matematicas discretas ","subtitulo":null,"descripcion":"432 páginas : diagramas, gráficas","datosPublicacion":"México: McGraw-Hill, [1995]","urlPortada":"https://images-na.ssl-images-amazon.com/images/P/9701007433.01.MZZZZZZZ.jpg","colaborador":[{"tipo":"AUTOR","nombre":"Liu, C. L. (Chung Laung), 1934-"},{"tipo":"TRADUCTOR","nombre":"Díaz Torres, Luis Armando"}],"calificacion":0,"votos":0,"existencias":{"BNM":{"id":null,"existencias":1,"disponibilidad":-1,"catalogo":null,"fechasDevolucion":[]}},"ultimaAct":null,"uriExistCentral":null,"temas":["análisis combinatorio","álgebra abstracta"],"temasAsignatura":[{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":false,"pagina":null},{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":true,"pagina":null}]},{"tipo":"LIBRO","isbn":["5030006206"],"titulo":"Fundamentos de la matematica discreta ","subtitulo":null,"descripcion":"340 páginas","datosPublicacion":"Moscu : Mir, 1988","urlPortada":"https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Ghostscript_spots.pdf/page1-543px-Ghostscript_spots.pdf.jpg","colaborador":[{"tipo":"AUTOR","nombre":"Gorbatov, Viacheslav Afanas'evich."},{"tipo":"TRADUCTOR","nombre":"Andrianova, Maria A."}],"calificacion":0,"votos":0,"existencias":{},"ultimaAct":null,"uriExistCentral":"https://catalogos.bibliotecacentral.unam.mx:443/F/S146AM1YYLJC21ERAVHXUK839APIBBJ6FG6S9TI8EUCFQT6QG8-55121?func=item-global&doc_library=L1001&doc_number=000490613&year=&volume=&sub_library=","temas":["matemáticas","matemáticas computacionales"],"temasAsignatura":[{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":false,"pagina":null},{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":true,"pagina":null}]},{"tipo":"LIBRO","isbn":["9687270462"],"titulo":"Discrete mathematics Español","subtitulo":null,"descripcion":"506 páginas","datosPublicacion":"México, d.f. : Grupo editorial iberoamerica, c1988","urlPortada":"https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Ghostscript_spots.pdf/page1-543px-Ghostscript_spots.pdf.jpg","colaborador":[{"tipo":"AUTOR","nombre":"Johnsonbaugh, Richard, 1941- autor."},{"tipo":"TRADUCTOR","nombre":"Giudici E., Reinaldo"},{"tipo":"COLABORADOR","nombre":"Traducción de: Johnsonbaugh, Richard, 1941- Discrete mathematics"}],"calificacion":0,"votos":0,"existencias":{"BNM":{"id":null,"existencias":1,"disponibilidad":-1,"catalogo":null,"fechasDevolucion":[]}},"ultimaAct":null,"uriExistCentral":"https://catalogos.bibliotecacentral.unam.mx:443/F/84I1LIH1QME6JUETS33HK4IYQFUV813X7SD71T2T98LA8LID4Y-55343?func=item-global&doc_library=L1001&doc_number=000467855&year=&volume=&sub_library=","temas":["matemáticas computacionales","matemáticas"],"temasAsignatura":[{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":true,"pagina":null}]},{"tipo":"LIBRO","isbn":["9682461006"],"titulo":"Fundamentos de logica computacional ","subtitulo":null,"descripcion":"110 páginas : ilustraciones","datosPublicacion":"México : Editorial Trillas : Instituto Tecnologico y de Estudios Superiores de Monterrey, Universidad Virtual, 2000","urlPortada":"https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Ghostscript_spots.pdf/page1-543px-Ghostscript_spots.pdf.jpg","colaborador":[{"tipo":"AUTOR","nombre":"Frausto Solis, Juan."},{"tipo":"AUTOR","nombre":"Sanchez Ante, Gildardo"}],"calificacion":0,"votos":0,"existencias":{},"ultimaAct":null,"uriExistCentral":"https://catalogos.bibliotecacentral.unam.mx:443/F/JTKFTIHABHG1H4P5TTTR4IL41GQXLDD5HQNEEKHMYLIS6CIA7U-55564?func=item-global&doc_library=L1001&doc_number=000878312&year=&volume=&sub_library=","temas":["lógica computacional","complejidad computacional","lógica simbólica y matemática"],"temasAsignatura":[{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":false,"pagina":null},{"subtemas":null,"explicado":false,"pagina":null},{"subtemas":null,"explicado":false,"pagina":null}]},{"tipo":"LIBRO","isbn":["9789814730396","9789813147546"],"titulo":"Basic discrete mathematics : logic, set theory, & probability ","subtitulo":null,"descripcion":"xxvi, 706 páginas : ilustraciones","datosPublicacion":"New Jersey : World Scientific, [2016]","urlPortada":"https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Ghostscript_spots.pdf/page1-543px-Ghostscript_spots.pdf.jpg","colaborador":[{"tipo":"AUTOR","nombre":"Kohar, Richard."}],"calificacion":0,"votos":0,"existencias":{},"ultimaAct":null,"uriExistCentral":"https://catalogos.bibliotecacentral.unam.mx:443/F/4BEP75LJL4A63M35NQDXTITTRTVUUKFR5PXTPM4HB3NPFY21EX-55675?func=item-global&doc_library=L1001&doc_number=001963364&year=&volume=&sub_library=","temas":["lógica simbólica y matemática","teoría de la demostración","inducción (matemáticas)","teoría de conjuntos","probabilidades"],"temasAsignatura":[{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":false,"pagina":null},{"subtemas":null,"explicado":false,"pagina":null},{"subtemas":null,"explicado":false,"pagina":null}]},{"tipo":"LIBRO","isbn":["013216003X"],"titulo":"Discrete mathematical structures for computer science ","subtitulo":null,"descripcion":"464 páginas","datosPublicacion":"Englewood Cliffs, New Jersey: Prentice Hall, c1987","urlPortada":"https://images-na.ssl-images-amazon.com/images/P/013216003X.01.MZZZZZZZ.jpg","colaborador":[{"tipo":"AUTOR","nombre":"Kolman, Bernard, 1932-"},{"tipo":"AUTOR","nombre":"Busby, Robert C"}],"calificacion":0,"votos":0,"existencias":{},"ultimaAct":null,"uriExistCentral":null,"temas":["matemáticas computacionales"],"temasAsignatura":[{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":true,"pagina":null}]},{"tipo":"LIBRO","isbn":["0805370447"],"titulo":"Discrete mathematics with computer science applications ","subtitulo":null,"descripcion":"504 páginas","datosPublicacion":"Menlo park, california ; México city: B. Cummings, c1986","urlPortada":"https://images-na.ssl-images-amazon.com/images/P/0805370447.01.MZZZZZZZ.jpg","colaborador":[{"tipo":"AUTOR","nombre":"Skvarcius, Romualdas"},{"tipo":"AUTOR","nombre":"Robinson, William B"}],"calificacion":0,"votos":0,"existencias":{},"ultimaAct":null,"uriExistCentral":null,"temas":["matemáticas computacionales"],"temasAsignatura":[{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":false,"pagina":null},{"subtemas":null,"explicado":false,"pagina":null},{"subtemas":null,"explicado":false,"pagina":null}]},{"tipo":"LIBRO","isbn":["9781439812808"],"titulo":"Discrete mathematics : proofs, structures, and applications ","subtitulo":null,"descripcion":"xxi, 821 páginas : ilustraciones","datosPublicacion":"Boca Raton: CRC Press, c2010","urlPortada":"https://images-na.ssl-images-amazon.com/images/P/1439812802.01.MZZZZZZZ.jpg","colaborador":[{"tipo":"AUTOR","nombre":"Garnier, Rowan"},{"tipo":"AUTOR","nombre":"Taylor, John, 1957-"},{"tipo":"COLABORADOR","nombre":"Garnier, Rowan. Discrete mathematics for new technology"}],"calificacion":0,"votos":0,"existencias":{},"ultimaAct":null,"uriExistCentral":null,"temas":["matemáticas computacionales"],"temasAsignatura":[{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":true,"pagina":null}]},{"tipo":"LIBRO","isbn":["9786076227527"],"titulo":"Matemáticas discretas ","subtitulo":null,"descripcion":"xii, 493 páginas : ilustraciones","datosPublicacion":"Ciudad de México: Alfaomega, 2010","urlPortada":"https://images-na.ssl-images-amazon.com/images/P/6076227524.01.MZZZZZZZ.jpg","colaborador":[{"tipo":"AUTOR","nombre":"Espinosa Armenta, Ramón"}],"calificacion":0,"votos":0,"existencias":{},"ultimaAct":null,"uriExistCentral":null,"temas":["matemáticas computacionales","matemáticas"],"temasAsignatura":[{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":false,"pagina":null}]},{"tipo":"LIBRO","isbn":["9688801801"],"titulo":"Matemáticas discretas ","subtitulo":null,"descripcion":"673 páginas","datosPublicacion":"México: Prentice Hall, c1990","urlPortada":"https://images-na.ssl-images-amazon.com/images/P/9688801801.01.MZZZZZZZ.jpg","colaborador":[{"tipo":"AUTOR","nombre":"Ross, Kenneth A"},{"tipo":"AUTOR","nombre":"Wright, Charles R. B, 1937-"},{"tipo":"TRADUCTOR","nombre":"Oteyza, Maria de la Luz de Teresa de"}],"calificacion":0,"votos":0,"existencias":{"VASCONCELOS":{"id":null,"existencias":1,"disponibilidad":-1,"catalogo":null,"fechasDevolucion":[]},"BNM":{"id":null,"existencias":1,"disponibilidad":-1,"catalogo":null,"fechasDevolucion":[]}},"ultimaAct":null,"uriExistCentral":null,"temas":["matemáticas computacionales"],"temasAsignatura":[{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":false,"pagina":null},{"subtemas":null,"explicado":false,"pagina":null},{"subtemas":null,"explicado":false,"pagina":null}]},{"tipo":"LIBRO","isbn":["9706860711"],"titulo":"Matemáticas discretas ","subtitulo":null,"descripcion":"484 páginas : ilustraciones","datosPublicacion":"Australia ; México: Thomson Learning, c2001","urlPortada":"https://images-na.ssl-images-amazon.com/images/P/9706860711.01.MZZZZZZZ.jpg","colaborador":[{"tipo":"AUTOR","nombre":"Scheinerman, Edward R"},{"tipo":"TRADUCTOR","nombre":"Gonzalez Pozo, Virgilio"}],"calificacion":0,"votos":0,"existencias":{"BNM":{"id":null,"existencias":1,"disponibilidad":-1,"catalogo":null,"fechasDevolucion":[]}},"ultimaAct":null,"uriExistCentral":null,"temas":["matemáticas"],"temasAsignatura":[{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":false,"pagina":null},{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":false,"pagina":null}]},{"tipo":"LIBRO","isbn":["9789701072363"],"titulo":"Matemáticas discretas ","subtitulo":null,"descripcion":"471 páginas","datosPublicacion":"México, D.F.: McGraw-Hill Interamericana, c2009","urlPortada":"https://images-na.ssl-images-amazon.com/images/P/9701072367.01.MZZZZZZZ.jpg","colaborador":[{"tipo":"AUTOR","nombre":"Lipschutz, Seymour"},{"tipo":"AUTOR","nombre":"Lars Lipson, Marc"},{"tipo":"TRADUCTOR","nombre":"Villagómez Velázquez, Hugo"}],"calificacion":0,"votos":0,"existencias":{"BNM":{"id":null,"existencias":1,"disponibilidad":-1,"catalogo":null,"fechasDevolucion":[]}},"ultimaAct":null,"uriExistCentral":null,"temas":["análisis combinatorio","lógica simbólica y matemática","álgebra abstracta"],"temasAsignatura":[{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":true,"pagina":null}]},{"tipo":"LIBRO","isbn":["9682612543"],"titulo":"Matematicas discretas : con aplicacion a las ciencias de la computacion ","subtitulo":null,"descripcion":"597 páginas","datosPublicacion":"México: CECSA, 1996","urlPortada":"https://images-na.ssl-images-amazon.com/images/P/9682612543.01.MZZZZZZZ.jpg","colaborador":[{"tipo":"AUTOR","nombre":"Tremblay, Jean-Paul, 1938-"},{"tipo":"AUTOR","nombre":"Rama, Manohara, 1962-"},{"tipo":"TRADUCTOR","nombre":"Rangel Gutiérrez, Raymundo Hugo"}],"calificacion":0,"votos":0,"existencias":{"BNM":{"id":null,"existencias":1,"disponibilidad":-1,"catalogo":null,"fechasDevolucion":[]}},"ultimaAct":null,"uriExistCentral":null,"temas":["teoría de las máquinas","procesamiento de palabras","matemáticas -- 1961-"],"temasAsignatura":[{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":false,"pagina":null}]},{"tipo":"LIBRO","isbn":["970150772X"],"titulo":"Matematica discreta ","subtitulo":null,"descripcion":"336 páginas : ilustraciones","datosPublicacion":"México, D.F.: Alfaomega, c2002","urlPortada":"https://images-na.ssl-images-amazon.com/images/P/970150772X.01.MZZZZZZZ.jpg","colaborador":[{"tipo":"COLABORADOR","nombre":"Comellas, Francesc"}],"calificacion":0,"votos":0,"existencias":{"VASCONCELOS":{"id":null,"existencias":1,"disponibilidad":-1,"catalogo":null,"fechasDevolucion":[]}},"ultimaAct":null,"uriExistCentral":null,"temas":["matemáticas"],"temasAsignatura":[{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":false,"pagina":null},{"subtemas":null,"explicado":false,"pagina":null},{"subtemas":null,"explicado":false,"pagina":null}]},{"tipo":"LIBRO","isbn":["9789977654997"],"titulo":"Lógica y teoría de conjuntos ","subtitulo":null,"descripcion":"152 páginas","datosPublicacion":"Heredia, Costa Rica: Editorial Universidad Nacional, 2018","urlPortada":"https://images-na.ssl-images-amazon.com/images/P/9977654999.01.MZZZZZZZ.jpg","colaborador":[{"tipo":"AUTOR","nombre":"Arroyo Hernández, Jorge"},{"tipo":"AUTOR","nombre":"Ramírez Jiménez, Jeremías"},{"tipo":"AUTOR","nombre":"Sequeira Chavarría, Filánder"}],"calificacion":0,"votos":0,"existencias":{},"ultimaAct":null,"uriExistCentral":null,"temas":["lógica simbólica y matemática -- libros de texto","teoría de conjuntos -- libros de texto"],"temasAsignatura":[{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":false,"pagina":null},{"subtemas":null,"explicado":false,"pagina":null},{"subtemas":null,"explicado":false,"pagina":null}]},{"tipo":"LIBRO","isbn":["968700178X"],"titulo":"Fundamentos de matemáticas y lógica ","subtitulo":null,"descripcion":"190 páginas : ilustraciones","datosPublicacion":"México, D.F.: IPN, c1998","urlPortada":"https://images-na.ssl-images-amazon.com/images/P/968700178X.01.MZZZZZZZ.jpg","colaborador":[{"tipo":"AUTOR","nombre":"Gutiérrez González, Eduardo"},{"tipo":"AUTOR","nombre":"Larios García, Raul"}],"calificacion":0,"votos":0,"existencias":{},"ultimaAct":null,"uriExistCentral":null,"temas":["teoría de conjuntos","ecuaciones","polinomios"],"temasAsignatura":[{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":false,"pagina":null},{"subtemas":null,"explicado":false,"pagina":null},{"subtemas":null,"explicado":false,"pagina":null},{"subtemas":null,"explicado":false,"pagina":null}]},{"tipo":"LIBRO","isbn":["9682409438"],"titulo":"Los elementos del lenguaje de la matematica ","subtitulo":null,"descripcion":"6 volúmenes","datosPublicacion":"México: Editorial Trillas, 1980","urlPortada":"https://images-na.ssl-images-amazon.com/images/P/9682409438.01.MZZZZZZZ.jpg","colaborador":[{"tipo":"AUTOR","nombre":"Fregoso, Arturo"}],"calificacion":0,"votos":0,"existencias":{},"ultimaAct":null,"uriExistCentral":null,"temas":["teoría de conjuntos","lógica simbólica y matemática"],"temasAsignatura":[{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":false,"pagina":null},{"subtemas":null,"explicado":false,"pagina":null},{"subtemas":null,"explicado":false,"pagina":null}]},{"tipo":"LIBRO","isbn":["9788494155932"],"titulo":"Conjuntos : teoría y práctica con más de 250 ejercicios y cuestiones resueltos paso a paso ","subtitulo":null,"descripcion":"205 páginas","datosPublicacion":"Madrid: EZA ediciones S.L., [2013]","urlPortada":"https://images-na.ssl-images-amazon.com/images/P/8494155938.01.MZZZZZZZ.jpg","colaborador":[{"tipo":"AUTOR","nombre":"Martínez Zamalloa, Vicente, 1952-"}],"calificacion":0,"votos":0,"existencias":{},"ultimaAct":null,"uriExistCentral":null,"temas":["teoría de conjuntos -- problemas, ejercicios, etc"],"temasAsignatura":[{"subtemas":null,"explicado":false,"pagina":null},{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":false,"pagina":null},{"subtemas":null,"explicado":false,"pagina":null},{"subtemas":null,"explicado":false,"pagina":null}]},{"tipo":"LIBRO","isbn":["9789977654249"],"titulo":"Curso de lógica y teoría de conjuntos ","subtitulo":null,"descripcion":"163 páginas","datosPublicacion":"Heredia, Costa Rica: EUNA, 2015","urlPortada":"https://images-na.ssl-images-amazon.com/images/P/9977654247.01.MZZZZZZZ.jpg","colaborador":[{"tipo":"AUTOR","nombre":"Alfaro Carvajal, Cristian"},{"tipo":"AUTOR","nombre":"Fonseca Castro, Jennifer"}],"calificacion":0,"votos":0,"existencias":{},"ultimaAct":null,"uriExistCentral":null,"temas":["lógica simbólica y matemática","teoría de conjuntos"],"temasAsignatura":[{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":false,"pagina":null},{"subtemas":null,"explicado":false,"pagina":null},{"subtemas":null,"explicado":false,"pagina":null}]},{"tipo":"LIBRO","isbn":["9682432324"],"titulo":"Conjuntos ","subtitulo":null,"descripcion":"63 páginas","datosPublicacion":"México: Editorial Trillas, 1990","urlPortada":"https://images-na.ssl-images-amazon.com/images/P/9682432324.01.MZZZZZZZ.jpg","colaborador":[{"tipo":"TRADUCTOR","nombre":"Galván Anaya, Federico"},{"tipo":"COLABORADOR","nombre":"National Council of Teachers of Mathematics (Estados Unidos)"}],"calificacion":0,"votos":0,"existencias":{},"ultimaAct":null,"uriExistCentral":null,"temas":["aritmética -- fundamentos"],"temasAsignatura":[{"subtemas":null,"explicado":false,"pagina":null},{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":false,"pagina":null},{"subtemas":null,"explicado":false,"pagina":null},{"subtemas":null,"explicado":false,"pagina":null}]},{"tipo":"LIBRO","isbn":["8427811578"],"titulo":"Matematicas","subtitulo":null,"descripcion":"2 volúmenes","datosPublicacion":"Barcelona: Nauta, 1987","urlPortada":"https://images-na.ssl-images-amazon.com/images/P/8427811578.01.MZZZZZZZ.jpg","colaborador":[],"calificacion":0,"votos":0,"existencias":{},"ultimaAct":null,"uriExistCentral":null,"temas":["matemáticas"],"temasAsignatura":[{"subtemas":null,"explicado":false,"pagina":null},{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":false,"pagina":null},{"subtemas":null,"explicado":false,"pagina":null},{"subtemas":null,"explicado":false,"pagina":null}]},{"tipo":"LIBRO","isbn":["9684511310"],"titulo":"Teoria y problemas de teoria de conjuntos y temas afines ","subtitulo":null,"descripcion":"233 páginas","datosPublicacion":"México: McGraw-Hill, c1970","urlPortada":"https://images-na.ssl-images-amazon.com/images/P/9684511310.01.MZZZZZZZ.jpg","colaborador":[{"tipo":"AUTOR","nombre":"Lipschutz, Seymour"},{"tipo":"TRADUCTOR","nombre":"Castaño, Jesus Maria"},{"tipo":"TRADUCTOR","nombre":"Robledo Moncada, Emilio"}],"calificacion":0,"votos":0,"existencias":{},"ultimaAct":null,"uriExistCentral":null,"temas":["teoría de conjuntos"],"temasAsignatura":[{"subtemas":null,"explicado":false,"pagina":null},{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":false,"pagina":null},{"subtemas":null,"explicado":false,"pagina":null},{"subtemas":null,"explicado":false,"pagina":null}]},{"tipo":"LIBRO","isbn":["847738021X"],"titulo":"Por los caminos de la logica : logica y conjuntos en E.G.B. ","subtitulo":null,"descripcion":"140 páginas","datosPublicacion":"Madrid: Sintesis, 1988","urlPortada":"https://images-na.ssl-images-amazon.com/images/P/847738021X.01.MZZZZZZZ.jpg","colaborador":[{"tipo":"AUTOR","nombre":"Sanz, Ines"},{"tipo":"AUTOR","nombre":"Arrieta, Modesto"},{"tipo":"AUTOR","nombre":"Pardo, Elisa"}],"calificacion":0,"votos":0,"existencias":{},"ultimaAct":null,"uriExistCentral":null,"temas":["teoría de conjuntos","lógica simbólica y matemática"],"temasAsignatura":[{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":false,"pagina":null},{"subtemas":null,"explicado":false,"pagina":null},{"subtemas":null,"explicado":false,"pagina":null}]},{"tipo":"LIBRO","isbn":["9681807278"],"titulo":"Elementos de inferencia estadística ","subtitulo":null,"descripcion":"300 páginas","datosPublicacion":"México: Limusa, 1974","urlPortada":"https://images-na.ssl-images-amazon.com/images/P/9681807278.01.MZZZZZZZ.jpg","colaborador":[{"tipo":"AUTOR","nombre":"Koosis, Donald J"},{"tipo":"COLABORADOR","nombre":"Coladarci, Arthur P"},{"tipo":"TRADUCTOR","nombre":"Contín, Agustín"},{"tipo":"TRADUCTOR","nombre":"Álvarez Anguiano, José alfonso"},{"tipo":"COLABORADOR","nombre":"Rascón Chávez, Octavio A"}],"calificacion":0,"votos":0,"existencias":{},"ultimaAct":null,"uriExistCentral":null,"temas":["estadística -- instrucción programada"],"temasAsignatura":[{"subtemas":null,"explicado":false,"pagina":null},{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":false,"pagina":null},{"subtemas":null,"explicado":false,"pagina":null},{"subtemas":null,"explicado":false,"pagina":null}]},{"tipo":"LIBRO","isbn":["9682415039"],"titulo":"El conjunto de los enteros ","subtitulo":null,"descripcion":"85 páginas","datosPublicacion":"México: Editorial Trillas, 1985","urlPortada":"https://images-na.ssl-images-amazon.com/images/P/9682415039.01.MZZZZZZZ.jpg","colaborador":[{"tipo":"AUTOR","nombre":"Flores Garcia, Conrado"}],"calificacion":0,"votos":0,"existencias":{},"ultimaAct":null,"uriExistCentral":null,"temas":["números naturales","teoría de conjuntos"],"temasAsignatura":[{"subtemas":null,"explicado":false,"pagina":null},{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":false,"pagina":null},{"subtemas":null,"explicado":false,"pagina":null},{"subtemas":null,"explicado":false,"pagina":null}]},{"tipo":"LIBRO","isbn":["9682415217"],"titulo":"La relacion como modelo matematico ","subtitulo":null,"descripcion":"102 páginas","datosPublicacion":"México: Editorial Trillas, 1985","urlPortada":"https://images-na.ssl-images-amazon.com/images/P/9682415217.01.MZZZZZZZ.jpg","colaborador":[{"tipo":"AUTOR","nombre":"Flores Garcia, Conrado"}],"calificacion":0,"votos":0,"existencias":{},"ultimaAct":null,"uriExistCentral":null,"temas":["teoría de conjuntos","relaciones (matematicas)"],"temasAsignatura":[{"subtemas":null,"explicado":false,"pagina":null},{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":false,"pagina":null},{"subtemas":null,"explicado":false,"pagina":null},{"subtemas":null,"explicado":false,"pagina":null}]},{"tipo":"LIBRO","isbn":["9682437830","9789682437830"],"titulo":"Álgebra superior : conjuntos y combinatoria, introducción al álgebra lineal, estructuras numéricas, polinomios y ecuaciones ","subtitulo":null,"descripcion":"323 páginas","datosPublicacion":"México: Editorial Trillas, 1990","urlPortada":"https://images-na.ssl-images-amazon.com/images/P/9682437830.01.MZZZZZZZ.jpg","colaborador":[{"tipo":"AUTOR","nombre":"Cárdenas Trigos, Humberto"}],"calificacion":0,"votos":0,"existencias":{},"ultimaAct":null,"uriExistCentral":null,"temas":["álgebra"],"temasAsignatura":[{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":false,"pagina":null},{"subtemas":null,"explicado":false,"pagina":null}]},{"tipo":"LIBRO","isbn":["9788494155932"],"titulo":"Conjuntos : teoría y práctica con más de 250 ejercicios y cuestiones resueltos paso a paso ","subtitulo":null,"descripcion":"205 páginas","datosPublicacion":"Madrid: EZA ediciones S.L., [2013]","urlPortada":"https://images-na.ssl-images-amazon.com/images/P/8494155938.01.MZZZZZZZ.jpg","colaborador":[{"tipo":"AUTOR","nombre":"Martínez Zamalloa, Vicente, 1952-"}],"calificacion":0,"votos":0,"existencias":{},"ultimaAct":null,"uriExistCentral":null,"temas":["teoría de conjuntos -- problemas, ejercicios, etc"],"temasAsignatura":[{"subtemas":null,"explicado":false,"pagina":null},{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":false,"pagina":null},{"subtemas":null,"explicado":false,"pagina":null},{"subtemas":null,"explicado":false,"pagina":null}]},{"tipo":"LIBRO","isbn":["9789588692999"],"titulo":"Conjuntos numéricos y aritmética ","subtitulo":null,"descripcion":"75 páginas : ilustraciones","datosPublicacion":"Medellin, Colombia : Universidad de Medellin, Sello Editorial, 2013","urlPortada":"https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Ghostscript_spots.pdf/page1-543px-Ghostscript_spots.pdf.jpg","colaborador":[{"tipo":"AUTOR","nombre":"Álvarez Jiménez, Rafael A.."}],"calificacion":0,"votos":0,"existencias":{},"ultimaAct":null,"uriExistCentral":"https://catalogos.bibliotecacentral.unam.mx:443/F/CT73SDRKHGE6P6P5YG21JRPXHB21XA6ITMINVPLYY2JSYGXKXI-01858?func=item-global&doc_library=L1001&doc_number=001677060&year=&volume=&sub_library=","temas":["números","aritmética -- problemas, ejercicios, etc."],"temasAsignatura":[{"subtemas":null,"explicado":false,"pagina":null},{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":false,"pagina":null},{"subtemas":null,"explicado":false,"pagina":null}]},{"tipo":"LIBRO","isbn":["9682474159","9789682474156"],"titulo":"Lógica, conjuntos, álgebra y trigonometría ","subtitulo":null,"descripcion":"312 páginas : ilustraciones","datosPublicacion":"México: Editorial Trillas, 2006","urlPortada":"https://images-na.ssl-images-amazon.com/images/P/9682474159.01.MZZZZZZZ.jpg","colaborador":[{"tipo":"AUTOR","nombre":"Pérez Godínez, Fernando"}],"calificacion":0,"votos":0,"existencias":{},"ultimaAct":null,"uriExistCentral":null,"temas":["lógica simbólica y matemática","trigonometría"],"temasAsignatura":[{"subtemas":null,"explicado":false,"pagina":null},{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":false,"pagina":null},{"subtemas":null,"explicado":false,"pagina":null}]},{"tipo":"LIBRO","isbn":["847738021X"],"titulo":"Por los caminos de la logica : logica y conjuntos en E.G.B. ","subtitulo":null,"descripcion":"140 páginas","datosPublicacion":"Madrid: Sintesis, 1988","urlPortada":"https://images-na.ssl-images-amazon.com/images/P/847738021X.01.MZZZZZZZ.jpg","colaborador":[{"tipo":"AUTOR","nombre":"Sanz, Ines"},{"tipo":"AUTOR","nombre":"Arrieta, Modesto"},{"tipo":"AUTOR","nombre":"Pardo, Elisa"}],"calificacion":0,"votos":0,"existencias":{},"ultimaAct":null,"uriExistCentral":null,"temas":["teoría de conjuntos","lógica simbólica y matemática"],"temasAsignatura":[{"subtemas":null,"explicado":false,"pagina":null},{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":false,"pagina":null},{"subtemas":null,"explicado":false,"pagina":null},{"subtemas":null,"explicado":false,"pagina":null}]},{"tipo":"LIBRO","isbn":["9681807022"],"titulo":"El método de la inducción matemática ","subtitulo":null,"descripcion":"63 páginas","datosPublicacion":"México: Limusa, 1972","urlPortada":"https://images-na.ssl-images-amazon.com/images/P/9681807022.01.MZZZZZZZ.jpg","colaborador":[{"tipo":"AUTOR","nombre":"Sominskii, J. S"},{"tipo":"TRADUCTOR","nombre":"Perez Castellanos, Jose Hernan"}],"calificacion":0,"votos":0,"existencias":{},"ultimaAct":null,"uriExistCentral":null,"temas":["álgebra","aritmética -- fundamentos","matemáticas -- problemas, ejercicios, etc"],"temasAsignatura":[{"subtemas":null,"explicado":false,"pagina":null},{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":false,"pagina":null},{"subtemas":null,"explicado":false,"pagina":null},{"subtemas":null,"explicado":false,"pagina":null}]},{"tipo":"LIBRO","isbn":["9589785409"],"titulo":"Inducción matemática y operadores ","subtitulo":null,"descripcion":"67 páginas","datosPublicacion":"Medellín, Colombia : Universidad de Medellín, 2006","urlPortada":"https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Ghostscript_spots.pdf/page1-543px-Ghostscript_spots.pdf.jpg","colaborador":[{"tipo":"AUTOR","nombre":"Mejía Duque, Francisco Guillermo."},{"tipo":"AUTOR","nombre":"Álvarez Jiménez, Rafael A."}],"calificacion":0,"votos":0,"existencias":{},"ultimaAct":null,"uriExistCentral":"https://catalogos.bibliotecacentral.unam.mx:443/F/RBIUA1U3D8DIL28K7JBJUM6PA3AJLPLMQ7C6JCDEA9Y21M76IF-02328?func=item-global&doc_library=L1001&doc_number=001278009&year=&volume=&sub_library=","temas":["lógica simbólica y matemática","operadores diferenciales"],"temasAsignatura":[{"subtemas":null,"explicado":false,"pagina":null},{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":false,"pagina":null},{"subtemas":null,"explicado":false,"pagina":null},{"subtemas":null,"explicado":false,"pagina":null}]},{"tipo":"LIBRO","isbn":["9789977662534"],"titulo":"Comprendiendo las probabilidades ","subtitulo":null,"descripcion":"528 páginas","datosPublicacion":"Costa Rica: Tecnológica de Costa Rica, 2012","urlPortada":"https://images-na.ssl-images-amazon.com/images/P/9977662533.01.MZZZZZZZ.jpg","colaborador":[{"tipo":"AUTOR","nombre":"Sanabria Brenes, Giovanni"}],"calificacion":0,"votos":0,"existencias":{},"ultimaAct":null,"uriExistCentral":null,"temas":["análisis combinatorio","combinaciones (matemáticas)","probabilidades"],"temasAsignatura":[{"subtemas":null,"explicado":false,"pagina":null},{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":false,"pagina":null},{"subtemas":null,"explicado":false,"pagina":null},{"subtemas":null,"explicado":false,"pagina":null}]},{"tipo":"LIBRO","isbn":["9789968463355"],"titulo":"Introducción al razonamiento lógico matemático ","subtitulo":null,"descripcion":"187 páginas","datosPublicacion":"Costa Rica: Editorial UCR, 2012","urlPortada":"https://images-na.ssl-images-amazon.com/images/P/9968463353.01.MZZZZZZZ.jpg","colaborador":[{"tipo":"AUTOR","nombre":"Valverde F., Luis"}],"calificacion":0,"votos":0,"existencias":{},"ultimaAct":null,"uriExistCentral":null,"temas":["lógica simbólica y matemática -- estudio y enseñanza","lógica simbólica y matemática -- problemas, ejercicios, etc","cálculo proposicional"],"temasAsignatura":[{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":false,"pagina":null},{"subtemas":null,"explicado":false,"pagina":null},{"subtemas":null,"explicado":false,"pagina":null},{"subtemas":null,"explicado":false,"pagina":null}]},{"tipo":"LIBRO","isbn":["847738021X"],"titulo":"Por los caminos de la logica : logica y conjuntos en E.G.B. ","subtitulo":null,"descripcion":"140 páginas","datosPublicacion":"Madrid: Sintesis, 1988","urlPortada":"https://images-na.ssl-images-amazon.com/images/P/847738021X.01.MZZZZZZZ.jpg","colaborador":[{"tipo":"AUTOR","nombre":"Sanz, Ines"},{"tipo":"AUTOR","nombre":"Arrieta, Modesto"},{"tipo":"AUTOR","nombre":"Pardo, Elisa"}],"calificacion":0,"votos":0,"existencias":{},"ultimaAct":null,"uriExistCentral":null,"temas":["teoría de conjuntos","lógica simbólica y matemática"],"temasAsignatura":[{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":true,"pagina":null},{"subtemas":null,"explicado":false,"pagina":null},{"subtemas":null,"explicado":false,"pagina":null},{"subtemas":null,"explicado":false,"pagina":null}]}]
+[
+	{
+		"tipo": "LIBRO",
+		"id": [
+			"9688807990"
+		],
+		"tipoId": "ISBN",
+		"titulo": "Estructuras de matematicas discretas para la computacion ",
+		"subtitulo": null,
+		"descripcion": "524 páginas : ilustraciones",
+		"datosPublicacion": "México: Prentice-Hall Hispanoamericana, [1997?]",
+		"urlPortada": "https://images-na.ssl-images-amazon.com/images/P/9688807990.01.MZZZZZZZ.jpg",
+		"colaborador": [
+			{
+				"tipo": "AUTOR",
+				"nombre": "Kolman, Bernard"
+			},
+			{
+				"tipo": "AUTOR",
+				"nombre": "Busby, Robert C"
+			},
+			{
+				"tipo": "AUTOR",
+				"nombre": "Ross, Sharon"
+			},
+			{
+				"tipo": "TRADUCTOR",
+				"nombre": "Palmas Velasco, Óscar Alfredo"
+			}
+		],
+		"calificacion": 0,
+		"votos": 0,
+		"existencias": {
+			"BNM": {
+				"id": null,
+				"existencias": 1,
+				"disponibilidad": -1,
+				"catalogo": null,
+				"fechasDevolucion": []
+			}
+		},
+		"ultimaAct": null,
+		"urlElectronico": "https://makrodidactica.files.wordpress.com/2016/03/est_mate_discreta_comp.pdf",
+		"uriExistCentral": null,
+		"temas": [
+			"matemáticas computacionales"
+		],
+		"temasAsignatura": [
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			}
+		]
+	},
+	{
+		"tipo": "LIBRO",
+		"id": [
+			"9688800805"
+		],
+		"tipoId": "ISBN",
+		"titulo": "Estructuras de matematicas discretas para la computacion ",
+		"subtitulo": null,
+		"descripcion": "441 páginas",
+		"datosPublicacion": "México: Prentice Hall, c1986",
+		"urlPortada": "https://images-na.ssl-images-amazon.com/images/P/9688800805.01.MZZZZZZZ.jpg",
+		"colaborador": [
+			{
+				"tipo": "AUTOR",
+				"nombre": "Kolman, Bernard"
+			},
+			{
+				"tipo": "AUTOR",
+				"nombre": "Busby, Robert C"
+			},
+			{
+				"tipo": "TRADUCTOR",
+				"nombre": "Herrera Patiño, Arturo"
+			}
+		],
+		"calificacion": 0,
+		"votos": 0,
+		"existencias": {
+			"VASCONCELOS": {
+				"id": null,
+				"existencias": 1,
+				"disponibilidad": -1,
+				"catalogo": null,
+				"fechasDevolucion": []
+			},
+			"BNM": {
+				"id": null,
+				"existencias": 1,
+				"disponibilidad": -1,
+				"catalogo": null,
+				"fechasDevolucion": []
+			}
+		},
+		"ultimaAct": null,
+		"urlElectronico": null,
+		"uriExistCentral": null,
+		"temas": [
+			"matemáticas computacionales"
+		],
+		"temasAsignatura": [
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			}
+		]
+	},
+	{
+		"tipo": "LIBRO",
+		"id": [
+			"9780134696447"
+		],
+		"tipoId": "ISBN",
+		"titulo": "Discrete mathematical structures ",
+		"subtitulo": null,
+		"descripcion": "xiv, 522 páginas : ilustraciones (algunas en color)",
+		"datosPublicacion": "New York, NY: Pearson, [2018]",
+		"urlPortada": "https://images-na.ssl-images-amazon.com/images/P/0134696441.01.MZZZZZZZ.jpg",
+		"colaborador": [
+			{
+				"tipo": "AUTOR",
+				"nombre": "Kolman, Bernard, 1932-"
+			},
+			{
+				"tipo": "AUTOR",
+				"nombre": "Busby, Robert C"
+			},
+			{
+				"tipo": "AUTOR",
+				"nombre": "Ross, Sharon Cutler, 1943-"
+			}
+		],
+		"calificacion": 0,
+		"votos": 0,
+		"existencias": {},
+		"ultimaAct": null,
+		"urlElectronico": "http://matematicadiscretaunsl.weebly.com/uploads/2/6/3/4/26340805/matema%CC%81ticas_discretas_-_6edi_johnsonbaugh.pdf",
+		"uriExistCentral": null,
+		"temas": [
+			"matemáticas computacionales"
+		],
+		"temasAsignatura": [
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			}
+		]
+	},
+	{
+		"tipo": "LIBRO",
+		"id": [
+			"9781118065532"
+		],
+		"tipoId": "ISBN",
+		"titulo": "Discrete mathematics for computer science : or, (a Bit of) the math that computer scientists need to know ",
+		"subtitulo": null,
+		"descripcion": "1209 páginas",
+		"datosPublicacion": "Hoboken, NJ : Wiley, [2018]",
+		"urlPortada": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Ghostscript_spots.pdf/page1-543px-Ghostscript_spots.pdf.jpg",
+		"colaborador": [
+			{
+				"tipo": "AUTOR",
+				"nombre": "Liben-Nowell, David."
+			}
+		],
+		"calificacion": 0,
+		"votos": 0,
+		"existencias": {},
+		"ultimaAct": null,
+		"urlElectronico": "https://fliphtml5.com/pyiue/xony/basic",
+		"uriExistCentral": "https://catalogos.bibliotecacentral.unam.mx:443/F/IEHB1NV9RFS67XE45YP6F3ABEME2E2227FJGHLJ46J7P131Q4D-28264?func=item-global&doc_library=L1001&doc_number=002018497&year=&volume=&sub_library=",
+		"temas": [
+			"matemáticas computacionales"
+		],
+		"temasAsignatura": [
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			}
+		]
+	},
+	{
+		"tipo": "LIBRO",
+		"id": [
+			"9789977664538"
+		],
+		"tipoId": "ISBN",
+		"titulo": "Introducción a la matemática discreta ",
+		"subtitulo": null,
+		"descripcion": "368 páginas : ilustraciones",
+		"datosPublicacion": "Cartago, Costa Rica : Editorial Tecnológica de Costa Rica, 2018",
+		"urlPortada": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Ghostscript_spots.pdf/page1-543px-Ghostscript_spots.pdf.jpg",
+		"colaborador": [
+			{
+				"tipo": "AUTOR",
+				"nombre": "Murillo Tsijli, Manuel."
+			}
+		],
+		"calificacion": 0,
+		"votos": 0,
+		"existencias": {},
+		"ultimaAct": null,
+		"urlElectronico": "https://docplayer.es/213160254-Manuel-murillo-tsijli.html",
+		"uriExistCentral": "https://catalogos.bibliotecacentral.unam.mx:443/F/N66EGUX7S7LDREJNJCPFKVDS9TGLJKV4BJLES5TS85316SLH29-28393?func=item-global&doc_library=L1001&doc_number=002064328&year=&volume=&sub_library=",
+		"temas": [
+			"matemáticas computacionales"
+		],
+		"temasAsignatura": [
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			}
+		]
+	},
+	{
+		"tipo": "LIBRO",
+		"id": [
+			"9788484399162"
+		],
+		"tipoId": "ISBN",
+		"titulo": "Matemática discreta para la computación : nociones teóricas y problemas resueltos ",
+		"subtitulo": null,
+		"descripcion": "744 páginas : ilustraciones",
+		"datosPublicacion": "Jaén: Universidad de Jaén, Servicio de Publicaciones, [2015]",
+		"urlPortada": "https://images-na.ssl-images-amazon.com/images/P/8484399168.01.MZZZZZZZ.jpg",
+		"colaborador": [
+			{
+				"tipo": "AUTOR",
+				"nombre": "García Muñoz, Miguel Ángel"
+			}
+		],
+		"calificacion": 0,
+		"votos": 0,
+		"existencias": {},
+		"ultimaAct": null,
+		"urlElectronico": null,
+		"uriExistCentral": null,
+		"temas": [
+			"matemáticas computacionales"
+		],
+		"temasAsignatura": [
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			}
+		]
+	},
+	{
+		"tipo": "LIBRO",
+		"id": [
+			"9788445429051"
+		],
+		"tipoId": "ISBN",
+		"titulo": "Matemática discreta ",
+		"subtitulo": null,
+		"descripcion": "415 páginas",
+		"datosPublicacion": "[Madrid]: Centro de Estudios Financieros, 2015",
+		"urlPortada": "https://images-na.ssl-images-amazon.com/images/P/8445429051.01.MZZZZZZZ.jpg",
+		"colaborador": [
+			{
+				"tipo": "AUTOR",
+				"nombre": "Moreno García, Juan José"
+			},
+			{
+				"tipo": "AUTOR",
+				"nombre": "Pazos Sierra, Juan"
+			}
+		],
+		"calificacion": 0,
+		"votos": 0,
+		"existencias": {},
+		"ultimaAct": null,
+		"urlElectronico": null,
+		"uriExistCentral": null,
+		"temas": [
+			"matemáticas computacionales"
+		],
+		"temasAsignatura": [
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			}
+		]
+	},
+	{
+		"tipo": "LIBRO",
+		"id": [
+			"9781429215107"
+		],
+		"tipoId": "ISBN",
+		"titulo": "Mathematical structures for computer science ",
+		"subtitulo": null,
+		"descripcion": "969 páginas",
+		"datosPublicacion": "New York: W. H. Freeman, 2014",
+		"urlPortada": "https://images-na.ssl-images-amazon.com/images/P/1429215100.01.MZZZZZZZ.jpg",
+		"colaborador": [
+			{
+				"tipo": "AUTOR",
+				"nombre": "Gersting, Judith L"
+			}
+		],
+		"calificacion": 0,
+		"votos": 0,
+		"existencias": {},
+		"ultimaAct": null,
+		"urlElectronico": "https://courses.csail.mit.edu/6.042/spring17/mcs.pdf",
+		"uriExistCentral": null,
+		"temas": [
+			"matemáticas",
+			"modelos matemáticos",
+			"matemáticas computacionales"
+		],
+		"temasAsignatura": [
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			}
+		]
+	},
+	{
+		"tipo": "LIBRO",
+		"id": [
+			"9786077077190"
+		],
+		"tipoId": "ISBN",
+		"titulo": "Matemáticas para la computación ",
+		"subtitulo": null,
+		"descripcion": "553 páginas : ilustraciones",
+		"datosPublicacion": "México : Alfaomega, 2014",
+		"urlPortada": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Ghostscript_spots.pdf/page1-543px-Ghostscript_spots.pdf.jpg",
+		"colaborador": [
+			{
+				"tipo": "AUTOR",
+				"nombre": "Jiménez Murillo, José Alfredo."
+			}
+		],
+		"calificacion": 0,
+		"votos": 0,
+		"existencias": {},
+		"ultimaAct": null,
+		"urlElectronico": "https://datospdf.com/download/matematicas-para-la-computacion-_5ae5f635b7d7bcf338ed8a32_pdf",
+		"uriExistCentral": "https://catalogos.bibliotecacentral.unam.mx:443/F/DX99HV8B2PEFTLKLT9IU1QM84H8AMNU3JINR5L38F3QDTSAPQK-28447?func=item-global&doc_library=L1001&doc_number=001660124&year=&volume=&sub_library=",
+		"temas": [
+			"matemáticas computacionales"
+		],
+		"temasAsignatura": [
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			}
+		]
+	},
+	{
+		"tipo": "LIBRO",
+		"id": [
+			"9788445426920"
+		],
+		"tipoId": "ISBN",
+		"titulo": "Matemática discreta ",
+		"subtitulo": null,
+		"descripcion": "415 páginas",
+		"datosPublicacion": "[Madrid]: Centro de Estudios Financieros, 2014",
+		"urlPortada": "https://images-na.ssl-images-amazon.com/images/P/8445426923.01.MZZZZZZZ.jpg",
+		"colaborador": [
+			{
+				"tipo": "AUTOR",
+				"nombre": "Moreno García, Juan José"
+			},
+			{
+				"tipo": "AUTOR",
+				"nombre": "Pazos Sierra, Juan"
+			}
+		],
+		"calificacion": 0,
+		"votos": 0,
+		"existencias": {},
+		"ultimaAct": null,
+		"urlElectronico": null,
+		"uriExistCentral": null,
+		"temas": [
+			"matemáticas computacionales"
+		],
+		"temasAsignatura": [
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			}
+		]
+	},
+	{
+		"tipo": "LIBRO",
+		"id": [
+			"9786074387384"
+		],
+		"tipoId": "ISBN",
+		"titulo": "Matemáticas discretas : aplicaciones y ejercicios ",
+		"subtitulo": null,
+		"descripcion": "x, 358 páginas ilustraciones",
+		"datosPublicacion": "México, D.F. : Grupo Editorial Patria 2014",
+		"urlPortada": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Ghostscript_spots.pdf/page1-543px-Ghostscript_spots.pdf.jpg",
+		"colaborador": [
+			{
+				"tipo": "AUTOR",
+				"nombre": "Villalpando Becerra, José Francisco."
+			},
+			{
+				"tipo": "AUTOR",
+				"nombre": "García Sandoval, Andrés"
+			}
+		],
+		"calificacion": 0,
+		"votos": 0,
+		"existencias": {},
+		"ultimaAct": null,
+		"urlElectronico": "https://www.academia.edu/36348069/Matem%C3%A1ticas_discretas_pdf",
+		"uriExistCentral": "https://catalogos.bibliotecacentral.unam.mx:443/F/LXG5ILI2T76K56PUYK5T4GDKUT7JE8B798VERNFI8I97131IPR-28620?func=item-global&doc_library=L1001&doc_number=001692640&year=&volume=&sub_library=",
+		"temas": [
+			"matemáticas computacionales",
+			"álgebra abstracta",
+			"lógica simbólica y matemática"
+		],
+		"temasAsignatura": [
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			}
+		]
+	},
+	{
+		"tipo": "LIBRO",
+		"id": [
+			"9789588537351"
+		],
+		"tipoId": "ISBN",
+		"titulo": "Lógica y matemática : para ciencias de la computación ",
+		"subtitulo": null,
+		"descripcion": "472 páginas : ilustraciones",
+		"datosPublicacion": "Bogotá, Colombia: Universidad Piloto de Colombia, 2012",
+		"urlPortada": "https://images-na.ssl-images-amazon.com/images/P/9588537355.01.MZZZZZZZ.jpg",
+		"colaborador": [
+			{
+				"tipo": "AUTOR",
+				"nombre": "Barboza Gutiérrez, Fidel"
+			}
+		],
+		"calificacion": 0,
+		"votos": 0,
+		"existencias": {},
+		"ultimaAct": null,
+		"urlElectronico": null,
+		"uriExistCentral": null,
+		"temas": [
+			"lógica computacional",
+			"matemáticas computacionales"
+		],
+		"temasAsignatura": [
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			}
+		]
+	},
+	{
+		"tipo": "LIBRO",
+		"id": [
+			"9786074816211"
+		],
+		"tipoId": "ISBN",
+		"titulo": "Matemáticas discretas con aplicaciones ",
+		"subtitulo": null,
+		"descripcion": "820 páginas : ilustraciones",
+		"datosPublicacion": "México, D. F.: Cengage Learning Editores, c2012",
+		"urlPortada": "https://images-na.ssl-images-amazon.com/images/P/6074816212.01.MZZZZZZZ.jpg",
+		"colaborador": [
+			{
+				"tipo": "AUTOR",
+				"nombre": "Epp, Susanna S"
+			},
+			{
+				"tipo": "TRADUCTOR",
+				"nombre": "García Hernández, Ana Elizabeth"
+			}
+		],
+		"calificacion": 0,
+		"votos": 0,
+		"existencias": {},
+		"ultimaAct": null,
+		"urlElectronico": "https://bibliotecavirtual8denovpinas.files.wordpress.com/2020/08/matematicas-discretas-con-aplicaciones-epp-4ta-edicion-2.pdf",
+		"uriExistCentral": null,
+		"temas": [
+			"matemáticas",
+			"matemáticas computacionales"
+		],
+		"temasAsignatura": [
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			}
+		]
+	},
+	{
+		"tipo": "LIBRO",
+		"id": [
+			"9781449604424",
+			"1449604420"
+		],
+		"tipoId": "ISBN",
+		"titulo": "Essentials of discrete mathematics ",
+		"subtitulo": null,
+		"descripcion": "xx, 488 páginas : ilustraciones",
+		"datosPublicacion": "Sudbury, Massachusetts : Jones & Bartlett Learning, c2012",
+		"urlPortada": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Ghostscript_spots.pdf/page1-543px-Ghostscript_spots.pdf.jpg",
+		"colaborador": [
+			{
+				"tipo": "AUTOR",
+				"nombre": "Hunter, David James, nacimiento 1968 autor."
+			}
+		],
+		"calificacion": 0,
+		"votos": 0,
+		"existencias": {},
+		"ultimaAct": null,
+		"urlElectronico": "https://media.oiipdf.com/pdf/6c2a40b8-7e9a-4c67-8438-9d4b2af06bc7.pdf",
+		"uriExistCentral": "https://catalogos.bibliotecacentral.unam.mx:443/F/2MDVYHN7IRRFH1E3UC4FDVYJGBCVFBMN3S4YFTACSJ7M33JIGL-28705?func=item-global&doc_library=L1001&doc_number=001274876&year=&volume=&sub_library=",
+		"temas": [
+			"matemáticas computacionales"
+		],
+		"temasAsignatura": [
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			}
+		]
+	},
+	{
+		"tipo": "LIBRO",
+		"id": [
+			"9788484396291"
+		],
+		"tipoId": "ISBN",
+		"titulo": "Métodos computacionales en Álgebra : Matemática discreta : grupos y grafos ",
+		"subtitulo": null,
+		"descripcion": "xii, 523 páginas : ilustraciones, diagramas + 1 CD-ROM (4 3/4 pulgadas)",
+		"datosPublicacion": "Jaén: Universidad de Jaén, Servicio de Publicaciones, cop. 2012",
+		"urlPortada": "https://images-na.ssl-images-amazon.com/images/P/8484396290.01.MZZZZZZZ.jpg",
+		"colaborador": [
+			{
+				"tipo": "AUTOR",
+				"nombre": "Ruiz Ruiz, Juan Francisco"
+			}
+		],
+		"calificacion": 0,
+		"votos": 0,
+		"existencias": {},
+		"ultimaAct": null,
+		"urlElectronico": null,
+		"uriExistCentral": null,
+		"temas": [
+			"álgebra -- programas para computadoras",
+			"mathematica (programa para computadora)",
+			"matemáticas computacionales",
+			"teoría de grafos"
+		],
+		"temasAsignatura": [
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			}
+		]
+	},
+	{
+		"tipo": "LIBRO",
+		"id": [
+			"9781439817681"
+		],
+		"tipoId": "ISBN",
+		"titulo": "Discrete structures with contemporary applications ",
+		"subtitulo": null,
+		"descripcion": "xix, 982 páginas : ilustraciones",
+		"datosPublicacion": "Boca Raton : CRC Press, c2011",
+		"urlPortada": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Ghostscript_spots.pdf/page1-543px-Ghostscript_spots.pdf.jpg",
+		"colaborador": [
+			{
+				"tipo": "AUTOR",
+				"nombre": "Stanoyevitch, Alexander."
+			}
+		],
+		"calificacion": 0,
+		"votos": 0,
+		"existencias": {},
+		"ultimaAct": null,
+		"urlElectronico": null,
+		"uriExistCentral": "https://catalogos.bibliotecacentral.unam.mx:443/F/KF3JGH538N8B2JHSL1K38TJICL3M3NG2TCJ6LMYU6KQS3JXAU5-28757?func=item-global&doc_library=L1001&doc_number=001271715&year=&volume=&sub_library=",
+		"temas": [
+			"matemáticas computacionales",
+			"lógica simbólica y matemática",
+			"probabilidades"
+		],
+		"temasAsignatura": [
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			}
+		]
+	},
+	{
+		"tipo": "LIBRO",
+		"id": [
+			"9780132122719"
+		],
+		"tipoId": "ISBN",
+		"titulo": "Discrete mathematics for computer scientists ",
+		"subtitulo": null,
+		"descripcion": "495 páginas : ilustraciones",
+		"datosPublicacion": "Boston, Massachusetts: Addison-wesley, [2011]",
+		"urlPortada": "https://images-na.ssl-images-amazon.com/images/P/0132122715.01.MZZZZZZZ.jpg",
+		"colaborador": [
+			{
+				"tipo": "AUTOR",
+				"nombre": "Stein, Clifford, 1965-"
+			},
+			{
+				"tipo": "AUTOR",
+				"nombre": "Bogart, Kenneth P"
+			},
+			{
+				"tipo": "AUTOR",
+				"nombre": "Drysdale, Robert L, 1951-"
+			}
+		],
+		"calificacion": 0,
+		"votos": 0,
+		"existencias": {},
+		"ultimaAct": null,
+		"urlElectronico": "https://inspirit.net.in/books/academic/Discrete%20Mathematics%20for%20Computer%20Scientists.pdf",
+		"uriExistCentral": null,
+		"temas": [
+			"matemáticas computacionales"
+		],
+		"temasAsignatura": [
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			}
+		]
+	},
+	{
+		"tipo": "LIBRO",
+		"id": [
+			"9788484395300"
+		],
+		"tipoId": "ISBN",
+		"titulo": "Matemática discreta para la computación : nociones teóricas y problemas resueltos ",
+		"subtitulo": null,
+		"descripcion": "722 páginas : ilustraciones",
+		"datosPublicacion": "Jaén: Universidad de Jaén, Servicio de Publicaciones, depósito legal 2010",
+		"urlPortada": "https://images-na.ssl-images-amazon.com/images/P/8484395308.01.MZZZZZZZ.jpg",
+		"colaborador": [
+			{
+				"tipo": "AUTOR",
+				"nombre": "García Muñoz, Miguel Angel"
+			}
+		],
+		"calificacion": 0,
+		"votos": 0,
+		"existencias": {},
+		"ultimaAct": null,
+		"urlElectronico": null,
+		"uriExistCentral": null,
+		"temas": [
+			"matemáticas computacionales"
+		],
+		"temasAsignatura": [
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			}
+		]
+	},
+	{
+		"tipo": "LIBRO",
+		"id": [
+			"9780763772062",
+			"0763772062"
+		],
+		"tipoId": "ISBN",
+		"titulo": "Discrete structures, logic, and computability ",
+		"subtitulo": null,
+		"descripcion": "1009 páginas : ilustraciones",
+		"datosPublicacion": "Sudbury, Massachusetts: Jones and Bartlett, 2010",
+		"urlPortada": "https://images-na.ssl-images-amazon.com/images/P/0763772062.01.MZZZZZZZ.jpg",
+		"colaborador": [
+			{
+				"tipo": "AUTOR",
+				"nombre": "Hein, James L"
+			}
+		],
+		"calificacion": 0,
+		"votos": 0,
+		"existencias": {},
+		"ultimaAct": null,
+		"urlElectronico": "https://www.docdroid.net/8mA19Pe/discretestructureslogicandcomputability-jameslhe-pdf#page=9",
+		"uriExistCentral": null,
+		"temas": [
+			"matemáticas computacionales"
+		],
+		"temasAsignatura": [
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			}
+		]
+	},
+	{
+		"tipo": "LIBRO",
+		"id": [
+			"9789701514016"
+		],
+		"tipoId": "ISBN",
+		"titulo": "Matemáticas para la computación ",
+		"subtitulo": null,
+		"descripcion": "496 páginas : ilustraciones",
+		"datosPublicacion": "México : Alfaomega, 2009",
+		"urlPortada": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Ghostscript_spots.pdf/page1-543px-Ghostscript_spots.pdf.jpg",
+		"colaborador": [
+			{
+				"tipo": "AUTOR",
+				"nombre": "Jiménez Murillo, José Alfredo."
+			}
+		],
+		"calificacion": 0,
+		"votos": 0,
+		"existencias": {},
+		"ultimaAct": null,
+		"urlElectronico": "https://www.academia.edu/25133063/Matem%C3%A1ticas_Para_la_computaci%C3%B3n",
+		"uriExistCentral": "https://catalogos.bibliotecacentral.unam.mx:443/F/X9CE2LP1UC6GG9AX9AC3N3S57D3UE7TKJBNH8N5SF4PMJ8SFF7-28811?func=item-global&doc_library=L1001&doc_number=001179886&year=&volume=&sub_library=",
+		"temas": [
+			"matemáticas computacionales"
+		],
+		"temasAsignatura": [
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			}
+		]
+	},
+	{
+		"tipo": "LIBRO",
+		"id": [
+			"9788429151800"
+		],
+		"tipoId": "ISBN",
+		"titulo": "Invitación a la matemática discreta ",
+		"subtitulo": null,
+		"descripcion": "xvii, 442 páginas : ilustraciones",
+		"datosPublicacion": "Barcelona, España ; México: Reverté, 2008",
+		"urlPortada": "https://images-na.ssl-images-amazon.com/images/P/842915180X.01.MZZZZZZZ.jpg",
+		"colaborador": [
+			{
+				"tipo": "AUTOR",
+				"nombre": "Matousek, Jiri"
+			},
+			{
+				"tipo": "AUTOR",
+				"nombre": "Nesetril, Jaroslav"
+			},
+			{
+				"tipo": "TRADUCTOR",
+				"nombre": "Lladó, Ana"
+			}
+		],
+		"calificacion": 0,
+		"votos": 0,
+		"existencias": {},
+		"ultimaAct": null,
+		"urlElectronico": "https://www.academia.edu/44857808/Invitaci%C3%B3n_a_la_matem%C3%A1tica_discreta",
+		"uriExistCentral": null,
+		"temas": [
+			"matemáticas",
+			"matemáticas computacionales"
+		],
+		"temasAsignatura": [
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			}
+		]
+	},
+	{
+		"tipo": "LIBRO",
+		"id": [
+			"9789701065303",
+			"9701065301"
+		],
+		"tipoId": "ISBN",
+		"titulo": "Matemáticas discretas con teoría de gráficas y combinatoria ",
+		"subtitulo": null,
+		"descripcion": "531 páginas : ilustraciones",
+		"datosPublicacion": "México, D.F.: McGraw-Hill Interamericana, c2008",
+		"urlPortada": "https://images-na.ssl-images-amazon.com/images/P/9701065301.01.MZZZZZZZ.jpg",
+		"colaborador": [
+			{
+				"tipo": "AUTOR",
+				"nombre": "Veerarajan, T"
+			},
+			{
+				"tipo": "TRADUCTOR",
+				"nombre": "Nagore Cázares, Gabriel"
+			}
+		],
+		"calificacion": 0,
+		"votos": 0,
+		"existencias": {},
+		"ultimaAct": null,
+		"urlElectronico": null,
+		"uriExistCentral": null,
+		"temas": [
+			"teoría de conjuntos",
+			"análisis combinatorio",
+			"matemáticas"
+		],
+		"temasAsignatura": [
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			}
+		]
+	},
+	{
+		"tipo": "LIBRO",
+		"id": [
+			"1846282411",
+			"9781846282416"
+		],
+		"tipoId": "ISBN",
+		"titulo": "Discrete mathematics using a computer ",
+		"subtitulo": null,
+		"descripcion": "xix, 441 páginas : ilustraciones",
+		"datosPublicacion": "London : Springer Verlag, c2006",
+		"urlPortada": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Ghostscript_spots.pdf/page1-543px-Ghostscript_spots.pdf.jpg",
+		"colaborador": [
+			{
+				"tipo": "AUTOR",
+				"nombre": "O'Donnell, John, 1952-."
+			},
+			{
+				"tipo": "AUTOR",
+				"nombre": "Hall, Cordelia, 1955- "
+			},
+			{
+				"tipo": "AUTOR",
+				"nombre": "Page, Rex L."
+			}
+		],
+		"calificacion": 0,
+		"votos": 0,
+		"existencias": {},
+		"ultimaAct": null,
+		"urlElectronico": null,
+		"uriExistCentral": "https://catalogos.bibliotecacentral.unam.mx:443/F/I2LA4BEDNB67GKF7IX182A5EVVB8PR6HEUU2R5EAJPYNQ8KKT2-28881?func=item-global&doc_library=L1001&doc_number=001106851&year=&volume=&sub_library=",
+		"temas": [
+			"matemáticas computacionales",
+			"matemáticas -- procesamiento de datos"
+		],
+		"temasAsignatura": [
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			}
+		]
+	},
+	{
+		"tipo": "LIBRO",
+		"id": [
+			"9702606373"
+		],
+		"tipoId": "ISBN",
+		"titulo": "Discrete Mathematics. Español",
+		"subtitulo": null,
+		"descripcion": "672 páginas : ilustraciones",
+		"datosPublicacion": "México : Pearson Educación 2005",
+		"urlPortada": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Ghostscript_spots.pdf/page1-543px-Ghostscript_spots.pdf.jpg",
+		"colaborador": [
+			{
+				"tipo": "AUTOR",
+				"nombre": "Johnsonbaugh, Richard, 1941- autor."
+			},
+			{
+				"tipo": "TRADUCTOR",
+				"nombre": "González Osuna, Marcia A."
+			}
+		],
+		"calificacion": 0,
+		"votos": 0,
+		"existencias": {
+			"VASCONCELOS": {
+				"id": null,
+				"existencias": 1,
+				"disponibilidad": -1,
+				"catalogo": null,
+				"fechasDevolucion": []
+			},
+			"BNM": {
+				"id": null,
+				"existencias": 1,
+				"disponibilidad": -1,
+				"catalogo": null,
+				"fechasDevolucion": []
+			}
+		},
+		"ultimaAct": null,
+		"urlElectronico": "https://catedras.facet.unt.edu.ar/lad/wp-content/uploads/sites/93/2018/04/Matem%C3%A1ticas-Discretas-6edi-Johnsonbaugh.pdf",
+		"uriExistCentral": "https://catalogos.bibliotecacentral.unam.mx:443/F/XVPQV2P913Y73P2GQ78XKXNRMJ6LGERBHYSM3UCA1YYQQGKQ42-28937?func=item-global&doc_library=L1001&doc_number=001054784&year=&volume=&sub_library=",
+		"temas": [
+			"matemáticas",
+			"matemáticas computacionales"
+		],
+		"temasAsignatura": [
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			}
+		]
+	},
+	{
+		"tipo": "LIBRO",
+		"id": [
+			"075065855X"
+		],
+		"tipoId": "ISBN",
+		"titulo": "Mathematics for electrical engineering and computing ",
+		"subtitulo": null,
+		"descripcion": "x, 550 páginas",
+		"datosPublicacion": "Oxford: Newnes, 2003",
+		"urlPortada": "https://images-na.ssl-images-amazon.com/images/P/075065855X.01.MZZZZZZZ.jpg",
+		"colaborador": [
+			{
+				"tipo": "AUTOR",
+				"nombre": "Attenborough, Mary Patricia, 1954-"
+			}
+		],
+		"calificacion": 0,
+		"votos": 0,
+		"existencias": {},
+		"ultimaAct": null,
+		"urlElectronico": "http://sharif.ir/~bahram/math4cl/Attenborough%20M.%20Mathematics%20for%20Electrical%20Engineering%20and%20Computing.pdf",
+		"uriExistCentral": null,
+		"temas": [
+			"ingeniería eléctrica -- matemáticas",
+			"matemáticas computacionales"
+		],
+		"temasAsignatura": [
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			}
+		]
+	},
+	{
+		"tipo": "LIBRO",
+		"id": [
+			"0817642692",
+			"3764342692"
+		],
+		"tipoId": "ISBN",
+		"titulo": "A beginner's guide to discrete mathematics ",
+		"subtitulo": null,
+		"descripcion": "xi, 367 páginas : ilustraciones",
+		"datosPublicacion": "Boston : Birkhäuser Verlag, c2003",
+		"urlPortada": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Ghostscript_spots.pdf/page1-543px-Ghostscript_spots.pdf.jpg",
+		"colaborador": [
+			{
+				"tipo": "AUTOR",
+				"nombre": "Wallis, W. D. autor."
+			}
+		],
+		"calificacion": 0,
+		"votos": 0,
+		"existencias": {},
+		"ultimaAct": null,
+		"urlElectronico": null,
+		"uriExistCentral": "https://catalogos.bibliotecacentral.unam.mx:443/F/UUAESLHP5HDUYGI2SFS9MKYS4FB2743XQDLNQGJNJN4IEU7XQ4-28989?func=item-global&doc_library=L1001&doc_number=000966196&year=&volume=&sub_library=",
+		"temas": [
+			"matemáticas",
+			"matemáticas computacionales"
+		],
+		"temasAsignatura": [
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			}
+		]
+	},
+	{
+		"tipo": "LIBRO",
+		"id": [
+			"0817642498",
+			"3764342498"
+		],
+		"tipoId": "ISBN",
+		"titulo": "Foundations of logic and mathematics : applications to computer science and cryptography ",
+		"subtitulo": null,
+		"descripcion": "xvi, 415 páginas : ilustraciones",
+		"datosPublicacion": "Boston : Birkhäuser Verlag, c2002",
+		"urlPortada": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Ghostscript_spots.pdf/page1-543px-Ghostscript_spots.pdf.jpg",
+		"colaborador": [
+			{
+				"tipo": "AUTOR",
+				"nombre": "Nievergelt, Yves."
+			}
+		],
+		"calificacion": 0,
+		"votos": 0,
+		"existencias": {},
+		"ultimaAct": null,
+		"urlElectronico": null,
+		"uriExistCentral": "https://catalogos.bibliotecacentral.unam.mx:443/F/YNXQ68Q78J28SPHJ4HGSEHK4LRPYH21UR19JBUUDY985JF49UL-29060?func=item-global&doc_library=L1001&doc_number=000966089&year=&volume=&sub_library=",
+		"temas": [
+			"lógica simbólica y matemática",
+			"teoría de conjuntos",
+			"teoría de los números",
+			"matemáticas computacionales"
+		],
+		"temasAsignatura": [
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			}
+		]
+	},
+	{
+		"tipo": "LIBRO",
+		"id": [
+			"8479086785"
+		],
+		"tipoId": "ISBN",
+		"titulo": "Metodos matematicos en la computacion ",
+		"subtitulo": null,
+		"descripcion": "156 páginas : ilustraciones",
+		"datosPublicacion": "[Alicante]: Universidad de Alicante, 2002",
+		"urlPortada": "https://images-na.ssl-images-amazon.com/images/P/8479086785.01.MZZZZZZZ.jpg",
+		"colaborador": [
+			{
+				"tipo": "AUTOR",
+				"nombre": "Saez Martinez, Juan Manuel"
+			},
+			{
+				"tipo": "AUTOR",
+				"nombre": "Cazorla Quevedo, Miguel Angel"
+			},
+			{
+				"tipo": "AUTOR",
+				"nombre": "Rizo Aldeguer, Ramon"
+			}
+		],
+		"calificacion": 0,
+		"votos": 0,
+		"existencias": {},
+		"ultimaAct": null,
+		"urlElectronico": null,
+		"uriExistCentral": null,
+		"temas": [
+			"matemáticas computacionales"
+		],
+		"temasAsignatura": [
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			}
+		]
+	},
+	{
+		"tipo": "LIBRO",
+		"id": [
+			"1852332360"
+		],
+		"tipoId": "ISBN",
+		"titulo": "A first course in discrete mathematics ",
+		"subtitulo": null,
+		"descripcion": "viii, 200 páginas : ilustraciones",
+		"datosPublicacion": "London ; New York: Springer Verlag, c2001",
+		"urlPortada": "https://images-na.ssl-images-amazon.com/images/P/1852332360.01.MZZZZZZZ.jpg",
+		"colaborador": [
+			{
+				"tipo": "AUTOR",
+				"nombre": "Anderson, Ian, 1952-"
+			}
+		],
+		"calificacion": 0,
+		"votos": 0,
+		"existencias": {},
+		"ultimaAct": null,
+		"urlElectronico": "http://www.fen.bilkent.edu.tr/~franz/dm/DM1.pdf",
+		"uriExistCentral": null,
+		"temas": [
+			"matemáticas",
+			"matemáticas computacionales"
+		],
+		"temasAsignatura": [
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			}
+		]
+	},
+	{
+		"tipo": "LIBRO",
+		"id": [
+			"9701702530"
+		],
+		"tipoId": "ISBN",
+		"titulo": "Discrete Mathematics. Español",
+		"subtitulo": null,
+		"descripcion": "701 páginas : ilustraciones",
+		"datosPublicacion": "México : Prentice Hall Hispanoamericana, c1999",
+		"urlPortada": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Ghostscript_spots.pdf/page1-543px-Ghostscript_spots.pdf.jpg",
+		"colaborador": [
+			{
+				"tipo": "AUTOR",
+				"nombre": "Johnsonbaugh, Richard, 1941- autor."
+			},
+			{
+				"tipo": "TRADUCTOR",
+				"nombre": "Palmas Velasco, Óscar Alfredo"
+			}
+		],
+		"calificacion": 0,
+		"votos": 0,
+		"existencias": {
+			"VASCONCELOS": {
+				"id": null,
+				"existencias": 1,
+				"disponibilidad": -1,
+				"catalogo": null,
+				"fechasDevolucion": []
+			}
+		},
+		"ultimaAct": null,
+		"urlElectronico": null,
+		"uriExistCentral": "https://catalogos.bibliotecacentral.unam.mx:443/F/UNRJVH7C3E749444D5BNS8SG2DAFIL9UH654SBDMB378LAT54X-29116?func=item-global&doc_library=L1001&doc_number=000833544&year=&volume=&sub_library=",
+		"temas": [
+			"matemáticas",
+			"matemáticas computacionales"
+		],
+		"temasAsignatura": [
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			}
+		]
+	},
+	{
+		"tipo": "LIBRO",
+		"id": [
+			"9681857437"
+		],
+		"tipoId": "ISBN",
+		"titulo": "Matemáticas discretas Elias Micha",
+		"subtitulo": null,
+		"descripcion": "205 páginas",
+		"datosPublicacion": "Metepec, Estado de México : CONALEP, c1998",
+		"urlPortada": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Ghostscript_spots.pdf/page1-543px-Ghostscript_spots.pdf.jpg",
+		"colaborador": [
+			{
+				"tipo": "AUTOR",
+				"nombre": "Micha, Elias."
+			}
+		],
+		"calificacion": 0,
+		"votos": 0,
+		"existencias": {
+			"VASCONCELOS": {
+				"id": null,
+				"existencias": 1,
+				"disponibilidad": -1,
+				"catalogo": null,
+				"fechasDevolucion": []
+			},
+			"BNM": {
+				"id": null,
+				"existencias": 1,
+				"disponibilidad": -1,
+				"catalogo": null,
+				"fechasDevolucion": []
+			}
+		},
+		"ultimaAct": null,
+		"urlElectronico": null,
+		"uriExistCentral": "https://catalogos.bibliotecacentral.unam.mx:443/F/JS917IQY5S64XTFQVSPBP6YIP2IEYLQ4SBA1PMS72ECJSNUHQR-29171?func=item-global&doc_library=L1001&doc_number=000834323&year=&volume=&sub_library=",
+		"temas": [
+			"matemáticas"
+		],
+		"temasAsignatura": [
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			}
+		]
+	},
+	{
+		"tipo": "LIBRO",
+		"id": [
+			"9701007433"
+		],
+		"tipoId": "ISBN",
+		"titulo": "Elementos de matematicas discretas ",
+		"subtitulo": null,
+		"descripcion": "432 páginas : diagramas, gráficas",
+		"datosPublicacion": "México: McGraw-Hill, [1995]",
+		"urlPortada": "https://images-na.ssl-images-amazon.com/images/P/9701007433.01.MZZZZZZZ.jpg",
+		"colaborador": [
+			{
+				"tipo": "AUTOR",
+				"nombre": "Liu, C. L. (Chung Laung), 1934-"
+			},
+			{
+				"tipo": "TRADUCTOR",
+				"nombre": "Díaz Torres, Luis Armando"
+			}
+		],
+		"calificacion": 0,
+		"votos": 0,
+		"existencias": {
+			"BNM": {
+				"id": null,
+				"existencias": 1,
+				"disponibilidad": -1,
+				"catalogo": null,
+				"fechasDevolucion": []
+			}
+		},
+		"ultimaAct": null,
+		"urlElectronico": "https://gc.scalahed.com/recursos/files/r161r/w25470w/Elementosdematematicasdiscretas.pdf",
+		"uriExistCentral": null,
+		"temas": [
+			"análisis combinatorio",
+			"álgebra abstracta"
+		],
+		"temasAsignatura": [
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			}
+		]
+	},
+	{
+		"tipo": "LIBRO",
+		"id": [
+			"5030006206"
+		],
+		"tipoId": "ISBN",
+		"titulo": "Fundamentos de la matematica discreta ",
+		"subtitulo": null,
+		"descripcion": "340 páginas",
+		"datosPublicacion": "Moscu : Mir, 1988",
+		"urlPortada": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Ghostscript_spots.pdf/page1-543px-Ghostscript_spots.pdf.jpg",
+		"colaborador": [
+			{
+				"tipo": "AUTOR",
+				"nombre": "Gorbatov, Viacheslav Afanas'evich."
+			},
+			{
+				"tipo": "TRADUCTOR",
+				"nombre": "Andrianova, Maria A."
+			}
+		],
+		"calificacion": 0,
+		"votos": 0,
+		"existencias": {},
+		"ultimaAct": null,
+		"urlElectronico": "https://docplayer.es/41706157-V-a-gorbatov-fundamentos-de-la-matematica-discreta.html",
+		"uriExistCentral": "https://catalogos.bibliotecacentral.unam.mx:443/F/FU4LYP3BSJD19XHLY21NN3X411RVAXXCRVILV7UI373SLFNECP-29227?func=item-global&doc_library=L1001&doc_number=000490613&year=&volume=&sub_library=",
+		"temas": [
+			"matemáticas",
+			"matemáticas computacionales"
+		],
+		"temasAsignatura": [
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			}
+		]
+	},
+	{
+		"tipo": "LIBRO",
+		"id": [
+			"9687270462"
+		],
+		"tipoId": "ISBN",
+		"titulo": "Discrete mathematics Español",
+		"subtitulo": null,
+		"descripcion": "506 páginas",
+		"datosPublicacion": "México, d.f. : Grupo editorial iberoamerica, c1988",
+		"urlPortada": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Ghostscript_spots.pdf/page1-543px-Ghostscript_spots.pdf.jpg",
+		"colaborador": [
+			{
+				"tipo": "AUTOR",
+				"nombre": "Johnsonbaugh, Richard, 1941- autor."
+			},
+			{
+				"tipo": "TRADUCTOR",
+				"nombre": "Giudici E., Reinaldo"
+			},
+			{
+				"tipo": "COLABORADOR",
+				"nombre": "Traducción de: Johnsonbaugh, Richard, 1941- Discrete mathematics"
+			}
+		],
+		"calificacion": 0,
+		"votos": 0,
+		"existencias": {
+			"BNM": {
+				"id": null,
+				"existencias": 1,
+				"disponibilidad": -1,
+				"catalogo": null,
+				"fechasDevolucion": []
+			}
+		},
+		"ultimaAct": null,
+		"urlElectronico": null,
+		"uriExistCentral": "https://catalogos.bibliotecacentral.unam.mx:443/F/KSGJEYMVQQAB4S8884EJMIYKP5TVQEDXJM1SNE5CXS9HK36IPQ-29280?func=item-global&doc_library=L1001&doc_number=000467855&year=&volume=&sub_library=",
+		"temas": [
+			"matemáticas computacionales",
+			"matemáticas"
+		],
+		"temasAsignatura": [
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			}
+		]
+	},
+	{
+		"tipo": "LIBRO",
+		"id": [
+			"9682461006"
+		],
+		"tipoId": "ISBN",
+		"titulo": "Fundamentos de logica computacional ",
+		"subtitulo": null,
+		"descripcion": "110 páginas : ilustraciones",
+		"datosPublicacion": "México : Editorial Trillas : Instituto Tecnologico y de Estudios Superiores de Monterrey, Universidad Virtual, 2000",
+		"urlPortada": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Ghostscript_spots.pdf/page1-543px-Ghostscript_spots.pdf.jpg",
+		"colaborador": [
+			{
+				"tipo": "AUTOR",
+				"nombre": "Frausto Solis, Juan."
+			},
+			{
+				"tipo": "AUTOR",
+				"nombre": "Sanchez Ante, Gildardo"
+			}
+		],
+		"calificacion": 0,
+		"votos": 0,
+		"existencias": {},
+		"ultimaAct": null,
+		"urlElectronico": null,
+		"uriExistCentral": "https://catalogos.bibliotecacentral.unam.mx:443/F/FBSULTNDMUL5NPA6B6BSLSHR29P2QM68XNPVV42KDSUFN7CV79-29334?func=item-global&doc_library=L1001&doc_number=000878312&year=&volume=&sub_library=",
+		"temas": [
+			"lógica computacional",
+			"complejidad computacional",
+			"lógica simbólica y matemática"
+		],
+		"temasAsignatura": [
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			}
+		]
+	},
+	{
+		"tipo": "LIBRO",
+		"id": [
+			"9789814730396",
+			"9789813147546"
+		],
+		"tipoId": "ISBN",
+		"titulo": "Basic discrete mathematics : logic, set theory, & probability ",
+		"subtitulo": null,
+		"descripcion": "xxvi, 706 páginas : ilustraciones",
+		"datosPublicacion": "New Jersey : World Scientific, [2016]",
+		"urlPortada": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Ghostscript_spots.pdf/page1-543px-Ghostscript_spots.pdf.jpg",
+		"colaborador": [
+			{
+				"tipo": "AUTOR",
+				"nombre": "Kohar, Richard."
+			}
+		],
+		"calificacion": 0,
+		"votos": 0,
+		"existencias": {},
+		"ultimaAct": null,
+		"urlElectronico": "https://books.google.com.mx/books?id=uohIDQAAQBAJ",
+		"uriExistCentral": "https://catalogos.bibliotecacentral.unam.mx:443/F/ICXUQH7JPYT4SJXQLDKQ6RGV1CM81KEC4KMA7J5XUX5NMXUTR6-29388?func=item-global&doc_library=L1001&doc_number=001963364&year=&volume=&sub_library=",
+		"temas": [
+			"lógica simbólica y matemática",
+			"teoría de la demostración",
+			"inducción (matemáticas)",
+			"teoría de conjuntos",
+			"probabilidades"
+		],
+		"temasAsignatura": [
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			}
+		]
+	},
+	{
+		"tipo": "LIBRO",
+		"id": [
+			"013216003X"
+		],
+		"tipoId": "ISBN",
+		"titulo": "Discrete mathematical structures for computer science ",
+		"subtitulo": null,
+		"descripcion": "464 páginas",
+		"datosPublicacion": "Englewood Cliffs, New Jersey: Prentice Hall, c1987",
+		"urlPortada": "https://images-na.ssl-images-amazon.com/images/P/013216003X.01.MZZZZZZZ.jpg",
+		"colaborador": [
+			{
+				"tipo": "AUTOR",
+				"nombre": "Kolman, Bernard, 1932-"
+			},
+			{
+				"tipo": "AUTOR",
+				"nombre": "Busby, Robert C"
+			}
+		],
+		"calificacion": 0,
+		"votos": 0,
+		"existencias": {},
+		"ultimaAct": null,
+		"urlElectronico": "https://www.dbscience.org/wp-content/uploads/2020/03/Discrete_Mathematical_Structures-Kolman.pdf",
+		"uriExistCentral": null,
+		"temas": [
+			"matemáticas computacionales"
+		],
+		"temasAsignatura": [
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			}
+		]
+	},
+	{
+		"tipo": "LIBRO",
+		"id": [
+			"0805370447"
+		],
+		"tipoId": "ISBN",
+		"titulo": "Discrete mathematics with computer science applications ",
+		"subtitulo": null,
+		"descripcion": "504 páginas",
+		"datosPublicacion": "Menlo park, california ; México city: B. Cummings, c1986",
+		"urlPortada": "https://images-na.ssl-images-amazon.com/images/P/0805370447.01.MZZZZZZZ.jpg",
+		"colaborador": [
+			{
+				"tipo": "AUTOR",
+				"nombre": "Skvarcius, Romualdas"
+			},
+			{
+				"tipo": "AUTOR",
+				"nombre": "Robinson, William B"
+			}
+		],
+		"calificacion": 0,
+		"votos": 0,
+		"existencias": {},
+		"ultimaAct": null,
+		"urlElectronico": null,
+		"uriExistCentral": null,
+		"temas": [
+			"matemáticas computacionales"
+		],
+		"temasAsignatura": [
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			}
+		]
+	},
+	{
+		"tipo": "LIBRO",
+		"id": [
+			"9781439812808"
+		],
+		"tipoId": "ISBN",
+		"titulo": "Discrete mathematics : proofs, structures, and applications ",
+		"subtitulo": null,
+		"descripcion": "xxi, 821 páginas : ilustraciones",
+		"datosPublicacion": "Boca Raton: CRC Press, c2010",
+		"urlPortada": "https://images-na.ssl-images-amazon.com/images/P/1439812802.01.MZZZZZZZ.jpg",
+		"colaborador": [
+			{
+				"tipo": "AUTOR",
+				"nombre": "Garnier, Rowan"
+			},
+			{
+				"tipo": "AUTOR",
+				"nombre": "Taylor, John, 1957-"
+			},
+			{
+				"tipo": "COLABORADOR",
+				"nombre": "Garnier, Rowan. Discrete mathematics for new technology"
+			}
+		],
+		"calificacion": 0,
+		"votos": 0,
+		"existencias": {},
+		"ultimaAct": null,
+		"urlElectronico": null,
+		"uriExistCentral": null,
+		"temas": [
+			"matemáticas computacionales"
+		],
+		"temasAsignatura": [
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			}
+		]
+	},
+	{
+		"tipo": "LIBRO",
+		"id": [
+			"135012066"
+		],
+		"tipoId": "ISBN",
+		"titulo": null,
+		"subtitulo": null,
+		"descripcion": null,
+		"datosPublicacion": null,
+		"urlPortada": null,
+		"colaborador": [],
+		"calificacion": 0,
+		"votos": 0,
+		"existencias": {},
+		"ultimaAct": null,
+		"urlElectronico": null,
+		"uriExistCentral": null,
+		"temas": [],
+		"temasAsignatura": [
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			}
+		]
+	},
+	{
+		"tipo": "LIBRO",
+		"id": [
+			"9786076227527"
+		],
+		"tipoId": "ISBN",
+		"titulo": "Matemáticas discretas ",
+		"subtitulo": null,
+		"descripcion": "xii, 493 páginas : ilustraciones",
+		"datosPublicacion": "Ciudad de México: Alfaomega, 2010",
+		"urlPortada": "https://images-na.ssl-images-amazon.com/images/P/6076227524.01.MZZZZZZZ.jpg",
+		"colaborador": [
+			{
+				"tipo": "AUTOR",
+				"nombre": "Espinosa Armenta, Ramón"
+			}
+		],
+		"calificacion": 0,
+		"votos": 0,
+		"existencias": {},
+		"ultimaAct": null,
+		"urlElectronico": "https://pdfcoffee.com/espinosa-armenta-2010-matematicas-discretaspdf-4-pdf-free.html",
+		"uriExistCentral": null,
+		"temas": [
+			"matemáticas computacionales",
+			"matemáticas"
+		],
+		"temasAsignatura": [
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			}
+		]
+	},
+	{
+		"tipo": "LIBRO",
+		"id": [
+			"9688801801"
+		],
+		"tipoId": "ISBN",
+		"titulo": "Matemáticas discretas ",
+		"subtitulo": null,
+		"descripcion": "673 páginas",
+		"datosPublicacion": "México: Prentice Hall, c1990",
+		"urlPortada": "https://images-na.ssl-images-amazon.com/images/P/9688801801.01.MZZZZZZZ.jpg",
+		"colaborador": [
+			{
+				"tipo": "AUTOR",
+				"nombre": "Ross, Kenneth A"
+			},
+			{
+				"tipo": "AUTOR",
+				"nombre": "Wright, Charles R. B, 1937-"
+			},
+			{
+				"tipo": "TRADUCTOR",
+				"nombre": "Oteyza, Maria de la Luz de Teresa de"
+			}
+		],
+		"calificacion": 0,
+		"votos": 0,
+		"existencias": {
+			"VASCONCELOS": {
+				"id": null,
+				"existencias": 1,
+				"disponibilidad": -1,
+				"catalogo": null,
+				"fechasDevolucion": []
+			},
+			"BNM": {
+				"id": null,
+				"existencias": 1,
+				"disponibilidad": -1,
+				"catalogo": null,
+				"fechasDevolucion": []
+			}
+		},
+		"ultimaAct": null,
+		"urlElectronico": "https://books.google.com.mx/books?id=lHqqjoR0b1YC",
+		"uriExistCentral": null,
+		"temas": [
+			"matemáticas computacionales"
+		],
+		"temasAsignatura": [
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			}
+		]
+	},
+	{
+		"tipo": "LIBRO",
+		"id": [
+			"9706860711"
+		],
+		"tipoId": "ISBN",
+		"titulo": "Matemáticas discretas ",
+		"subtitulo": null,
+		"descripcion": "484 páginas : ilustraciones",
+		"datosPublicacion": "Australia ; México: Thomson Learning, c2001",
+		"urlPortada": "https://images-na.ssl-images-amazon.com/images/P/9706860711.01.MZZZZZZZ.jpg",
+		"colaborador": [
+			{
+				"tipo": "AUTOR",
+				"nombre": "Scheinerman, Edward R"
+			},
+			{
+				"tipo": "TRADUCTOR",
+				"nombre": "Gonzalez Pozo, Virgilio"
+			}
+		],
+		"calificacion": 0,
+		"votos": 0,
+		"existencias": {
+			"BNM": {
+				"id": null,
+				"existencias": 1,
+				"disponibilidad": -1,
+				"catalogo": null,
+				"fechasDevolucion": []
+			}
+		},
+		"ultimaAct": null,
+		"urlElectronico": "https://tsxvpsbr.dyndns.org/arquivos/UFFS/Matem%C3%A1ticaDiscreta-UmaIntrodu%C3%A7%C3%A3o-2aEd-EdwardRScheinerman.pdf",
+		"uriExistCentral": null,
+		"temas": [
+			"matemáticas"
+		],
+		"temasAsignatura": [
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			}
+		]
+	},
+	{
+		"tipo": "LIBRO",
+		"id": [
+			"9789701072363"
+		],
+		"tipoId": "ISBN",
+		"titulo": "Matemáticas discretas ",
+		"subtitulo": null,
+		"descripcion": "471 páginas",
+		"datosPublicacion": "México, D.F.: McGraw-Hill Interamericana, c2009",
+		"urlPortada": "https://images-na.ssl-images-amazon.com/images/P/9701072367.01.MZZZZZZZ.jpg",
+		"colaborador": [
+			{
+				"tipo": "AUTOR",
+				"nombre": "Lipschutz, Seymour"
+			},
+			{
+				"tipo": "AUTOR",
+				"nombre": "Lars Lipson, Marc"
+			},
+			{
+				"tipo": "TRADUCTOR",
+				"nombre": "Villagómez Velázquez, Hugo"
+			}
+		],
+		"calificacion": 0,
+		"votos": 0,
+		"existencias": {
+			"BNM": {
+				"id": null,
+				"existencias": 1,
+				"disponibilidad": -1,
+				"catalogo": null,
+				"fechasDevolucion": []
+			}
+		},
+		"ultimaAct": null,
+		"urlElectronico": "https://webooks.co/images/team/academicos/matematicas/matematicas/2.Matematicas%20Discretas%20-%203edi%20Lipschutz.pdf",
+		"uriExistCentral": null,
+		"temas": [
+			"análisis combinatorio",
+			"lógica simbólica y matemática",
+			"álgebra abstracta"
+		],
+		"temasAsignatura": [
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			}
+		]
+	},
+	{
+		"tipo": "LIBRO",
+		"id": [
+			"9682612543"
+		],
+		"tipoId": "ISBN",
+		"titulo": "Matematicas discretas : con aplicacion a las ciencias de la computacion ",
+		"subtitulo": null,
+		"descripcion": "597 páginas",
+		"datosPublicacion": "México: CECSA, 1996",
+		"urlPortada": "https://images-na.ssl-images-amazon.com/images/P/9682612543.01.MZZZZZZZ.jpg",
+		"colaborador": [
+			{
+				"tipo": "AUTOR",
+				"nombre": "Tremblay, Jean-Paul, 1938-"
+			},
+			{
+				"tipo": "AUTOR",
+				"nombre": "Rama, Manohara, 1962-"
+			},
+			{
+				"tipo": "TRADUCTOR",
+				"nombre": "Rangel Gutiérrez, Raymundo Hugo"
+			}
+		],
+		"calificacion": 0,
+		"votos": 0,
+		"existencias": {
+			"BNM": {
+				"id": null,
+				"existencias": 1,
+				"disponibilidad": -1,
+				"catalogo": null,
+				"fechasDevolucion": []
+			}
+		},
+		"ultimaAct": null,
+		"urlElectronico": null,
+		"uriExistCentral": null,
+		"temas": [
+			"teoría de las máquinas",
+			"procesamiento de palabras",
+			"matemáticas -- 1961-"
+		],
+		"temasAsignatura": [
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			}
+		]
+	},
+	{
+		"tipo": "LIBRO",
+		"id": [
+			"9786077854579"
+		],
+		"tipoId": "ISBN",
+		"titulo": null,
+		"subtitulo": null,
+		"descripcion": null,
+		"datosPublicacion": null,
+		"urlPortada": null,
+		"colaborador": [],
+		"calificacion": 0,
+		"votos": 0,
+		"existencias": {
+			"VASCONCELOS": {
+				"id": null,
+				"existencias": 1,
+				"disponibilidad": -1,
+				"catalogo": null,
+				"fechasDevolucion": []
+			}
+		},
+		"ultimaAct": null,
+		"urlElectronico": "https://pdfcoffee.com/espinosa-armenta-2010-matematicas-discretaspdf-4-pdf-free.html",
+		"uriExistCentral": null,
+		"temas": [],
+		"temasAsignatura": [
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			}
+		]
+	},
+	{
+		"tipo": "LIBRO",
+		"id": [
+			"970150772X"
+		],
+		"tipoId": "ISBN",
+		"titulo": "Matematica discreta ",
+		"subtitulo": null,
+		"descripcion": "336 páginas : ilustraciones",
+		"datosPublicacion": "México, D.F.: Alfaomega, c2002",
+		"urlPortada": "https://images-na.ssl-images-amazon.com/images/P/970150772X.01.MZZZZZZZ.jpg",
+		"colaborador": [
+			{
+				"tipo": "COLABORADOR",
+				"nombre": "Comellas, Francesc"
+			}
+		],
+		"calificacion": 0,
+		"votos": 0,
+		"existencias": {
+			"VASCONCELOS": {
+				"id": null,
+				"existencias": 1,
+				"disponibilidad": -1,
+				"catalogo": null,
+				"fechasDevolucion": []
+			}
+		},
+		"ultimaAct": null,
+		"urlElectronico": null,
+		"uriExistCentral": null,
+		"temas": [
+			"matemáticas"
+		],
+		"temasAsignatura": [
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			}
+		]
+	},
+	{
+		"tipo": "LIBRO",
+		"id": [
+			"9786076061237"
+		],
+		"tipoId": "ISBN",
+		"titulo": null,
+		"subtitulo": null,
+		"descripcion": null,
+		"datosPublicacion": null,
+		"urlPortada": null,
+		"colaborador": [],
+		"calificacion": 0,
+		"votos": 0,
+		"existencias": {
+			"BNM": {
+				"id": null,
+				"existencias": 1,
+				"disponibilidad": -1,
+				"catalogo": null,
+				"fechasDevolucion": []
+			}
+		},
+		"ultimaAct": null,
+		"urlElectronico": "https://pcientificas.ujat.mx/index.php/pcientificas/catalog/download/105/95/377-1?inline=1",
+		"uriExistCentral": null,
+		"temas": [],
+		"temasAsignatura": [
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			}
+		]
+	},
+	{
+		"tipo": "LIBRO",
+		"id": [
+			"9681852184"
+		],
+		"tipoId": "ISBN",
+		"titulo": null,
+		"subtitulo": null,
+		"descripcion": null,
+		"datosPublicacion": null,
+		"urlPortada": null,
+		"colaborador": [],
+		"calificacion": 0,
+		"votos": 0,
+		"existencias": {
+			"BNM": {
+				"id": null,
+				"existencias": 1,
+				"disponibilidad": -1,
+				"catalogo": null,
+				"fechasDevolucion": []
+			}
+		},
+		"ultimaAct": null,
+		"urlElectronico": "https://www.academia.edu/14760108/Matem%C3%A1tica_Discreta_TEORIA_DE_GRAFOS",
+		"uriExistCentral": null,
+		"temas": [],
+		"temasAsignatura": [
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			}
+		]
+	},
+	{
+		"tipo": "LIBRO",
+		"id": [
+			"763722103"
+		],
+		"tipoId": "ISBN",
+		"titulo": null,
+		"subtitulo": null,
+		"descripcion": null,
+		"datosPublicacion": null,
+		"urlPortada": null,
+		"colaborador": [],
+		"calificacion": 0,
+		"votos": 0,
+		"existencias": {},
+		"ultimaAct": null,
+		"urlElectronico": "http://www.cems.uwe.ac.uk/~ryang/csc/hein.pdf",
+		"uriExistCentral": null,
+		"temas": [],
+		"temasAsignatura": [
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			}
+		]
+	},
+	{
+		"tipo": "LIBRO",
+		"id": [
+			"716736527"
+		],
+		"tipoId": "ISBN",
+		"titulo": null,
+		"subtitulo": null,
+		"descripcion": null,
+		"datosPublicacion": null,
+		"urlPortada": null,
+		"colaborador": [],
+		"calificacion": 0,
+		"votos": 0,
+		"existencias": {},
+		"ultimaAct": null,
+		"urlElectronico": null,
+		"uriExistCentral": null,
+		"temas": [],
+		"temasAsignatura": [
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			}
+		]
+	},
+	{
+		"tipo": "LIBRO",
+		"id": [
+			"9789977654997"
+		],
+		"tipoId": "ISBN",
+		"titulo": "Lógica y teoría de conjuntos ",
+		"subtitulo": null,
+		"descripcion": "152 páginas",
+		"datosPublicacion": "Heredia, Costa Rica: Editorial Universidad Nacional, 2018",
+		"urlPortada": "https://images-na.ssl-images-amazon.com/images/P/9977654999.01.MZZZZZZZ.jpg",
+		"colaborador": [
+			{
+				"tipo": "AUTOR",
+				"nombre": "Arroyo Hernández, Jorge"
+			},
+			{
+				"tipo": "AUTOR",
+				"nombre": "Ramírez Jiménez, Jeremías"
+			},
+			{
+				"tipo": "AUTOR",
+				"nombre": "Sequeira Chavarría, Filánder"
+			}
+		],
+		"calificacion": 0,
+		"votos": 0,
+		"existencias": {},
+		"ultimaAct": null,
+		"urlElectronico": null,
+		"uriExistCentral": null,
+		"temas": [
+			"lógica simbólica y matemática -- libros de texto",
+			"teoría de conjuntos -- libros de texto"
+		],
+		"temasAsignatura": [
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			}
+		]
+	},
+	{
+		"tipo": "LIBRO",
+		"id": [
+			"968700178X"
+		],
+		"tipoId": "ISBN",
+		"titulo": "Fundamentos de matemáticas y lógica ",
+		"subtitulo": null,
+		"descripcion": "190 páginas : ilustraciones",
+		"datosPublicacion": "México, D.F.: IPN, c1998",
+		"urlPortada": "https://images-na.ssl-images-amazon.com/images/P/968700178X.01.MZZZZZZZ.jpg",
+		"colaborador": [
+			{
+				"tipo": "AUTOR",
+				"nombre": "Gutiérrez González, Eduardo"
+			},
+			{
+				"tipo": "AUTOR",
+				"nombre": "Larios García, Raul"
+			}
+		],
+		"calificacion": 0,
+		"votos": 0,
+		"existencias": {},
+		"ultimaAct": null,
+		"urlElectronico": "http://www.cs.buap.mx/~agarces/descargas/RefED.pdf",
+		"uriExistCentral": null,
+		"temas": [
+			"teoría de conjuntos",
+			"ecuaciones",
+			"polinomios"
+		],
+		"temasAsignatura": [
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			}
+		]
+	},
+	{
+		"tipo": "LIBRO",
+		"id": [
+			"9682409438"
+		],
+		"tipoId": "ISBN",
+		"titulo": "Los elementos del lenguaje de la matematica ",
+		"subtitulo": null,
+		"descripcion": "6 volúmenes",
+		"datosPublicacion": "México: Editorial Trillas, 1980",
+		"urlPortada": "https://images-na.ssl-images-amazon.com/images/P/9682409438.01.MZZZZZZZ.jpg",
+		"colaborador": [
+			{
+				"tipo": "AUTOR",
+				"nombre": "Fregoso, Arturo"
+			}
+		],
+		"calificacion": 0,
+		"votos": 0,
+		"existencias": {},
+		"ultimaAct": null,
+		"urlElectronico": null,
+		"uriExistCentral": null,
+		"temas": [
+			"teoría de conjuntos",
+			"lógica simbólica y matemática"
+		],
+		"temasAsignatura": [
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			}
+		]
+	},
+	{
+		"tipo": "LIBRO",
+		"id": [
+			"9788494155932"
+		],
+		"tipoId": "ISBN",
+		"titulo": "Conjuntos : teoría y práctica con más de 250 ejercicios y cuestiones resueltos paso a paso ",
+		"subtitulo": null,
+		"descripcion": "205 páginas",
+		"datosPublicacion": "Madrid: EZA ediciones S.L., [2013]",
+		"urlPortada": "https://images-na.ssl-images-amazon.com/images/P/8494155938.01.MZZZZZZZ.jpg",
+		"colaborador": [
+			{
+				"tipo": "AUTOR",
+				"nombre": "Martínez Zamalloa, Vicente, 1952-"
+			}
+		],
+		"calificacion": 0,
+		"votos": 0,
+		"existencias": {},
+		"ultimaAct": null,
+		"urlElectronico": null,
+		"uriExistCentral": null,
+		"temas": [
+			"teoria de conjuntos -- problemas, ejercicios, etc"
+		],
+		"temasAsignatura": [
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			}
+		]
+	},
+	{
+		"tipo": "LIBRO",
+		"id": [
+			"9789977654249"
+		],
+		"tipoId": "ISBN",
+		"titulo": "Curso de lógica y teoría de conjuntos ",
+		"subtitulo": null,
+		"descripcion": "163 páginas",
+		"datosPublicacion": "Heredia, Costa Rica: EUNA, 2015",
+		"urlPortada": "https://images-na.ssl-images-amazon.com/images/P/9977654247.01.MZZZZZZZ.jpg",
+		"colaborador": [
+			{
+				"tipo": "AUTOR",
+				"nombre": "Alfaro Carvajal, Cristian"
+			},
+			{
+				"tipo": "AUTOR",
+				"nombre": "Fonseca Castro, Jennifer"
+			}
+		],
+		"calificacion": 0,
+		"votos": 0,
+		"existencias": {},
+		"ultimaAct": null,
+		"urlElectronico": null,
+		"uriExistCentral": null,
+		"temas": [
+			"lógica simbólica y matemática",
+			"teoría de conjuntos"
+		],
+		"temasAsignatura": [
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			}
+		]
+	},
+	{
+		"tipo": "LIBRO",
+		"id": [
+			"9682432324"
+		],
+		"tipoId": "ISBN",
+		"titulo": "Conjuntos ",
+		"subtitulo": null,
+		"descripcion": "63 páginas",
+		"datosPublicacion": "México: Editorial Trillas, 1990",
+		"urlPortada": "https://images-na.ssl-images-amazon.com/images/P/9682432324.01.MZZZZZZZ.jpg",
+		"colaborador": [
+			{
+				"tipo": "TRADUCTOR",
+				"nombre": "Galvan Anaya, Federico"
+			},
+			{
+				"tipo": "COLABORADOR",
+				"nombre": "National Council of Teachers of Mathematics (Estados Unidos)"
+			}
+		],
+		"calificacion": 0,
+		"votos": 0,
+		"existencias": {},
+		"ultimaAct": null,
+		"urlElectronico": "https://www.pdfdrive.com/temas-de-matem%C3%A1ticas-cuaderno-1-conjuntos-e157380784.html",
+		"uriExistCentral": null,
+		"temas": [
+			"aritmética -- fundamentos"
+		],
+		"temasAsignatura": [
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			}
+		]
+	},
+	{
+		"tipo": "LIBRO",
+		"id": [
+			"8427811578"
+		],
+		"tipoId": "ISBN",
+		"titulo": "Matematicas",
+		"subtitulo": null,
+		"descripcion": "2 volúmenes",
+		"datosPublicacion": "Barcelona: Nauta, 1987",
+		"urlPortada": "https://images-na.ssl-images-amazon.com/images/P/8427811578.01.MZZZZZZZ.jpg",
+		"colaborador": [],
+		"calificacion": 0,
+		"votos": 0,
+		"existencias": {},
+		"ultimaAct": null,
+		"urlElectronico": null,
+		"uriExistCentral": null,
+		"temas": [
+			"matemáticas"
+		],
+		"temasAsignatura": [
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			}
+		]
+	},
+	{
+		"tipo": "LIBRO",
+		"id": [
+			"9684511310"
+		],
+		"tipoId": "ISBN",
+		"titulo": "Teoria y problemas de teoria de conjuntos y temas afines ",
+		"subtitulo": null,
+		"descripcion": "233 páginas",
+		"datosPublicacion": "México: McGraw-Hill, c1970",
+		"urlPortada": "https://images-na.ssl-images-amazon.com/images/P/9684511310.01.MZZZZZZZ.jpg",
+		"colaborador": [
+			{
+				"tipo": "AUTOR",
+				"nombre": "Lipschutz, Seymour"
+			},
+			{
+				"tipo": "TRADUCTOR",
+				"nombre": "Castaño, Jesus Maria"
+			},
+			{
+				"tipo": "TRADUCTOR",
+				"nombre": "Robledo Moncada, Emilio"
+			}
+		],
+		"calificacion": 0,
+		"votos": 0,
+		"existencias": {},
+		"ultimaAct": null,
+		"urlElectronico": "https://norbertomn.files.wordpress.com/2013/09/teoria-de-conjuntos-y-temas-afines-serie-schaum-symour-lipschutz.pdf",
+		"uriExistCentral": null,
+		"temas": [
+			"teoría de conjuntos"
+		],
+		"temasAsignatura": [
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			}
+		]
+	},
+	{
+		"tipo": "LIBRO",
+		"id": [
+			"847738021X"
+		],
+		"tipoId": "ISBN",
+		"titulo": "Por los caminos de la logica : logica y conjuntos en E.G.B. ",
+		"subtitulo": null,
+		"descripcion": "140 páginas",
+		"datosPublicacion": "Madrid: Sintesis, 1988",
+		"urlPortada": "https://images-na.ssl-images-amazon.com/images/P/847738021X.01.MZZZZZZZ.jpg",
+		"colaborador": [
+			{
+				"tipo": "AUTOR",
+				"nombre": "Sanz, Ines"
+			},
+			{
+				"tipo": "AUTOR",
+				"nombre": "Arrieta, Modesto"
+			},
+			{
+				"tipo": "AUTOR",
+				"nombre": "Pardo, Elisa"
+			}
+		],
+		"calificacion": 0,
+		"votos": 0,
+		"existencias": {},
+		"ultimaAct": null,
+		"urlElectronico": null,
+		"uriExistCentral": null,
+		"temas": [
+			"teoría de conjuntos",
+			"lógica simbólica y matemática"
+		],
+		"temasAsignatura": [
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			}
+		]
+	},
+	{
+		"tipo": "LIBRO",
+		"id": [
+			"63169851"
+		],
+		"tipoId": "ISBN",
+		"titulo": null,
+		"subtitulo": null,
+		"descripcion": null,
+		"datosPublicacion": null,
+		"urlPortada": null,
+		"colaborador": [],
+		"calificacion": 0,
+		"votos": 0,
+		"existencias": {},
+		"ultimaAct": null,
+		"urlElectronico": "https://pdfcoffee.com/conjuntos-y-estructuras-alvaro-pinzon-pdf-free.html",
+		"uriExistCentral": null,
+		"temas": [],
+		"temasAsignatura": [
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			}
+		]
+	},
+	{
+		"tipo": "LIBRO",
+		"id": [
+			"9681807278"
+		],
+		"tipoId": "ISBN",
+		"titulo": "Elementos de inferencia estadística ",
+		"subtitulo": null,
+		"descripcion": "300 páginas",
+		"datosPublicacion": "México: Limusa, 1974",
+		"urlPortada": "https://images-na.ssl-images-amazon.com/images/P/9681807278.01.MZZZZZZZ.jpg",
+		"colaborador": [
+			{
+				"tipo": "AUTOR",
+				"nombre": "Koosis, Donald J"
+			},
+			{
+				"tipo": "COLABORADOR",
+				"nombre": "Coladarci, Arthur P"
+			},
+			{
+				"tipo": "TRADUCTOR",
+				"nombre": "Contín, Agustín"
+			},
+			{
+				"tipo": "TRADUCTOR",
+				"nombre": "Álvarez Anguiano, José alfonso"
+			},
+			{
+				"tipo": "COLABORADOR",
+				"nombre": "Rascón Chávez, Octavio A"
+			}
+		],
+		"calificacion": 0,
+		"votos": 0,
+		"existencias": {},
+		"ultimaAct": null,
+		"urlElectronico": null,
+		"uriExistCentral": null,
+		"temas": [
+			"estadística -- instrucción programada"
+		],
+		"temasAsignatura": [
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			}
+		]
+	},
+	{
+		"tipo": "LIBRO",
+		"id": [
+			"9682415039"
+		],
+		"tipoId": "ISBN",
+		"titulo": "El conjunto de los enteros ",
+		"subtitulo": null,
+		"descripcion": "85 páginas",
+		"datosPublicacion": "México: Editorial Trillas, 1985",
+		"urlPortada": "https://images-na.ssl-images-amazon.com/images/P/9682415039.01.MZZZZZZZ.jpg",
+		"colaborador": [
+			{
+				"tipo": "AUTOR",
+				"nombre": "Flores Garcia, Conrado"
+			}
+		],
+		"calificacion": 0,
+		"votos": 0,
+		"existencias": {},
+		"ultimaAct": null,
+		"urlElectronico": null,
+		"uriExistCentral": null,
+		"temas": [
+			"números naturales",
+			"teoría de conjuntos"
+		],
+		"temasAsignatura": [
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			}
+		]
+	},
+	{
+		"tipo": "LIBRO",
+		"id": [
+			"9682415217"
+		],
+		"tipoId": "ISBN",
+		"titulo": "La relacion como modelo matematico ",
+		"subtitulo": null,
+		"descripcion": "102 páginas",
+		"datosPublicacion": "México: Editorial Trillas, 1985",
+		"urlPortada": "https://images-na.ssl-images-amazon.com/images/P/9682415217.01.MZZZZZZZ.jpg",
+		"colaborador": [
+			{
+				"tipo": "AUTOR",
+				"nombre": "Flores Garcia, Conrado"
+			}
+		],
+		"calificacion": 0,
+		"votos": 0,
+		"existencias": {},
+		"ultimaAct": null,
+		"urlElectronico": null,
+		"uriExistCentral": null,
+		"temas": [
+			"teoría de conjuntos",
+			"relaciones (matematicas)"
+		],
+		"temasAsignatura": [
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			}
+		]
+	},
+	{
+		"tipo": "LIBRO",
+		"id": [
+			"9682437830",
+			"9789682437830"
+		],
+		"tipoId": "ISBN",
+		"titulo": "Álgebra superior : conjuntos y combinatoria, introducción al álgebra lineal, estructuras numéricas, polinomios y ecuaciones ",
+		"subtitulo": null,
+		"descripcion": "323 páginas",
+		"datosPublicacion": "México: Editorial Trillas, 1990",
+		"urlPortada": "https://images-na.ssl-images-amazon.com/images/P/9682437830.01.MZZZZZZZ.jpg",
+		"colaborador": [
+			{
+				"tipo": "AUTOR",
+				"nombre": "Cárdenas Trigos, Humberto"
+			}
+		],
+		"calificacion": 0,
+		"votos": 0,
+		"existencias": {},
+		"ultimaAct": null,
+		"urlElectronico": null,
+		"uriExistCentral": null,
+		"temas": [
+			"álgebra"
+		],
+		"temasAsignatura": [
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			}
+		]
+	},
+	{
+		"tipo": "LIBRO",
+		"id": [
+			"8485734009"
+		],
+		"tipoId": "ISBN",
+		"titulo": null,
+		"subtitulo": null,
+		"descripcion": null,
+		"datosPublicacion": null,
+		"urlPortada": null,
+		"colaborador": [],
+		"calificacion": 0,
+		"votos": 0,
+		"existencias": {},
+		"ultimaAct": null,
+		"urlElectronico": null,
+		"uriExistCentral": null,
+		"temas": [],
+		"temasAsignatura": [
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			}
+		]
+	},
+	{
+		"tipo": "LIBRO",
+		"id": [
+			"9788494155932"
+		],
+		"tipoId": "ISBN",
+		"titulo": "Conjuntos : teoría y práctica con más de 250 ejercicios y cuestiones resueltos paso a paso ",
+		"subtitulo": null,
+		"descripcion": "205 páginas",
+		"datosPublicacion": "Madrid: EZA ediciones S.L., [2013]",
+		"urlPortada": "https://images-na.ssl-images-amazon.com/images/P/8494155938.01.MZZZZZZZ.jpg",
+		"colaborador": [
+			{
+				"tipo": "AUTOR",
+				"nombre": "Martínez Zamalloa, Vicente, 1952-"
+			}
+		],
+		"calificacion": 0,
+		"votos": 0,
+		"existencias": {},
+		"ultimaAct": null,
+		"urlElectronico": null,
+		"uriExistCentral": null,
+		"temas": [
+			"teoria de conjuntos -- problemas, ejercicios, etc"
+		],
+		"temasAsignatura": [
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			}
+		]
+	},
+	{
+		"tipo": "LIBRO",
+		"id": [
+			"9789588692999"
+		],
+		"tipoId": "ISBN",
+		"titulo": "Conjuntos numéricos y aritmética ",
+		"subtitulo": null,
+		"descripcion": "75 páginas : ilustraciones",
+		"datosPublicacion": "Medellin, Colombia : Universidad de Medellin, Sello Editorial, 2013",
+		"urlPortada": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Ghostscript_spots.pdf/page1-543px-Ghostscript_spots.pdf.jpg",
+		"colaborador": [
+			{
+				"tipo": "AUTOR",
+				"nombre": "Álvarez Jiménez, Rafael A.."
+			}
+		],
+		"calificacion": 0,
+		"votos": 0,
+		"existencias": {},
+		"ultimaAct": null,
+		"urlElectronico": null,
+		"uriExistCentral": "https://catalogos.bibliotecacentral.unam.mx:443/F/I8EU27HTB71A9P9CRPRKX9ULRURPXT7DNK9FFR91JEIDBMMVTU-29685?func=item-global&doc_library=L1001&doc_number=001677060&year=&volume=&sub_library=",
+		"temas": [
+			"números",
+			"aritmética -- problemas, ejercicios, etc."
+		],
+		"temasAsignatura": [
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			}
+		]
+	},
+	{
+		"tipo": "LIBRO",
+		"id": [
+			"9788484327967",
+			"8484327965"
+		],
+		"tipoId": "ISBN",
+		"titulo": null,
+		"subtitulo": null,
+		"descripcion": null,
+		"datosPublicacion": null,
+		"urlPortada": null,
+		"colaborador": [],
+		"calificacion": 0,
+		"votos": 0,
+		"existencias": {},
+		"ultimaAct": null,
+		"urlElectronico": "http://matematicas.uam.es/~antonio.cordoba/documentos/libros/La_Saga_de_los_Numeros.pdf",
+		"uriExistCentral": null,
+		"temas": [],
+		"temasAsignatura": [
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			}
+		]
+	},
+	{
+		"tipo": "LIBRO",
+		"id": [
+			"9682474159",
+			"9789682474156"
+		],
+		"tipoId": "ISBN",
+		"titulo": "Lógica, conjuntos, álgebra y trigonometría ",
+		"subtitulo": null,
+		"descripcion": "312 páginas : ilustraciones",
+		"datosPublicacion": "México: Editorial Trillas, 2006",
+		"urlPortada": "https://images-na.ssl-images-amazon.com/images/P/9682474159.01.MZZZZZZZ.jpg",
+		"colaborador": [
+			{
+				"tipo": "AUTOR",
+				"nombre": "Pérez Godínez, Fernando"
+			}
+		],
+		"calificacion": 0,
+		"votos": 0,
+		"existencias": {},
+		"ultimaAct": null,
+		"urlElectronico": null,
+		"uriExistCentral": null,
+		"temas": [
+			"lógica simbólica y matemática",
+			"trigonometría"
+		],
+		"temasAsignatura": [
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			}
+		]
+	},
+	{
+		"tipo": "LIBRO",
+		"id": [
+			"847738021X"
+		],
+		"tipoId": "ISBN",
+		"titulo": "Por los caminos de la logica : logica y conjuntos en E.G.B. ",
+		"subtitulo": null,
+		"descripcion": "140 páginas",
+		"datosPublicacion": "Madrid: Sintesis, 1988",
+		"urlPortada": "https://images-na.ssl-images-amazon.com/images/P/847738021X.01.MZZZZZZZ.jpg",
+		"colaborador": [
+			{
+				"tipo": "AUTOR",
+				"nombre": "Sanz, Ines"
+			},
+			{
+				"tipo": "AUTOR",
+				"nombre": "Arrieta, Modesto"
+			},
+			{
+				"tipo": "AUTOR",
+				"nombre": "Pardo, Elisa"
+			}
+		],
+		"calificacion": 0,
+		"votos": 0,
+		"existencias": {},
+		"ultimaAct": null,
+		"urlElectronico": null,
+		"uriExistCentral": null,
+		"temas": [
+			"teoría de conjuntos",
+			"lógica simbólica y matemática"
+		],
+		"temasAsignatura": [
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			}
+		]
+	},
+	{
+		"tipo": "LIBRO",
+		"id": [
+			"9681807022"
+		],
+		"tipoId": "ISBN",
+		"titulo": "El método de la inducción matemática ",
+		"subtitulo": null,
+		"descripcion": "63 páginas",
+		"datosPublicacion": "México: Limusa, 1972",
+		"urlPortada": "https://images-na.ssl-images-amazon.com/images/P/9681807022.01.MZZZZZZZ.jpg",
+		"colaborador": [
+			{
+				"tipo": "AUTOR",
+				"nombre": "Sominskii, J. S"
+			},
+			{
+				"tipo": "TRADUCTOR",
+				"nombre": "Perez Castellanos, Jose Hernan"
+			}
+		],
+		"calificacion": 0,
+		"votos": 0,
+		"existencias": {},
+		"ultimaAct": null,
+		"urlElectronico": "https://sistemas.fciencias.unam.mx/~erhc/calculo1_20161/sominsky.pdf",
+		"uriExistCentral": null,
+		"temas": [
+			"álgebra",
+			"aritmética -- fundamentos",
+			"matemáticas -- problemas, ejercicios, etc"
+		],
+		"temasAsignatura": [
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			}
+		]
+	},
+	{
+		"tipo": "LIBRO",
+		"id": [
+			"9589785409"
+		],
+		"tipoId": "ISBN",
+		"titulo": "Inducción matemática y operadores ",
+		"subtitulo": null,
+		"descripcion": "67 páginas",
+		"datosPublicacion": "Medellín, Colombia : Universidad de Medellín, 2006",
+		"urlPortada": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Ghostscript_spots.pdf/page1-543px-Ghostscript_spots.pdf.jpg",
+		"colaborador": [
+			{
+				"tipo": "AUTOR",
+				"nombre": "Mejía Duque, Francisco Guillermo."
+			},
+			{
+				"tipo": "AUTOR",
+				"nombre": "Álvarez Jiménez, Rafael A."
+			}
+		],
+		"calificacion": 0,
+		"votos": 0,
+		"existencias": {},
+		"ultimaAct": null,
+		"urlElectronico": null,
+		"uriExistCentral": "https://catalogos.bibliotecacentral.unam.mx:443/F/32MLMJT3XUEYUMBJHSBTM4YNDFAF1AE47VPG6HHSXUXFT8351N-29861?func=item-global&doc_library=L1001&doc_number=001278009&year=&volume=&sub_library=",
+		"temas": [
+			"lógica simbólica y matemática",
+			"operadores diferenciales"
+		],
+		"temasAsignatura": [
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			}
+		]
+	},
+	{
+		"tipo": "LIBRO",
+		"id": [
+			"9789977662534"
+		],
+		"tipoId": "ISBN",
+		"titulo": "Comprendiendo las probabilidades ",
+		"subtitulo": null,
+		"descripcion": "528 páginas",
+		"datosPublicacion": "Costa Rica: Tecnológica de Costa Rica, 2012",
+		"urlPortada": "https://images-na.ssl-images-amazon.com/images/P/9977662533.01.MZZZZZZZ.jpg",
+		"colaborador": [
+			{
+				"tipo": "AUTOR",
+				"nombre": "Sanabria Brenes, Giovanni"
+			}
+		],
+		"calificacion": 0,
+		"votos": 0,
+		"existencias": {},
+		"ultimaAct": null,
+		"urlElectronico": null,
+		"uriExistCentral": null,
+		"temas": [
+			"análisis combinatorio",
+			"combinaciones (matemáticas)",
+			"probabilidades"
+		],
+		"temasAsignatura": [
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			}
+		]
+	},
+	{
+		"tipo": "LIBRO",
+		"id": [
+			"8487189539"
+		],
+		"tipoId": "ISBN",
+		"titulo": null,
+		"subtitulo": null,
+		"descripcion": null,
+		"datosPublicacion": null,
+		"urlPortada": null,
+		"colaborador": [],
+		"calificacion": 0,
+		"votos": 0,
+		"existencias": {},
+		"ultimaAct": null,
+		"urlElectronico": "https://books.google.cl/books?id=tjnBpzdCtb8C&printsec=frontcover#v=onepage&q&f=false",
+		"uriExistCentral": null,
+		"temas": [],
+		"temasAsignatura": [
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			}
+		]
+	},
+	{
+		"tipo": "LIBRO",
+		"id": [
+			"471997528"
+		],
+		"tipoId": "ISBN",
+		"titulo": null,
+		"subtitulo": null,
+		"descripcion": null,
+		"datosPublicacion": null,
+		"urlPortada": null,
+		"colaborador": [],
+		"calificacion": 0,
+		"votos": 0,
+		"existencias": {},
+		"ultimaAct": null,
+		"urlElectronico": null,
+		"uriExistCentral": null,
+		"temas": [],
+		"temasAsignatura": [
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			}
+		]
+	},
+	{
+		"tipo": "LIBRO",
+		"id": [
+			"9682412390"
+		],
+		"tipoId": "ISBN",
+		"titulo": null,
+		"subtitulo": null,
+		"descripcion": null,
+		"datosPublicacion": null,
+		"urlPortada": null,
+		"colaborador": [],
+		"calificacion": 0,
+		"votos": 0,
+		"existencias": {},
+		"ultimaAct": null,
+		"urlElectronico": null,
+		"uriExistCentral": null,
+		"temas": [],
+		"temasAsignatura": [
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			}
+		]
+	},
+	{
+		"tipo": "LIBRO",
+		"id": [
+			"9789968463355"
+		],
+		"tipoId": "ISBN",
+		"titulo": "Introducción al razonamiento lógico matemático ",
+		"subtitulo": null,
+		"descripcion": "187 páginas",
+		"datosPublicacion": "Costa Rica: Editorial UCR, 2012",
+		"urlPortada": "https://images-na.ssl-images-amazon.com/images/P/9968463353.01.MZZZZZZZ.jpg",
+		"colaborador": [
+			{
+				"tipo": "AUTOR",
+				"nombre": "Valverde F., Luis"
+			}
+		],
+		"calificacion": 0,
+		"votos": 0,
+		"existencias": {},
+		"ultimaAct": null,
+		"urlElectronico": null,
+		"uriExistCentral": null,
+		"temas": [
+			"lógica simbólica y matemática -- estudio y enseñanza",
+			"lógica simbólica y matemática -- problemas, ejercicios, etc",
+			"cálculo proposicional"
+		],
+		"temasAsignatura": [
+			{
+				"subtemas": null,
+				"explicado": true,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			},
+			{
+				"subtemas": null,
+				"explicado": false,
+				"pagina": null
+			}
+		]
+	}
+]

@@ -21,6 +21,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.LinkedList;
+import java.util.Objects;
 import java.util.concurrent.TimeUnit;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -31,6 +32,7 @@ import xyz.campanita.estructurasdiscretasp1.bibliotecas.Biblioteca;
 import xyz.campanita.estructurasdiscretasp1.bibliotecas.Comun;
 import xyz.campanita.estructurasdiscretasp1.bibliotecas.Recurso;
 import xyz.campanita.estructurasdiscretasp1.bibliotecas.TipoColaborador;
+import xyz.campanita.estructurasdiscretasp1.bibliotecas.TipoId;
 import xyz.campanita.estructurasdiscretasp1.bibliotecas.TipoRecurso;
 
 public class Generador {
@@ -38,8 +40,14 @@ public class Generador {
         try {
             Comun.recursos = new LinkedList<>();
             importarExcel();
-            rellenarRecursos();
-            escribirJSON();
+            try {
+                rellenarRecursos();
+                escribirJSON("datos.json");
+            } catch (Exception e){
+                System.out.println("Error");
+                escribirJSON("datos_.json");
+                throw e;
+            }
         } catch (Exception e){
             e.printStackTrace();
         }
@@ -69,23 +77,32 @@ public class Generador {
             XSSFRow fila = (XSSFRow) filaIterator.next();
             Iterator<Cell> columnaIterator = fila.cellIterator();
             int indiceColumna = 0;
-            boolean filaValida = false; // A veces, el Excel da por validas filas que realmente estan vacias. Esto indica si realmente es valida una fila
+            boolean filaValida = true; // A veces, el Excel da por validas filas que realmente estan vacias. Esto indica si realmente es valida una fila
             while (columnaIterator.hasNext()){
-                filaValida = true;
                 XSSFCell celda = (XSSFCell) columnaIterator.next();
                 String val = fTexto.formatCellValue(celda);
                 switch (indiceColumna){
-                    /* ISBN */
+                    /* Id */
                     case 0:
                         if (val.isEmpty()) {
+                            System.out.println("Fila inválida");
                             filaValida = false;
-                            break;
                         }
-                        r.setIsbn(val.split(","));
-                        System.out.println("" + indiceColumna + ": "+ r.getIsbn().get(0));
+                        else {
+                            r.setId(val.split(","));
+                            System.out.println("" + indiceColumna + ": " + r.getId().get(0) + "("+val+")");
+                        }
+                        break;
+                    /* Tipo */
+                    case 1:
+                        if (Objects.equals(val, "0")){ r.setTipoId(TipoId.ISBN); }
+                        else if (Objects.equals(val, "1")) { r.setTipoId(TipoId.CLASIFICACION); }
                         break;
                     /* Temas de primer orden */
-                    case 10: case 11: case 12: case 13: case 14: // 1, 8, 15, 23, 31
+                    case 2:
+                        if (!val.isEmpty()) { r.setUrlElectronico(val); }
+                        break;
+                    case 12: case 13: case 14: case 15: case 16: // 1, 8, 15, 23, 31
                         temaIn++;
                         subtemaIn = 1;
                         switch (val){
@@ -100,17 +117,17 @@ public class Generador {
                         }
                         break;
                     /* Existencias en Vasconcelos */
-                    case 8: // 38
+                    case 10: // 38
                         int valIntA = Integer.parseInt(val);
                         if (valIntA>0){ r.setExistencia(Biblioteca.VASCONCELOS, null, valIntA,-1, null, new ArrayList<>()); }
                         break;
                     /* Existencias en la Biblioteca Nacional */
-                    case 9: // 39
+                    case 11: // 39
                         int valIntB = Integer.parseInt(val);
                         if (valIntB > 0) { r.setExistencia(Biblioteca.BNM, null, valIntB,-1, null, new ArrayList<>()); }
                         break;
                     /* Temas de segundo orden */
-                    case -1: // En esta edición no se usarán subtemas, pero la función ya está implementación default
+                    case -1: // En esta edición no se usarán subtemas, pero la función ya está implementada
                         switch (val){
                             case "true":
                                 r.setTemaAsignatura(temaIn, subtemaIn, true, null);
@@ -127,7 +144,9 @@ public class Generador {
             }
             if (filaValida) {
                 Comun.recursos.add(r);
-            } else { break; }
+                System.out.println("Ahora hay "+Comun.recursos.size());
+                System.out.println("Añadiendo "+r.getId().get(0));
+            } else { System.out.println("Saliendo");break; }
             indiceFila++;
         }
     }
@@ -140,13 +159,13 @@ public class Generador {
         OkHttpClient okHttp = new OkHttpClient.Builder().connectTimeout(15, TimeUnit.SECONDS).build();
         ArrayList<Recurso> eliminar = new ArrayList<>();
         for (Recurso r: Comun.recursos){
-            System.out.println("Rellenando "+r.getIsbn().get(0));
+            System.out.println("Rellenando "+r.getId().get(0));
             boolean existe = false;
             for (Biblioteca b: Comun.consultables){
-                String uri = Comun.getURIBusqueda(r.getIsbn().get(0), b);
+                String uri = Comun.getURIBusqueda(r.getId().get(0), b);
                 Request docreq = new Request.Builder().url(uri).addHeader("User-Agent",Comun.userAgent).get().build();
                 Document doc = Jsoup.parse(okHttp.newCall(docreq).execute().body().string());
-                System.out.println(Comun.getURIBusqueda(r.getIsbn().get(0), b));
+                System.out.println(Comun.getURIBusqueda(r.getId().get(0), b));
                 if (b == Biblioteca.CENTRAL){
                     Element comp = doc.selectFirst("strong:containsOwn(La búsqueda no encontró ninguna coincidencia en los documentos.)");
                     if (comp == null){
@@ -298,7 +317,7 @@ public class Generador {
             }
             if (!existe) {
                 eliminar.add(r);
-                System.out.println("Eliminando "+r.getIsbn().get(0));
+                System.out.println("Eliminando "+r.getId().get(0));
             }
         }
         for (Recurso r: eliminar) { Comun.recursos.remove(r); }
@@ -307,8 +326,8 @@ public class Generador {
     /*
      * Generar JSON con todos los datos de los recursos
      */
-    public static void escribirJSON() throws IOException {
+    public static void escribirJSON(String nomf) throws IOException {
         ObjectMapper mapper = new ObjectMapper();
-        mapper.writeValue(new File("C:\\Users\\Xivan", "datos.json"), Comun.recursos);
+        mapper.writeValue(new File("C:\\Users\\Xivan", nomf), Comun.recursos);
     }
 }

@@ -34,7 +34,6 @@ public class BusquedaActivity extends AppCompatActivity implements FiltroTemasDi
     LinearLayoutManager lm;
     RecursoAdapter ra;
     SearchView buscadorCampo;
-    boolean busqExterna;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -146,7 +145,7 @@ public class BusquedaActivity extends AppCompatActivity implements FiltroTemasDi
             return;
         }
         for (Recurso r: Comun.recursos){
-            String isbnp = r.getIsbn().get(0);
+            String idp = r.getId().get(0);
             String cadn = cad.toLowerCase(Locale.ROOT);
             Comun.consulta = cadn;
             boolean encontrado = false;
@@ -180,7 +179,7 @@ public class BusquedaActivity extends AppCompatActivity implements FiltroTemasDi
 
             Log.i("UUU", "");
             if (Comun.opciones[0] && r.getTitulo().toLowerCase(Locale.ROOT).contains(cadn)){
-                Comun.resultados.add(isbnp);
+                Comun.resultados.add(idp);
                 Log.i("UUU", "Coincidencia encontrada en Titulo");
                 continue;
             }
@@ -188,7 +187,7 @@ public class BusquedaActivity extends AppCompatActivity implements FiltroTemasDi
                 encontrado = false;
                 for (Colaborador c: r.getColaborador()){
                     if (c.getNombre().toLowerCase(Locale.ROOT).contains(cadn)){
-                        Comun.resultados.add(isbnp);
+                        Comun.resultados.add(idp);
                         encontrado = true;
                         break;
                     }
@@ -199,7 +198,7 @@ public class BusquedaActivity extends AppCompatActivity implements FiltroTemasDi
                 encontrado = false;
                 for (String t: r.getTemas()){
                     if (t.toLowerCase(Locale.ROOT).contains(cadn)){
-                        Comun.resultados.add(isbnp);
+                        Comun.resultados.add(idp);
                         encontrado = true;
                         break;
                     }
@@ -207,14 +206,14 @@ public class BusquedaActivity extends AppCompatActivity implements FiltroTemasDi
                 if (encontrado) { Log.i("UUU", "Coincidencia encontrada en Temas");continue; }
             }
             if (Comun.opciones[3] && r.getDatosPublicacion().toLowerCase(Locale.ROOT).contains(cadn)){
-                Comun.resultados.add(isbnp);
+                Comun.resultados.add(idp);
                 Log.i("UUU", "Coincidencia encontrada en Editorial");
                 continue;
             }
             if (Comun.opciones[4]){
-                for (String c: r.getIsbn()){
+                for (String c: r.getId()){
                     if (c.equals(cadn)){
-                        Comun.resultados.add(isbnp);
+                        Comun.resultados.add(idp);
                         Log.i("UUU", "ISBN encontrado");
                         break;
                     }

@@ -53,25 +53,29 @@ public class RecursoAdapter extends RecyclerView.Adapter<RecursoAdapter.ViewHold
     public void onBindViewHolder(ViewHolder holder, int position) {
         // Obtener elemento
         Recurso elem = null;
+        int pos = -1;
         if (dataset != null) {
             Log.i("UUU", "Desde recursos!");
             elem = dataset.get(position);
+            pos = position;
         } else {
             Log.i("UUU", "Desde favoritos o búsqueda!");
             for (int i = 0; i < Comun.recursos.size(); i++){
                 Recurso posible = Comun.recursos.get(i);
-                if (Objects.equals(refs.get(position), posible.getIsbn().get(0))) {
-                    Log.i("UUU", String.format("Comparando refs=%s, posible=%s", refs.get(position), posible.getIsbn().get(0)));
+                if (Objects.equals(refs.get(position), posible.getId().get(0))) {
+                    Log.i("UUU", String.format("Comparando refs=%s, posible=%s", refs.get(position), posible.getId().get(0)));
                     elem = posible;
+                    pos = i;
                     break;
                 }
             }
         }
 
         // Procesar
+        int finalPos = pos;
         holder.elemento.setOnClickListener(v -> {
             Intent i = new Intent(v.getContext(), RecursoActivity.class);
-            i.putExtra("pos", position);
+            i.putExtra("pos", finalPos);
             v.getContext().startActivity(i);
         });
         if (elem.getTipo() == TipoRecurso.LIBRO){

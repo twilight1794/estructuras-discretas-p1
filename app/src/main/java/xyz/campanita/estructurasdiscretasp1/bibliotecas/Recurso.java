@@ -10,7 +10,8 @@ import java.util.HashMap;
  */
 public class Recurso {
     private TipoRecurso tipo;
-    private ArrayList<String> isbn = new ArrayList<>();
+    private ArrayList<String> id;
+    private TipoId tipoId;
     private String titulo;
     private String subtitulo;
     private String descripcion;
@@ -23,18 +24,22 @@ public class Recurso {
     private int votos;
     private final HashMap<Biblioteca, Existencia> existencias = new HashMap<>();
     private Date ultimaAct;
+    private String urlElectronico;
     // Especial Biblioteca Central
     private String uriExistCentral;
 
     public TipoRecurso getTipo(){ return tipo; }
     public void setTipo(TipoRecurso tipo) { this.tipo = tipo; }
 
-    public ArrayList<String> getIsbn() {
-        return isbn;
+    public ArrayList<String> getId() {
+        return id;
     }
-    public void setIsbn(String[] isbn) {
-        this.isbn = new ArrayList<>(Arrays.asList(isbn));
+    public void setId(String[] id) {
+        this.id = new ArrayList<>(Arrays.asList(id));
     }
+
+    public TipoId getTipoId() { return tipoId; }
+    public void setTipoId(TipoId tipoId) { this.tipoId = tipoId;}
 
     public String getTitulo() { return titulo; }
     public void setTitulo(String titulo) { this.titulo = titulo; }
@@ -80,6 +85,9 @@ public class Recurso {
 
     public Date getUltimaAct() { return ultimaAct; }
     public void setUltimaAct(Date ultimaAct) { this.ultimaAct = ultimaAct; }
+
+    public String getUrlElectronico() { return urlElectronico; }
+    public void setUrlElectronico(String urlElectronico) { this.urlElectronico = urlElectronico; }
 
     public String getUriExistCentral() {return uriExistCentral; }
     public void setUriExistCentral(String uriExistCentral) { this.uriExistCentral = uriExistCentral; }
